@@ -24,7 +24,6 @@ async function walk(dir){for(const entry of await readdir(dir,{withFileTypes:tru
  text=text.replace("status.textContent = 'Preparing your phone photo…';","status.textContent = 'Photo ready. Select Save photo to download on this device.';\n    return;");
  text=text.replace("card.classList.add('is-pinned'); button.setAttribute('aria-expanded','true');","button.setAttribute('aria-expanded','false');");
  }
- if(file.endsWith('/keepy-uppy/index.html'))text=text.replace('id="photo-qr-card" class="photo-qr-card"','id="photo-qr-card" class="photo-qr-card" hidden');
  if(file.endsWith('/phone/app.mjs'))text="document.getElementById('photo-status')?.replaceChildren(document.createTextNode('Download your photo on the device where you played.'));\n";
  if(file.endsWith('.html') && !file.startsWith(path.join(out,'phone')+path.sep)) {
    text=text.replace('<head>',`<head><script src="${base}/shared/site-entry.js"></script>`);

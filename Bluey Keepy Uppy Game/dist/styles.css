@@ -52,6 +52,7 @@
 .final-save-area{position:relative}
 .photo-qr-card{position:absolute;z-index:2;bottom:calc(100% + 1.3cqh);left:50%;width:100%;min-width:18cqw;transform:translateX(-50%);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .3s ease,visibility .3s ease}
 .photo-qr-card img{display:block;width:100%;height:auto}
+.photo-qr-card .photo-qr-target{position:absolute;left:9.52%;top:21.48%;width:80.95%;aspect-ratio:1;border-radius:14%}
 @media(hover:hover){.final-save-area:hover #final-save,.final-buttons button:hover{background:#73a6c7;color:#fff}.final-save-area:hover .photo-qr-card{opacity:1;visibility:visible;pointer-events:auto}}
 .final-buttons button:focus-visible{background:#73a6c7;color:#fff}
 .final-save-area:focus-within #final-save{background:#73a6c7;color:#fff}
