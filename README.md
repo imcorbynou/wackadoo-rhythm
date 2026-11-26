@@ -11,7 +11,9 @@
 3. 在 **Actions → Publish portfolio website → Run workflow** 运行工作流，或推送一次提交。
 4. 工作流成功后，打开部署页面显示的网址，将该网址放到作品集中。评审无需 GitHub 登录即可访问公开 Pages 网站。
 
-网站通常位于 `https://你的用户名.github.io/wackadoo-rhythm/`。这是地址格式示例，尚未代表已经上线。
+网站发布地址：`https://imcorbynou.github.io/wackadoo-rhythm/`。首次部署成功后可通过此地址访问。
+
+源代码仓库：`https://github.com/imcorbynou/wackadoo-rhythm`。
 
 项目包含较大媒体文件，使用 Git 或 GitHub Desktop 上传，避免网页上传单文件大小限制。发布流程不需要安装 npm 依赖。
 
