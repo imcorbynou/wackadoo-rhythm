@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#a6dcff">
+  <meta name="description" content="Pick a game and play along with Bluey. Spinny Roundy and Keepy Uppy.">
+  <title>Wackadoo Rhythm! (Bluey X Deaf Connect)</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/BlueCustard.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+<link rel="stylesheet" href="/shared/gestures/pointer.css">
+<script type="module" src="/shared/gestures/pointer.mjs"></script>
+</head>
+<body>
+  <main class="playground" id="homepage" aria-label="Choose your Bluey game" inert>
+    <div class="brand" role="img" aria-label="Bluey × Deaf Connect">
+      <svg viewBox="15 128 1490 320" aria-hidden="true"><image href="assets/logo.png" width="1509" height="611"/></svg>
+    </div>
+    <nav class="games" aria-label="Games">
+      <a class="game-card" href="../bluey%20select%20song/index.html" data-route="/spinny-roundy/" aria-label="Play Spinny Roundy">
+        <div class="video-window" data-loop="assets/spinny-roundy.mp4">
+          <img class="poster" src="assets/spinny-roundy.jpg" alt="" draggable="false">
+          <video class="is-active" muted playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+          <video muted playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+        </div>
+        <span class="game-title">Spinny Roundy</span>
+      </a>
+      <a class="game-card" href="../Bluey%20Vest%20Connect/index.html" data-route="/vest-connect/" aria-label="Play Keepy Uppy">
+        <div class="video-window" data-loop="assets/keepy-uppy.mp4">
+          <img class="poster" src="assets/keepy-uppy.jpg" alt="" draggable="false">
+          <video class="is-active" muted playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+          <video muted playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+        </div>
+        <span class="game-title">Keepy Uppy</span>
+      </a>
+    </nav>
+    <button class="circle-button fullscreen-button" id="fullscreen" type="button" aria-label="Enter fullscreen" aria-pressed="false">
+      <svg viewBox="0 60 435 435" aria-hidden="true"><image href="assets/full%20screen.png" width="435" height="496"/></svg>
+    </button>
+    <p class="fullscreen-status" id="fullscreenStatus" role="status" hidden></p>
+  </main>
+  <section class="introduction-overlay" id="introduction" role="dialog" aria-modal="true" aria-label="Hand control instructions" aria-describedby="introductionText">
+    <div class="introduction-panel">
+      <div class="introduction-art">
+        <img src="assets/introduction.png" alt="" width="4202" height="2203" draggable="false">
+      </div>
+      <p class="sr-only" id="introductionText">Open your hand to move the cursor. Make a fist to click. Close these instructions to choose a game.</p>
+      <button class="circle-button introduction-close" id="closeIntroduction" type="button" aria-label="Close instructions and enter homepage" autofocus>
+        <svg viewBox="3766 0 436 436" aria-hidden="true"><image href="assets/introduction.png" width="4202" height="2203"/></svg>
+      </button>
+    </div>
+  </section>
+</body>
+</html>

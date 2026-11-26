@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#a8ddfa"><title>Wackadoo Rhythm! (Bluey X Deaf Connect)</title><link rel="stylesheet" href="style.css?v=character-icons-1"><link rel="stylesheet" href="/shared/gestures/pointer.css">
+<script type="module" src="/shared/gestures/pointer.mjs"></script>
+</head>
+<body>
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;pointer-events:none">
+  <defs><filter id="characterIconTint" color-interpolation-filters="sRGB"><feColorMatrix id="characterIconColorMatrix" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs>
+</svg>
+<main id="stage" class="stage">
+  <img class="bluey-logo" src="assets/logo.png" alt="Bluey">
+  <canvas id="scene" aria-label="Seven Bluey characters dancing in a circle"></canvas>
+  <section id="settingsPanel" class="settings-panel" aria-labelledby="settingsTitle" hidden>
+    <button id="closeSettings" class="asset-button return-button" aria-label="Close settings" title="Close settings"><img src="assets/return.png" alt=""></button>
+    <div class="settings-card">
+    <h2 id="settingsTitle" class="settings-title"><span>Choose a music feature</span><span>to visualize by</span></h2>
+    <div class="feature-options" role="group" aria-label="Music feature">
+      <button class="feature-button" data-mode="volume" aria-pressed="true">Dynamics</button>
+      <button class="feature-button" data-mode="bass" aria-pressed="false">Bass</button>
+      <button class="feature-button" data-mode="spectrum" aria-pressed="false">Frequency Spectrum</button>
+    </div>
+    <h2 class="settings-title character-title">Switch character</h2>
+    <div class="character-picker">
+      <div id="characterOptions" class="character-options" role="group" aria-label="Choose character"><div id="characterHover" class="character-hover" aria-hidden="true" hidden></div></div>
+      <button id="nextCharacters" class="next-characters" aria-label="Show more characters" title="More characters">❯</button>
+    </div>
+    </div>
+  </section>
+  <button id="settings" class="asset-button settings-toggle" aria-label="Open settings" aria-controls="settingsPanel" aria-expanded="false" title="Settings"><img src="assets/game%201%20setting.png" alt=""></button>
+  <div class="music-dock">
+    <div class="song-badge"><img id="songArtwork" class="song-artwork" src="assets/theme-label.png" alt="Bluey Theme Tune"><canvas id="musicWave" class="music-wave" aria-hidden="true"></canvas></div>
+    <div class="player" aria-label="Music player">
+      <button id="play" class="play-button" aria-label="Play music" title="Play music"><img src="assets/theme-play.png" alt=""></button>
+    </div>
+  </div>
+  <a id="home" class="home-toggle" href="../../bluey%20homepage/index.html" aria-label="Back to home">
+    <img class="home-icon" src="assets/home%20icon.png" alt="" draggable="false">
+    <img class="home-expanded" src="assets/home%20expanding%20icon.png" alt="" draggable="false">
+  </a>
+  <p id="status" class="status" role="status" hidden></p>
+</main>
+<audio id="audio" src="assets/theme.mp3" preload="metadata" loop></audio>
+<script src="app.js?v=character-icons-1"></script>
+</body></html>

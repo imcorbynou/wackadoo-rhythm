@@ -1,0 +1,13 @@
+.DS_Store
+._*
+node_modules/
+__pycache__*/
+*.pyc
+.venv*/
+.analysis/
+backups/
+.env
+.env.*
+!.env.example
+
+_site/

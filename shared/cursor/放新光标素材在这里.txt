@@ -1,0 +1,4 @@
+当前已使用你提供的 open palm.png 和 closed fist.png。
+保持文件名即可替换公共 UI 素材。
+气球区域继续使用游戏 assets 中原来的双手图片与推球 GIF。
+手机 /phone/ 不加载公共光标。

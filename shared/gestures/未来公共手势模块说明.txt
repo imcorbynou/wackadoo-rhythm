@@ -1,0 +1,2 @@
+公共手势现已接入。入口：pointer.mjs；摄像头与识别：camera-engine.mjs；灵敏度和点击门控：input-core.mjs。
+详细说明见根目录 README.md 和 docs/手势接入说明.txt。

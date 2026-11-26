@@ -1,0 +1,77 @@
+@font-face{font-family:BlueCustard;src:url('assets/BlueCustard.otf') format('opentype');font-display:swap}
+:root{--edge:32px;--bottom:32px;--panel-width:384px;--dock-height:52px;--focus:#397baf;--ink:#74a7c3;--sky:#a8ddfa;--panel:#ace1f5;font-family:Arial,sans-serif;color:#293b48;background:var(--sky)}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer;-webkit-tap-highlight-color:transparent}button{border:0}button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:5px}[hidden]{display:none!important}
+.stage{position:relative;width:100%;height:100dvh;min-height:0;overflow:hidden;background:var(--sky) url('assets/background.png') center/cover;isolation:isolate}
+#scene{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.bluey-logo{position:absolute;left:var(--edge);top:var(--edge);width:clamp(90px,11vw,120px);height:auto;object-fit:contain}
+
+
+
+.asset-button{appearance:none;-webkit-appearance:none;opacity:1;position:absolute;background:transparent;padding:0;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;filter:none}
+.asset-button img{filter:none;opacity:1;pointer-events:none;user-select:none;-webkit-user-drag:none;width:100%;height:100%;object-fit:contain}.settings-toggle{left:var(--edge);bottom:calc(var(--bottom) + var(--dock-height) + 16px)}
+button{transition:background-color .16s,filter .16s,transform .16s,box-shadow .16s}.asset-button{transition:transform .16s;touch-action:manipulation}.asset-button::after{content:"";position:absolute;inset:1% 3% 7%;border-radius:50%;background:#000;opacity:0;pointer-events:none;transition:none}.asset-button.is-hovered::after{opacity:.15}button:active{transform:scale(.96)}
+/* Label and transport use the supplied Frame 101 and pause artwork. */
+.music-dock{position:absolute;left:var(--edge);bottom:var(--bottom);display:flex;align-items:center;gap:8px;width:calc(var(--panel-width) + 56px);max-width:calc(100% - var(--edge)*2 - 64px)}
+.song-badge{position:relative;display:block;width:0;flex:1;min-width:0}
+.song-artwork{display:block;width:100%;height:auto}
+.music-wave{position:absolute;left:65.882353%;top:12.443439%;width:27.794118%;height:67.873303%;pointer-events:none}
+.player{display:flex;align-items:center;flex:0 0 48px;min-width:0}
+.play-button{display:block;width:100%;aspect-ratio:1;border:0;border-radius:50%;padding:0;background:transparent}
+.play-button img{display:block;width:100%;height:auto}
+.play-button:hover{filter:brightness(.85)}
+/* Settings spacing follows the reference: 16px inset/sections, 8px options. */
+.settings-panel{position:absolute;z-index:3;left:var(--edge);bottom:calc(var(--bottom) + var(--dock-height) + 16px);width:var(--panel-width);max-width:calc(100% - var(--edge)*2);font-family:BlueCustard,Arial,sans-serif;color:white;animation:panel-in .16s ease-out}
+.settings-card{container-type:inline-size;max-height:calc(100dvh - 190px);overflow:auto;padding:16px;border:5px solid white;border-radius:30px;background:var(--panel);box-shadow:0 4px 2px #52778b40;scrollbar-width:thin;scrollbar-color:var(--ink) transparent}
+.return-button{right:0;top:-64px;width:48px;height:48px}
+@keyframes panel-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.settings-title{font-size:20px;font-size:clamp(14px,6.8cqw,24px);line-height:1.08;font-weight:400;margin:0 0 16px;letter-spacing:0}
+.settings-title span{display:block;white-space:nowrap}
+.character-title{margin-top:16px}
+.feature-options{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.feature-button{font-family:inherit;font-size:20px;font-size:clamp(14px,6.8cqw,24px);line-height:1.1;padding:5px clamp(8px,4cqw,14px);border-radius:24px;background:white;color:var(--ink);white-space:nowrap;max-width:100%}
+.feature-button[aria-pressed=true]{color:white;background:var(--ink)}.feature-button:hover{filter:brightness(.91)}
+.character-picker{position:relative;padding-right:22px}
+.character-options{position:relative;isolation:isolate;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.character-button{appearance:none;-webkit-appearance:none;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px;min-width:0;padding:0;border-radius:12px;background:transparent;color:white;font-family:inherit;font-size:14px;line-height:1}
+.character-button img{display:block;height:100px;height:clamp(76px,31cqw,124px);width:100%;object-fit:contain;object-position:center bottom}
+.character-hover{position:absolute;left:0;top:0;z-index:0;pointer-events:none;border:2px solid var(--focus);border-radius:12px;background:color-mix(in srgb,var(--ink) 20%,transparent);transition:transform .12s ease,width .12s ease,height .12s ease}
+.character-button:focus{outline:none}
+.keyboard-navigation .character-button:focus-visible{outline:3px solid var(--focus);outline-offset:5px}
+.character-button span{display:block;position:static;min-height:1em;font-size:clamp(11px,4.5cqw,16px);white-space:nowrap;text-align:center;pointer-events:none;color:var(--character-color,#57758c);text-shadow:1px 1px white,-1px -1px white,1px -1px white,-1px 1px white}
+.next-characters{position:absolute;right:-8px;top:calc(50% - 22px);background:transparent;color:white;font-size:22px;width:30px;height:44px;border-radius:14px;padding:0}.next-characters:hover{background:color-mix(in srgb,var(--focus) 14%,transparent)}
+.status{position:absolute;bottom:92px;left:50%;transform:translateX(-50%);border-radius:16px;padding:12px 18px;background:#fffffff0;font-size:13px;max-width:90%;z-index:5}
+
+@media(max-width:600px){:root{--dock-height:44px}.music-dock{gap:8px;max-width:calc(100% - var(--edge)*2 - 58px)}.player{flex-basis:40px}.settings-panel{width:min(var(--panel-width),calc(100% - var(--edge)*2))}.asset-button{width:44px;height:44px}.return-button{top:-60px}.bluey-logo{width:90px}}
+@media(max-width:600px) and (max-height:740px){.settings-card{max-height:calc(100dvh - 340px)}}
+@media(max-height:500px){.bluey-logo{width:80px}.return-button{top:-56px;width:40px;height:40px}.settings-card{max-height:calc(100dvh - 168px)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Match the visible white border of the song artwork (403 of its 442px).
+   Home assets have different transparent padding: circle 201/234, pill 186/187. */
+.home-toggle{--home-height:calc(var(--dock-height)*403/442);--home-size:calc(var(--home-height)*234/201);--home-expanded-width:calc(var(--home-height)*1130/186);--home-inset:calc(var(--home-size)*17/234);position:absolute;z-index:2;right:var(--edge);bottom:calc(var(--bottom) + var(--dock-height) - var(--home-size));display:block;width:var(--home-size);height:var(--home-size);padding:0;overflow:hidden;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:width .26s ease,transform .16s ease}
+.home-toggle img{position:absolute;display:block;max-width:none;pointer-events:none;user-select:none;transition:opacity .18s ease}
+.home-icon{right:0;top:0;width:var(--home-size);height:var(--home-size)}
+.home-expanded{right:var(--home-inset);top:0;width:var(--home-expanded-width);height:auto;opacity:0}
+.home-toggle:focus-visible{width:min(calc(var(--home-expanded-width) + var(--home-inset)),calc(100vw - var(--edge)*2));outline:3px solid var(--focus);outline-offset:4px;border-radius:999px}
+.home-toggle:focus-visible .home-icon{opacity:0}
+.home-toggle:focus-visible .home-expanded{opacity:1}
+@media(hover:hover){.home-toggle:hover{width:min(calc(var(--home-expanded-width) + var(--home-inset)),calc(100vw - var(--edge)*2))}.home-toggle:hover .home-icon{opacity:0}.home-toggle:hover .home-expanded{opacity:1}}
+.home-toggle:active{transform:scale(.96);transform-origin:right center}
+
+
+/* Match both home states and the shared curved return icon to the character. */
+#closeSettings img,.home-toggle img{filter:url(#characterIconTint)}
+
+/* Shared hand pointer: preserve each page's existing hover/press appearance. */
+button.bluey-active{transform:scale(.96)}
+.play-button.bluey-hover{filter:brightness(.85)}
+.feature-button.bluey-hover{filter:brightness(.91)}
+.next-characters.bluey-hover{background:color-mix(in srgb,var(--focus) 14%,transparent)}
+@media(hover:hover){.home-toggle.bluey-hover{width:min(calc(var(--home-expanded-width) + var(--home-inset)),calc(100vw - var(--edge)*2))}
+.home-toggle.bluey-hover .home-icon{opacity:0}
+.home-toggle.bluey-hover .home-expanded{opacity:1}
+}
+.home-toggle.bluey-active{transform:scale(.96);transform-origin:right center}
+
+/* Character hover keeps its soft fill without an added cursor outline. */
+.character-hover { border:0; }

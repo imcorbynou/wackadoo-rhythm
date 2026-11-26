@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#9eddf4">
+  <meta name="description" content="Feel the rhythm, remember the colours, and play along with Bluey and Bingo.">
+  <title>Wackadoo Rhythm! (Bluey X Deaf Connect)</title>
+  <link rel="icon" href="assets/red.png">
+  <link rel="preload" href="assets/Blue_Custard_v1.01.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/backyard.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/shared/gestures/pointer.css">
+<script type="module" src="/shared/gestures/pointer.mjs"></script>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute;pointer-events:none">
+    <defs><filter id="pause-color-swap" color-interpolation-filters="sRGB" x="0" y="0" width="3452" height="1854" filterUnits="userSpaceOnUse">
+      <feColorMatrix type="matrix" values="-1 0 0 0 1.450980392 0 -1 0 0 1.650980392 0 0 -1 0 1.780392157 0 0 0 1 0"/>
+    </filter></defs>
+  </svg>
+  <main id="game" class="game" data-phase="loading" aria-label="Bluey Keepy Uppy rhythm game">
+    <div class="stage" id="stage">
+      <img class="backyard" src="assets/backyard.png" alt="Bluey and Bingo's sunny backyard" draggable="false">
+      <video id="background-video" class="backyard background-video" src="assets/bluey%20background.mp4" autoplay muted loop playsinline preload="auto" disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback" tabindex="-1" aria-hidden="true"></video>
+      <canvas id="background-canvas" class="backyard background-canvas" aria-hidden="true"></canvas>
+      <div class="game-shell">
+        <section class="game-hud" aria-label="Game preview and round">
+      <header class="phase-header">
+        <img id="phase-art" src="assets/feel-the-rhythm.png" alt="Feel the Rhythm! Watch the lights and feel the beat." draggable="false">
+        <canvas id="music-wave" class="music-wave" aria-hidden="true"></canvas>
+        <button id="pause" class="transport" type="button" aria-label="Pause game" title="Pause / resume (Space)" disabled>
+          <img id="transport-art" src="assets/pause.png" alt="" draggable="false">
+        </button>
+      </header>
+      <div id="phrase-dots" class="phrase-dots" aria-label="The colour pattern"></div>
+      <section id="camera-panel" class="camera-panel" aria-label="Camera preview" data-state="off">
+        <img class="camera-frame" src="assets/camera%20frame.png" alt="" draggable="false">
+        <div class="camera-window">
+          <video id="camera-video" autoplay muted playsinline aria-label="Your live camera preview" hidden></video>
+          <canvas id="final-photo" class="final-photo" hidden aria-label="Your celebration photo"></canvas>
+          <img class="final-character final-bluey" src="assets/final%20page%20assets/bluey.png" alt="Bluey" hidden>
+          <img class="final-character final-bingo" src="assets/final%20page%20assets/bingo.png" alt="Bingo" hidden>
+          <p id="camera-status" class="camera-status" role="status" aria-live="polite">Camera is off</p>
+        </div>
+        <p id="gesture-status" class="sr-only" role="status" aria-live="polite"></p>
+      </section>
+        </section>
+        <section id="play-zone" class="play-zone" aria-label="Balloon activity area">
+          <div id="feedback" class="feedback" aria-live="polite" aria-atomic="true"></div>
+          <div id="ready-cue" class="ready-cue" aria-live="polite"></div>
+        </section>
+        <section class="game-progress" aria-label="Round and song progress">
+          <div class="round-badge">
+            <img src="assets/round.png" alt="" draggable="false">
+            <span class="round-label" id="round-label" aria-live="polite">Round 1/16</span>
+          </div>
+          <div class="song-progress" role="progressbar" aria-label="Song progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-track"><div id="song-progress-fill"></div></div>
+            <img class="progress-gecko" src="assets/gecky.png" alt="" draggable="false">
+          </div>
+        </section>
+      </div>
+      <section id="final-page" class="final-page" aria-label="Your game celebration" hidden>
+        <video id="final-background-video" class="final-background-source" src="assets/final%20page%20assets/loop%20pattern%20background.mp4" muted loop playsinline preload="auto" disablepictureinpicture disableremoteplayback tabindex="-1" aria-hidden="true"></video>
+        <div class="final-background final-background-left"><canvas aria-hidden="true"></canvas></div>
+        <div class="final-background final-background-right"><canvas aria-hidden="true"></canvas></div>
+        <div id="final-flash" class="final-flash" aria-hidden="true"></div>
+        <div id="photo-countdown" class="photo-countdown" role="status" aria-live="polite" hidden></div>
+        <div class="final-layout">
+          <div id="final-camera-slot" class="final-camera-slot"></div>
+        <div id="final-results" class="final-results" hidden>
+          <h1 id="final-grade"></h1>
+          <p id="final-message" role="status" aria-live="polite"></p>
+          <div class="final-buttons">
+            <button id="final-replay" type="button" aria-label="Play again" disabled><span>Play again</span></button>
+            <button id="final-home" type="button" aria-label="Back to home" disabled><span>Back to home</span></button>
+            <div class="final-save-area">
+              <div id="photo-qr-card" class="photo-qr-card">
+                <img src="assets/final%20page%20assets/qr%20code%20frame.png" alt="Scan the QR code to save your photo on your phone" draggable="false">
+              </div>
+              <button id="final-save" type="button" aria-label="Save photo" aria-controls="photo-qr-card" aria-expanded="false" disabled><span>Save photo</span></button>
+            </div>
+          </div>
+          <p id="photo-share-status" class="sr-only" role="status" aria-live="polite"></p>
+        </div>
+        </div>
+      </section>
+      <div id="balloons" class="balloons" aria-label="Tap the coloured balloons"></div>
+      <div id="particles" class="particles" aria-hidden="true"></div>
+      <div id="gesture-cursor" class="gesture-cursor" aria-hidden="true">
+        <img id="gesture-hold" class="gesture-hold" src="assets/hold%20the%20balloon.png" alt="" draggable="false">
+        <img id="gesture-push" class="gesture-push" alt="" draggable="false" hidden>
+      </div>
+      <section id="overlay" class="overlay" role="dialog" aria-modal="true" aria-label="Game controls" hidden>
+        <div class="overlay-card">
+          <img class="intro-art" src="assets/beforegame/intro%20blackboard.png" alt="Game introduction. Open your hand to move the cursor. Make a fist over a balloon to bounce it. Follow the rhythm and take a photo with Bluey and Bingo at the end." draggable="false">
+          <img class="breather-art" src="assets/take%20a%20breather.png" alt="" draggable="false">
+          <h1 id="overlay-title">Ready to play?</h1>
+          <p id="overlay-message">Feel the music. Then tap the colours!</p>
+          <button id="primary" class="primary-button" type="button">Let's play!</button>
+          <button id="secondary" class="secondary-button" type="button" hidden>Start again</button>
+        </div>
+      </section>
+      <div id="loading" class="loading"><span>Getting the balloons ready…</span></div>
+    </div>
+    <p id="announcer" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+  <audio id="music" preload="auto" src="assets/Keepy%20Uppy.mp3"></audio>
+  <script type="module" src="layout.mjs"></script>
+  <script type="module" src="progress.mjs"></script>
+  <script type="module" src="game.mjs"></script>
+  <script type="module" src="music-wave.mjs"></script>
+  <script type="module" src="camera.mjs"></script>
+  <script type="module" src="gesture-input.mjs"></script>
+  <script type="module" src="background.mjs"></script>
+</body>
+</html>

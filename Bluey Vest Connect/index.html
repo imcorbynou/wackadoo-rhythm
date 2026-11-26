@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#b1dbfc">
+  <title>Wackadoo Rhythm! (Bluey X Deaf Connect)</title>
+  <meta name="description" content="Put on your vest and get ready for Keepy Uppy.">
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/BlueCustard.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/button%20while%20hovering.png" as="image">
+  <link rel="preload" href="assets/successful.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+<link rel="stylesheet" href="/shared/gestures/pointer.css">
+<script type="module" src="/shared/gestures/pointer.mjs"></script>
+</head>
+<body>
+  <video class="background" src="assets/loop%20background.mp4" autoplay loop muted playsinline disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+  <main class="connect-page">
+    <img class="vest" src="assets/vest.png" alt="Blue vest with red, yellow, green and blue balloon buttons" draggable="false">
+    <section class="connection" aria-labelledby="instructions" data-state="idle">
+      <h1 id="instructions">Put on the vest and<br>then click the button below</h1>
+      <div class="button-slot">
+        <button class="connect-button" type="button" aria-label="Connect vest">
+          <span class="button-art" aria-hidden="true">
+            <img class="button-label default-art" src="assets/button.png" alt="" draggable="false">
+            <img class="button-label hover-art" src="assets/button%20while%20hovering.png" alt="" draggable="false">
+            <span class="bluetooth-icon"><img src="assets/bluetooth.svg" alt="" draggable="false"></span>
+          </span>
+        </button>
+        <img class="success-button" src="assets/successful.png" alt="Vest connected" draggable="false" aria-hidden="true">
+      </div>
+      <p class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    </section>
+  </main>
+</body>
+</html>

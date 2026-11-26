@@ -1,0 +1,63 @@
+{
+  "repository": "https://github.com/CPJKU/madmom",
+  "commit": "27f032e8947204902c675e5e341a3faf5dc86dae",
+  "modelsRepository": "https://github.com/CPJKU/madmom_models",
+  "modelsCommit": "7e3dc1b0cad499792767074d03c38b194b9b0a79",
+  "models": [
+    {
+      "path": "LICENSE",
+      "sha256": "4ab453b7c3b87cfb097e6a1535b0660f2b5adf775be15651b70e3aa1cf7b1757",
+      "gitBlobSha": "41e0ad6f1312d62aac797a5556060f38f38ddcd2"
+    },
+    {
+      "path": "README.rst",
+      "sha256": "a031ee7cc7579ffd6c94475cd74b17c83e1e9a2349c05503ccdbd0b9c91e9538",
+      "gitBlobSha": "6e80bd4e6e91e04140d1b8671448de94bfce1688"
+    },
+    {
+      "path": "__init__.py",
+      "sha256": "89b71c041c78770a217abe0d9eaf83f428f44c95bb70e41a1907eff29785a7cb",
+      "gitBlobSha": "aac941443fa08ca10aad1af5e8cb9dd664d42b09"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_1.pkl",
+      "sha256": "b02c4b8aa963069449422fd5cc55bd4077105fe268b0d83036b7d68b5520f38d",
+      "gitBlobSha": "41e6bdd593b5b61eb7bcd170185a08a4266af025"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_2.pkl",
+      "sha256": "6fa9d138ed84bed14ab5ef6f81f3a7e1a125ff8c571a255f6ce91ccf93390eee",
+      "gitBlobSha": "94e0e1988fd6adbc40a239a6d1017c4f803e0f9e"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_3.pkl",
+      "sha256": "adf6a3e3bf345a9172e8252a511dae28622afe26ee653354c0d4c9e37de8f89a",
+      "gitBlobSha": "72615c74ab13f2d81247e74328201e295b45ab99"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_4.pkl",
+      "sha256": "a4f9a09b1588ca74b0157251364650d3fe81e383019b5986941415e08b37fcde",
+      "gitBlobSha": "18e20244af573b41b6d6653ab403e69dfc401f25"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_5.pkl",
+      "sha256": "e40aea9b8221babaf14a9211a48dccc3ebcecdf8bcd6d62d60f0949445de9bb6",
+      "gitBlobSha": "0a769cfc27e9749756e0350093133d898514572c"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_6.pkl",
+      "sha256": "89b6854c5d6b2381687731aedc9bce6c84894021d1c2eeb60d161cefe997d68c",
+      "gitBlobSha": "30f0771631c21d1cf5e01c7882fb1b6e98b8068d"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_7.pkl",
+      "sha256": "371a319a66d32bee6ab8d4a15f6ae9e4ee22ff97b4276736bab93d9a994c06c1",
+      "gitBlobSha": "12183e34de939b033bfd10453a45a777b32ab513"
+    },
+    {
+      "path": "downbeats/2016/downbeats_blstm_8.pkl",
+      "sha256": "a0d20e1922872a3e5b74df451d8b5701de6ca88d9f5739f313fb2991d7a84c77",
+      "gitBlobSha": "51f8a4749c6856aa7c7d01bc21aed5a158c5e7ea"
+    }
+  ]
+}

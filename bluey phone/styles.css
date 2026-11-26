@@ -1,0 +1,30 @@
+:root { color-scheme: light; background: #a6dcff; }
+* { box-sizing: border-box; }
+html, body { margin: 0; min-width: 280px; min-height: 100%; }
+body { background: #a6dcff url('assets/iPhone background.png') center top / 100% auto repeat-y; }
+img { display: block; width: 100%; height: auto; }
+[hidden] { display: none !important; }
+.phone-page {
+  width: min(100%, 480px);
+  min-height: 100svh;
+  margin: 0 auto;
+  padding: max(28px, env(safe-area-inset-top)) 3.5% max(20px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brand { width: 85%; margin: 0 0 1.4%; }
+h1 { width: 92%; margin: 0 0 4%; }
+.photo-frame { width: 100%; position: relative; aspect-ratio: 1511 / 1566; }
+.photo-frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.invitation { width: 91%; margin: 3% 0 5%; }
+#save-photo { width: 65%; padding: 0; border: 0; border-radius: 999px; background: transparent; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+#save-photo:focus-visible { outline: 3px solid #73a6c7; outline-offset: 5px; }
+#save-photo:active:not(:disabled) { transform: scale(.98); }
+#save-photo:disabled { cursor: default; }
+#photo-status { margin: 12px 0 0; font: 600 14px/1.4 system-ui,sans-serif; text-align: center; color: #315674; max-width: 90%; }
+@media (min-width: 520px) { body { background-size: 480px auto; } .phone-page { padding-inline: 18px; } }
+@media (min-height: 800px) and (max-width: 519px) { .phone-page { justify-content: center; } }
+
+/* Mouse/touch activation adds no external ring to the save artwork. */
+#save-photo:focus:not(:focus-visible) { outline:none; }

@@ -1,0 +1,12 @@
+{
+  "name": "wackadoo-rhythm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test \"bluey homepage/photo-service.test.mjs\" \"Bluey Keepy Uppy Game/tests/\"*.test.mjs tests/*.test.mjs",
+    "build:pages": "node scripts/build-pages.mjs"
+  },
+  "description": "Wackadoo Rhythm! (Bluey X Deaf Connect)"
+}

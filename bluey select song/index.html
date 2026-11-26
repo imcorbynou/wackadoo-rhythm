@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#85c8f6">
+  <meta name="description" content="Bluey 循环视频与动态背景。">
+  <title>Wackadoo Rhythm! (Bluey X Deaf Connect)</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script src="music.js" defer></script>
+<link rel="stylesheet" href="/shared/gestures/pointer.css">
+<script type="module" src="/shared/gestures/pointer.mjs"></script>
+</head>
+<body>
+  <canvas id="ambient" aria-hidden="true"></canvas>
+  <main class="music-ui" aria-label="Bluey music player">
+    <section class="songs" aria-labelledby="song-heading">
+      <h1 id="song-heading">select a song</h1>
+      <div class="song-list" role="group" aria-label="Songs">
+        <button class="song is-selected" type="button" data-song="0" aria-pressed="true">Bluey Theme Tune</button>
+        <button class="song" type="button" data-song="1" aria-pressed="false">Burger Dog</button>
+        <button class="song" type="button" data-song="2" aria-pressed="false">Dance Mode</button>
+        <button class="song" type="button" data-song="3" aria-pressed="false">Let's Play Verandah Santa</button>
+        <button class="song" type="button" data-song="4" aria-pressed="false">Sleepytime</button>
+      </div>
+  <div class="video-stage">
+    <video id="bluey" src="assets/bluey.mp4" playsinline autoplay muted loop preload="auto" aria-label="Bluey 主题曲加长版"></video>
+    <canvas id="picture" aria-hidden="true"></canvas>
+  </div>
+    </section>
+    <section class="player" aria-label="Selected song">
+      <img id="cover" src="assets/bluey%20theme%20tune.png" alt="Bluey Theme Tune" width="2000" height="2000" fetchpriority="high">
+      <button id="play-now" type="button" aria-label="Play Bluey Theme Tune">play now!</button>
+      <p id="music-status" class="sr-only" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <audio id="song-audio" preload="metadata"></audio>
+</body>
+</html>

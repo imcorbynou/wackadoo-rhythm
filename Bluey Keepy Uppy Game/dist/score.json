@@ -1,0 +1,5282 @@
+{
+  "title": "Keepy Uppy",
+  "audio": "assets/Keepy Uppy.analysis.wav",
+  "duration": 183.4841,
+  "introDuration": 8.0,
+  "bpm": 89.552,
+  "beatsPerBar": 4,
+  "segmentation": "musical-bars",
+  "beatOffset": 9.73,
+  "responseLeadIn": 2.4,
+  "tolerance": 0.55,
+  "arrangement": "All-In-One downbeats; four-bar groups with six/seven selected cues",
+  "analysis": {
+    "engine": "all-in-one",
+    "version": "1.1.0",
+    "sourceCommit": "18e78903c0365147a2c5d4e5e57ebf88cb7d800e",
+    "model": "harmonix-all",
+    "pipelineVersion": 1,
+    "sourceSha256": "48fe52cd85d54b191d0a8f76e8ff3d8cd290e9f9c59cb2618adc46db7fcf2247",
+    "cacheKey": "243e47dccbe7734e9cd3c5090a1affe8e7748648035319b9762ecb5ad23c484b",
+    "generatedAt": "2026-11-11T13:34:19.999365+00:00",
+    "config": {
+      "introSeconds": 8,
+      "barsPerRound": 4,
+      "meterCandidates": [
+        3,
+        4
+      ],
+      "minBpm": 55,
+      "maxBpm": 215,
+      "framesPerSecond": 100,
+      "structureEngine": "all-in-one",
+      "structureModel": "harmonix-all",
+      "phrases": {
+        "targetSeconds": 6,
+        "minSeconds": 3,
+        "maxSeconds": 10
+      }
+    },
+    "timingMethod": "All-In-One beat/downbeat predictions",
+    "segmentationMethod": "All-In-One downbeats; four-bar groups with six/seven selected cues",
+    "colorMethod": "FFT relative band energy; independent of phrase selection",
+    "frequencyBandsHz": {
+      "blue": [
+        20,
+        250
+      ],
+      "green": [
+        250,
+        1000
+      ],
+      "yellow": [
+        1000,
+        4000
+      ],
+      "red": [
+        4000,
+        10000
+      ]
+    },
+    "beatCount": 256,
+    "firstDownbeat": 9.73
+  },
+  "rounds": [
+    {
+      "start": 8.0,
+      "end": 17.73,
+      "barStarts": [
+        9.73,
+        12.39,
+        15.05
+      ],
+      "barCount": 4,
+      "completeBars": 3,
+      "section": "intro",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.39,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1735.3035433537984,
+            "green": 6569.773741791575,
+            "yellow": 64.36215135112565,
+            "red": 4.393010169124226
+          },
+          "relativeBandEnergy": {
+            "blue": 0.02775907747472363,
+            "green": 0.09407445113927035,
+            "yellow": 0.0005007648365681154,
+            "red": 0.00040217754312630796
+          }
+        },
+        {
+          "time": 1.06,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1274.62078954663,
+            "green": 71974.50402662254,
+            "yellow": 6918.887343889465,
+            "red": 105.4398791329841
+          },
+          "relativeBandEnergy": {
+            "blue": 0.020389687662099396,
+            "green": 1.0306233103971827,
+            "yellow": 0.053831878165387245,
+            "red": 0.009652960021645528
+          }
+        },
+        {
+          "time": 1.73,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1074.461906205827,
+            "green": 3936.089699223179,
+            "yellow": 13.824486877771989,
+            "red": 1.7263156545454004
+          },
+          "relativeBandEnergy": {
+            "blue": 0.017187812133641088,
+            "green": 0.05636198332583362,
+            "yellow": 0.00010756037153292687,
+            "red": 0.00015804320087516743
+          }
+        },
+        {
+          "time": 2.39,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 86.02520485547258,
+            "green": 30233.32664748994,
+            "yellow": 6345.518408532913,
+            "red": 211.0891381491348
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0013761167811291485,
+            "green": 0.432919568049125,
+            "yellow": 0.04937082465521684,
+            "red": 0.019325088650635484
+          }
+        },
+        {
+          "time": 3.06,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 2057.663185229818,
+            "green": 10267.42766504005,
+            "yellow": 35.63273424232499,
+            "red": 7.127253197378362
+          },
+          "relativeBandEnergy": {
+            "blue": 0.03291575816487316,
+            "green": 0.1470222050504591,
+            "yellow": 0.0002772377859463968,
+            "red": 0.0006524959127814156
+          }
+        },
+        {
+          "time": 3.73,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 223.19684157396244,
+            "green": 9029.82080678006,
+            "yellow": 2710.834649667838,
+            "red": 15.621685653680068
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0035704061350504807,
+            "green": 0.12930056188695258,
+            "yellow": 0.021091443368608867,
+            "red": 0.0014301562968931246
+          }
+        },
+        {
+          "time": 4.39,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1878.235832602901,
+            "green": 8794.650507270282,
+            "yellow": 5149.821757598618,
+            "red": 11.237436148770371
+          },
+          "relativeBandEnergy": {
+            "blue": 0.03004551808397703,
+            "green": 0.12593309175477613,
+            "yellow": 0.040067797559002735,
+            "red": 0.001028780787514591
+          }
+        },
+        {
+          "time": 5.06,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 459.8732101032061,
+            "green": 39260.728386571114,
+            "yellow": 5623.885111671869,
+            "red": 139.08362946419035
+          },
+          "relativeBandEnergy": {
+            "blue": 0.007356439809448403,
+            "green": 0.5621854906204808,
+            "yellow": 0.043756211526558404,
+            "red": 0.012733025928357709
+          }
+        },
+        {
+          "time": 5.72,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 392.50929896068385,
+            "green": 1918.6487747754936,
+            "yellow": 8366.138120909232,
+            "red": 5.426826383862867
+          },
+          "relativeBandEnergy": {
+            "blue": 0.006278841578540843,
+            "green": 0.027473675275583684,
+            "yellow": 0.0650921030586421,
+            "red": 0.0004968228203464639
+          }
+        },
+        {
+          "time": 6.39,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 3163.2961687612524,
+            "green": 155503.97276294057,
+            "yellow": 7960.889444776219,
+            "red": 283.5981554242536
+          },
+          "relativeBandEnergy": {
+            "blue": 0.05060220372421441,
+            "green": 2.2267054334903733,
+            "yellow": 0.0619390964730466,
+            "red": 0.025963247293465084
+          }
+        },
+        {
+          "time": 7.05,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1056.292051714548,
+            "green": 4467.731136741272,
+            "yellow": 385.6214443184973,
+            "red": 32.21392461688208
+          },
+          "relativeBandEnergy": {
+            "blue": 0.016897154974287246,
+            "green": 0.0639747076605028,
+            "yellow": 0.003000298397233977,
+            "red": 0.0029491661885810137
+          }
+        },
+        {
+          "time": 7.72,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 194.2366467454763,
+            "green": 81421.34161700263,
+            "yellow": 6068.987039566762,
+            "red": 171.80215259869104
+          },
+          "relativeBandEnergy": {
+            "blue": 0.003107139466227034,
+            "green": 1.1658952537311833,
+            "yellow": 0.0472192933145251,
+            "red": 0.015728387819718415
+          }
+        },
+        {
+          "time": 8.39,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1579.723561766144,
+            "green": 5470.589492127719,
+            "yellow": 81.73455968447254,
+            "red": 3.9244960241023326
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0252703159096657,
+            "green": 0.07833492051734373,
+            "yellow": 0.0006359295418680242,
+            "red": 0.00035928534381177927
+          }
+        },
+        {
+          "time": 9.05,
+          "color": "green",
+          "duration": 0.306,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 549.8138707551494,
+            "green": 53159.15677971015,
+            "yellow": 55352.690633687154,
+            "red": 2144.176569558054
+          },
+          "relativeBandEnergy": {
+            "blue": 0.008795190843368291,
+            "green": 0.7612010236008381,
+            "yellow": 0.430667410844697,
+            "red": 0.19629812624489465
+          }
+        }
+      ]
+    },
+    {
+      "start": 17.73,
+      "end": 28.4,
+      "barStarts": [
+        17.73,
+        20.39,
+        23.05,
+        25.71
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "intro",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1098.5757500572445,
+            "green": 5634.855534886394,
+            "yellow": 40900.3066154783,
+            "red": 1744.3012372730916
+          },
+          "relativeBandEnergy": {
+            "blue": 0.01757355332701823,
+            "green": 0.08068709251301555,
+            "yellow": 0.3182217332380639,
+            "red": 0.15968977058355485
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "red",
+          "duration": 0.2925,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 276.54158703505334,
+            "green": 9800.426910295388,
+            "yellow": 42979.90633241356,
+            "red": 5739.080890939358
+          },
+          "relativeBandEnergy": {
+            "blue": 0.00442374440419382,
+            "green": 0.14033508896231073,
+            "yellow": 0.33440190109318907,
+            "red": 0.5254095400788188
+          }
+        },
+        {
+          "time": 1.32,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 985.6176276037739,
+            "green": 4713.371024539308,
+            "yellow": 127.2216765943426,
+            "red": 2.0588843469787106
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0157665995611514,
+            "green": 0.06749209479295684,
+            "yellow": 0.0009898386046813426,
+            "red": 0.00018848967254136477
+          }
+        },
+        {
+          "time": 1.99,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1181.9783348531892,
+            "green": 58550.28402773531,
+            "yellow": 10964.284790795802,
+            "red": 5225.39087012235
+          },
+          "relativeBandEnergy": {
+            "blue": 0.018907716921514398,
+            "green": 0.8383981017366868,
+            "yellow": 0.08530678614820894,
+            "red": 0.47838151543350543
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1424.566898102426,
+            "green": 5401.136081824392,
+            "yellow": 34800.350394733774,
+            "red": 5193.965715600303
+          },
+          "relativeBandEnergy": {
+            "blue": 0.022788326021581512,
+            "green": 0.07734039746208639,
+            "yellow": 0.2707614865584698,
+            "red": 0.47550456069143143
+          }
+        },
+        {
+          "time": 3.32,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 138.43454564659476,
+            "green": 20177.310721287588,
+            "yellow": 50864.037903632794,
+            "red": 9947.042378971937
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0022144916908053043,
+            "green": 0.28892462757081416,
+            "yellow": 0.3957437887532893,
+            "red": 0.9106459833544431
+          }
+        },
+        {
+          "time": 3.99,
+          "color": "green",
+          "duration": 0.13,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 595.4062746321437,
+            "green": 5468.420198582377,
+            "yellow": 59.4821997155804,
+            "red": 4.2506045851063945
+          },
+          "relativeBandEnergy": {
+            "blue": 0.009524517465403741,
+            "green": 0.07830385778860167,
+            "yellow": 0.0004627967430234706,
+            "red": 0.0003891403941776689
+          }
+        },
+        {
+          "time": 4.66,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 565.0913821010241,
+            "green": 20572.369640093922,
+            "yellow": 57476.62211016225,
+            "red": 10244.914911162195
+          },
+          "relativeBandEnergy": {
+            "blue": 0.009039580144995297,
+            "green": 0.29458158813217505,
+            "yellow": 0.4471924985922545,
+            "red": 0.9379160415944796
+          }
+        },
+        {
+          "time": 5.32,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1616.6975136931433,
+            "green": 9609.48217958114,
+            "yellow": 42269.90892356106,
+            "red": 1762.2478936212199
+          },
+          "relativeBandEnergy": {
+            "blue": 0.02586177600321489,
+            "green": 0.13760089727689356,
+            "yellow": 0.32887782010857186,
+            "red": 0.16133277660438117
+          }
+        },
+        {
+          "time": 5.99,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 389.3907885001954,
+            "green": 10685.020337484233,
+            "yellow": 53669.46037218251,
+            "red": 7059.244639129108
+          },
+          "relativeBandEnergy": {
+            "blue": 0.006228955796995599,
+            "green": 0.15300183281299065,
+            "yellow": 0.41757116547200196,
+            "red": 0.6462697685624733
+          }
+        },
+        {
+          "time": 6.65,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1425.1163356444397,
+            "green": 36258.700817952864,
+            "yellow": 5551.538345799101,
+            "red": 2608.389001026633
+          },
+          "relativeBandEnergy": {
+            "blue": 0.022797115192418334,
+            "green": 0.5191986075218696,
+            "yellow": 0.043193323002356294,
+            "red": 0.2387965061687321
+          }
+        },
+        {
+          "time": 7.32,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1102.5452827770528,
+            "green": 32941.9713547007,
+            "yellow": 3533.793734504604,
+            "red": 4104.393129563112
+          },
+          "relativeBandEnergy": {
+            "blue": 0.01763705263048571,
+            "green": 0.47170541885266487,
+            "yellow": 0.02749441410481502,
+            "red": 0.37575481988953985
+          }
+        },
+        {
+          "time": 7.98,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 316.41994695768153,
+            "green": 890.8031636710975,
+            "yellow": 38504.30753093412,
+            "red": 1929.348569353708
+          },
+          "relativeBandEnergy": {
+            "blue": 0.005061665352892911,
+            "green": 0.012755662826316967,
+            "yellow": 0.2995798441028876,
+            "red": 0.176630746933058
+          }
+        },
+        {
+          "time": 8.65,
+          "color": "green",
+          "duration": 0.2453,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 504.3971704174885,
+            "green": 48506.719629325766,
+            "yellow": 8340.227626726302,
+            "red": 5278.170123634753
+          },
+          "relativeBandEnergy": {
+            "blue": 0.00806867489280275,
+            "green": 0.6945814582118163,
+            "yellow": 0.06489050842402325,
+            "red": 0.48321342560181046
+          }
+        },
+        {
+          "time": 9.32,
+          "color": "green",
+          "duration": 0.306,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 875.9441831054971,
+            "green": 3653.276004778588,
+            "yellow": 28.601077560596465,
+            "red": 5.519824107078982
+          },
+          "relativeBandEnergy": {
+            "blue": 0.014012189703344313,
+            "green": 0.05231229392628835,
+            "yellow": 0.00022252851450177004,
+            "red": 0.0005053367081817961
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 391.0089951034528,
+            "green": 75286.59442603787,
+            "yellow": 24485.827851830305,
+            "red": 24421.137352453155
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0062548417134060015,
+            "green": 1.0780500709972634,
+            "yellow": 0.190510126294005,
+            "red": 2.235741016442428
+          }
+        }
+      ]
+    },
+    {
+      "start": 28.4,
+      "end": 39.07,
+      "barStarts": [
+        28.4,
+        31.06,
+        33.73,
+        36.39
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "intro",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.2925,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 152377.36702901084,
+            "green": 14778.6242568009,
+            "yellow": 6269.139485189229,
+            "red": 198.46110510694348
+          },
+          "relativeBandEnergy": {
+            "blue": 2.4375303980407512,
+            "green": 0.2116193068732562,
+            "yellow": 0.04877656423566081,
+            "red": 0.01816899952088079
+          }
+        },
+        {
+          "time": 0.65,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 435.6383850006025,
+            "green": 24993.99745573672,
+            "yellow": 17246.194956944517,
+            "red": 5197.591994072382
+          },
+          "relativeBandEnergy": {
+            "blue": 0.006968763318965729,
+            "green": 0.3578961292788074,
+            "yellow": 0.1341827116983891,
+            "red": 0.4758365443906367
+          }
+        },
+        {
+          "time": 1.32,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 952.4276669172867,
+            "green": 4129.457608320925,
+            "yellow": 213.72414316934305,
+            "red": 5.643417857851202
+          },
+          "relativeBandEnergy": {
+            "blue": 0.01523567072532444,
+            "green": 0.05913087318890493,
+            "yellow": 0.0016628644844542595,
+            "red": 0.0005166516446644599
+          }
+        },
+        {
+          "time": 1.99,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 97438.83736564622,
+            "green": 48607.25194463698,
+            "yellow": 15681.201599087379,
+            "red": 4876.893149069807
+          },
+          "relativeBandEnergy": {
+            "blue": 1.5586968895668905,
+            "green": 0.6960210089111808,
+            "yellow": 0.12200639958597849,
+            "red": 0.4464767503994717
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 144769.60961262372,
+            "green": 17231.663626333688,
+            "yellow": 12212.24435872496,
+            "red": 394.4336445979498
+          },
+          "relativeBandEnergy": {
+            "blue": 2.3158316160961006,
+            "green": 0.2467450724447336,
+            "yellow": 0.09501644090583741,
+            "red": 0.03611017229727541
+          }
+        },
+        {
+          "time": 3.32,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 365.82239497140216,
+            "green": 40970.42156905014,
+            "yellow": 29487.950285647097,
+            "red": 9606.866271950072
+          },
+          "relativeBandEnergy": {
+            "blue": 0.005851939992223996,
+            "green": 0.5866670715819594,
+            "yellow": 0.22942876046766147,
+            "red": 0.879503057277493
+          }
+        },
+        {
+          "time": 3.99,
+          "color": "green",
+          "duration": 0.13,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1675.3217229641311,
+            "green": 7774.906772733372,
+            "yellow": 1105.709553468443,
+            "red": 62.1798830409046
+          },
+          "relativeBandEnergy": {
+            "blue": 0.026799568110699782,
+            "green": 0.11133109237098776,
+            "yellow": 0.008602889310112298,
+            "red": 0.0056925323708635
+          }
+        },
+        {
+          "time": 4.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 91269.11825817396,
+            "green": 58994.373431029,
+            "yellow": 11740.169315015835,
+            "red": 4670.2912644291
+          },
+          "relativeBandEnergy": {
+            "blue": 1.460001931351913,
+            "green": 0.8447571436936215,
+            "yellow": 0.09134349683625184,
+            "red": 0.4275624672152311
+          }
+        },
+        {
+          "time": 5.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 130452.36746317022,
+            "green": 17493.209031440725,
+            "yellow": 5796.032893537385,
+            "red": 182.4516991869763
+          },
+          "relativeBandEnergy": {
+            "blue": 2.0868034235512134,
+            "green": 0.250490215184875,
+            "yellow": 0.04509559428555223,
+            "red": 0.016703347657596405
+          }
+        },
+        {
+          "time": 5.99,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 234.12709005295164,
+            "green": 17606.830785235565,
+            "yellow": 9773.058966539573,
+            "red": 2915.6857074689724
+          },
+          "relativeBandEnergy": {
+            "blue": 0.0037452537088414253,
+            "green": 0.252117197261554,
+            "yellow": 0.0760385439798409,
+            "red": 0.2669293421171689
+          }
+        },
+        {
+          "time": 6.66,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1106.8398418360807,
+            "green": 22373.477919310288,
+            "yellow": 1070.6674698176084,
+            "red": 20.27329703569834
+          },
+          "relativeBandEnergy": {
+            "blue": 0.017705751272919717,
+            "green": 0.32037216775774824,
+            "yellow": 0.008330247036290768,
+            "red": 0.0018560086316650765
+          }
+        },
+        {
+          "time": 7.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 62784.041702407085,
+            "green": 13454.967871498906,
+            "yellow": 1233.302114002508,
+            "red": 4599.720693508857
+          },
+          "relativeBandEnergy": {
+            "blue": 1.0043355725679315,
+            "green": 0.19266549615795467,
+            "yellow": 0.00959561354915424,
+            "red": 0.4211017722163433
+          }
+        },
+        {
+          "time": 7.99,
+          "color": "green",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1332.0410365952816,
+            "green": 13040.95328399153,
+            "yellow": 6630.607108322542,
+            "red": 48.03341443996275
+          },
+          "relativeBandEnergy": {
+            "blue": 0.021308220383677728,
+            "green": 0.1867371040071488,
+            "yellow": 0.05158893565928714,
+            "red": 0.004397431342910617
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 737956.3747346246,
+            "green": 10027.85454153897,
+            "yellow": 21321.527460151177,
+            "red": 11255.25482409411
+          },
+          "relativeBandEnergy": {
+            "blue": 11.804844321146005,
+            "green": 0.14359168963442306,
+            "yellow": 0.1658905271161116,
+            "red": 1.0304120769465697
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 894922.6944302445,
+            "green": 75353.57099093062,
+            "yellow": 125239.82976939438,
+            "red": 45177.31129825155
+          },
+          "relativeBandEnergy": {
+            "blue": 14.315782678899698,
+            "green": 1.0790091274015041,
+            "yellow": 0.9744189957875377,
+            "red": 4.13595675026752
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.2723,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 570583.8729435061,
+            "green": 225896.34238059743,
+            "yellow": 304423.5724420035,
+            "red": 170626.58480668569
+          },
+          "relativeBandEnergy": {
+            "blue": 9.1274417063974,
+            "green": 3.234673713135856,
+            "yellow": 2.368544514146909,
+            "red": 15.620765267489862
+          }
+        }
+      ]
+    },
+    {
+      "start": 39.07,
+      "end": 49.74,
+      "barStarts": [
+        39.07,
+        41.73,
+        44.4,
+        47.07
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1056044.525870415,
+            "green": 232941.82555363374,
+            "yellow": 290272.86451849283,
+            "red": 100995.05017213081
+          },
+          "relativeBandEnergy": {
+            "blue": 16.893195385136053,
+            "green": 3.3355599823688675,
+            "yellow": 2.2584460045122396,
+            "red": 9.246038498072318
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 212068.32281634927,
+            "green": 280397.7229417792,
+            "yellow": 608086.4511420385,
+            "red": 114518.62396716769
+          },
+          "relativeBandEnergy": {
+            "blue": 3.392386897116777,
+            "green": 4.015094419257082,
+            "yellow": 4.731170508334826,
+            "red": 10.484113866393063
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 636118.8310887831,
+            "green": 193283.25404197065,
+            "yellow": 878678.9158943951,
+            "red": 42951.15660258713
+          },
+          "relativeBandEnergy": {
+            "blue": 10.175782780456172,
+            "green": 2.7676776633485773,
+            "yellow": 6.836494655270874,
+            "red": 3.9321535739366316
+          }
+        },
+        {
+          "time": 2.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 201427.32698021887,
+            "green": 157671.46808219684,
+            "yellow": 523799.92199289176,
+            "red": 101635.66635950186
+          },
+          "relativeBandEnergy": {
+            "blue": 3.222166402290569,
+            "green": 2.2577424129237573,
+            "yellow": 4.075385561619742,
+            "red": 9.304686539939972
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 773941.1479129924,
+            "green": 504817.9544579685,
+            "yellow": 309955.81168264843,
+            "red": 43820.365455676285
+          },
+          "relativeBandEnergy": {
+            "blue": 12.380480849057484,
+            "green": 7.228631282807607,
+            "yellow": 2.4115876819254956,
+            "red": 4.011729142292014
+          }
+        },
+        {
+          "time": 3.33,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 199135.6222715324,
+            "green": 538155.8975420827,
+            "yellow": 643559.0412332437,
+            "red": 95888.68801057951
+          },
+          "relativeBandEnergy": {
+            "blue": 3.185506759197426,
+            "green": 7.706006733015276,
+            "yellow": 5.007162304860743,
+            "red": 8.7785539921452
+          }
+        },
+        {
+          "time": 4.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 571434.532016353,
+            "green": 181927.47364714378,
+            "yellow": 904306.4245628042,
+            "red": 69569.01048684852
+          },
+          "relativeBandEnergy": {
+            "blue": 9.141049418545615,
+            "green": 2.6050710272774085,
+            "yellow": 7.035887542559117,
+            "red": 6.369002719815443
+          }
+        },
+        {
+          "time": 4.67,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 217200.3299228552,
+            "green": 261466.95844445963,
+            "yellow": 426433.82468404336,
+            "red": 105297.50420012715
+          },
+          "relativeBandEnergy": {
+            "blue": 3.4744819192908225,
+            "green": 3.7440194401594806,
+            "yellow": 3.317836026953854,
+            "red": 9.639925678792961
+          }
+        },
+        {
+          "time": 5.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 941100.8551766258,
+            "green": 143010.8391511461,
+            "yellow": 79309.10042756806,
+            "red": 47855.63374423221
+          },
+          "relativeBandEnergy": {
+            "blue": 15.054479460052809,
+            "green": 2.04781271454285,
+            "yellow": 0.6170584400964213,
+            "red": 4.381155622921003
+          }
+        },
+        {
+          "time": 6.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 132909.248566161,
+            "green": 211284.44491601246,
+            "yellow": 1184753.397558576,
+            "red": 152703.9220746058
+          },
+          "relativeBandEnergy": {
+            "blue": 2.126105338853187,
+            "green": 3.025441814426773,
+            "yellow": 9.217883943395618,
+            "red": 13.97995584835157
+          }
+        },
+        {
+          "time": 6.66,
+          "color": "blue",
+          "duration": 0.13,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 815753.6215261681,
+            "green": 279937.39690729044,
+            "yellow": 443066.97784548305,
+            "red": 48576.066333752955
+          },
+          "relativeBandEnergy": {
+            "blue": 13.049341175473208,
+            "green": 4.008502880378936,
+            "yellow": 3.447249013462968,
+            "red": 4.4471108102952535
+          }
+        },
+        {
+          "time": 7.34,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 157848.0430500073,
+            "green": 207630.65061144697,
+            "yellow": 917903.6428316028,
+            "red": 77155.73304074927
+          },
+          "relativeBandEnergy": {
+            "blue": 2.5250429949507156,
+            "green": 2.973122098819024,
+            "yellow": 7.1416796679187815,
+            "red": 7.063562786749462
+          }
+        },
+        {
+          "time": 8.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 656932.6243703207,
+            "green": 190542.37559824495,
+            "yellow": 813507.1635123234,
+            "red": 99419.7338913141
+          },
+          "relativeBandEnergy": {
+            "blue": 10.50873415513523,
+            "green": 2.7284302485414673,
+            "yellow": 6.32943077929161,
+            "red": 9.101819202629157
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 673964.6828353724,
+            "green": 366762.8082972313,
+            "yellow": 723183.9797756046,
+            "red": 81344.13375109936
+          },
+          "relativeBandEnergy": {
+            "blue": 10.781190367361726,
+            "green": 5.251780539926251,
+            "yellow": 5.626678099452253,
+            "red": 7.447008452128583
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 836978.9692205037,
+            "green": 226626.88236757545,
+            "yellow": 643283.3487577295,
+            "red": 39806.924460621194
+          },
+          "relativeBandEnergy": {
+            "blue": 13.38887605012475,
+            "green": 3.245134522139532,
+            "yellow": 5.005017300466923,
+            "red": 3.6443009377733238
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 518025.92805493117,
+            "green": 275689.980735224,
+            "yellow": 843595.157136445,
+            "red": 99207.8172267487
+          },
+          "relativeBandEnergy": {
+            "blue": 8.286689626070006,
+            "green": 3.9476829251032384,
+            "yellow": 6.563528131439585,
+            "red": 9.082418354413177
+          }
+        }
+      ]
+    },
+    {
+      "start": 49.74,
+      "end": 60.4,
+      "barStarts": [
+        49.74,
+        52.4,
+        55.06,
+        57.74
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1239676.8155494558,
+            "green": 120637.60037336542,
+            "yellow": 115159.7618348998,
+            "red": 45924.29892071713
+          },
+          "relativeBandEnergy": {
+            "blue": 19.830700454831003,
+            "green": 1.727443971120403,
+            "yellow": 0.8959917918198692,
+            "red": 4.204343035566937
+          }
+        },
+        {
+          "time": 0.66,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 378308.24314099195,
+            "green": 370411.68010635383,
+            "yellow": 519984.8502663291,
+            "red": 109131.7998763564
+          },
+          "relativeBandEnergy": {
+            "blue": 6.0516719803275985,
+            "green": 5.304029768927424,
+            "yellow": 4.0457026854333105,
+            "red": 9.990953232866008
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 547715.0411371569,
+            "green": 418204.0966844701,
+            "yellow": 1030782.1912966212,
+            "red": 76724.93320170185
+          },
+          "relativeBandEnergy": {
+            "blue": 8.761616559379048,
+            "green": 5.98838291941805,
+            "yellow": 8.019922652149644,
+            "red": 7.0241233103592124
+          }
+        },
+        {
+          "time": 2.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 208468.20555437144,
+            "green": 230456.42077013233,
+            "yellow": 491332.7214365185,
+            "red": 102951.60329099931
+          },
+          "relativeBandEnergy": {
+            "blue": 3.3347970106810076,
+            "green": 3.2999707672670624,
+            "yellow": 3.822776970403778,
+            "red": 9.425159805797293
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1008325.2346315675,
+            "green": 199213.9850778986,
+            "yellow": 385617.8452763255,
+            "red": 77737.80514437308
+          },
+          "relativeBandEnergy": {
+            "blue": 16.12984564865252,
+            "green": 2.852601480969641,
+            "yellow": 3.0002703951593546,
+            "red": 7.116851151571175
+          }
+        },
+        {
+          "time": 3.33,
+          "color": "red",
+          "duration": 0.13,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 160973.84540349903,
+            "green": 509606.469681732,
+            "yellow": 627595.2830254827,
+            "red": 105343.56245558268
+          },
+          "relativeBandEnergy": {
+            "blue": 2.575045422499242,
+            "green": 7.297199388674332,
+            "yellow": 4.8829574950135575,
+            "red": 9.644142285471903
+          }
+        },
+        {
+          "time": 3.99,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 537017.4141997221,
+            "green": 323941.95446607436,
+            "yellow": 735864.252506919,
+            "red": 82608.55144472283
+          },
+          "relativeBandEnergy": {
+            "blue": 8.590490155535015,
+            "green": 4.6386166046363755,
+            "yellow": 5.725335999609978,
+            "red": 7.562765161521382
+          }
+        },
+        {
+          "time": 4.66,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 267492.67652964225,
+            "green": 345504.5337151337,
+            "yellow": 560876.1820293488,
+            "red": 115103.1964318621
+          },
+          "relativeBandEnergy": {
+            "blue": 4.278991972411149,
+            "green": 4.94737728464255,
+            "yellow": 4.3638545905125845,
+            "red": 10.537631137826322
+          }
+        },
+        {
+          "time": 5.32,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 971634.9885706819,
+            "green": 115918.74526659603,
+            "yellow": 144286.01340857346,
+            "red": 37941.98013530747
+          },
+          "relativeBandEnergy": {
+            "blue": 15.542923904113014,
+            "green": 1.6598733482005923,
+            "yellow": 1.1226063828947124,
+            "red": 3.4735663621755744
+          }
+        },
+        {
+          "time": 5.99,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 123491.15557683272,
+            "green": 435056.40565359115,
+            "yellow": 962154.6206752999,
+            "red": 133332.1152437007
+          },
+          "relativeBandEnergy": {
+            "blue": 1.9754472168455306,
+            "green": 6.229695905071515,
+            "yellow": 7.485971044491772,
+            "red": 12.20647812414134
+          }
+        },
+        {
+          "time": 6.67,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 850413.176550457,
+            "green": 97307.60488719294,
+            "yellow": 509004.63219988684,
+            "red": 40841.1649636345
+          },
+          "relativeBandEnergy": {
+            "blue": 13.603778626398485,
+            "green": 1.3933751573830184,
+            "yellow": 3.960271931642511,
+            "red": 3.7389850583399125
+          }
+        },
+        {
+          "time": 7.33,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 165223.539580621,
+            "green": 191119.39512309647,
+            "yellow": 998545.2492327988,
+            "red": 71482.00038958568
+          },
+          "relativeBandEnergy": {
+            "blue": 2.643026376239829,
+            "green": 2.7366927545622985,
+            "yellow": 7.769105569669328,
+            "red": 6.544135840270213
+          }
+        },
+        {
+          "time": 8.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 729169.6647713749,
+            "green": 230175.6331390288,
+            "yellow": 798999.6988202529,
+            "red": 70456.29382662482
+          },
+          "relativeBandEnergy": {
+            "blue": 11.664286224810668,
+            "green": 3.295950089642393,
+            "yellow": 6.216556550679994,
+            "red": 6.45023299698534
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 561364.4241054652,
+            "green": 231956.2663742689,
+            "yellow": 715264.9676647866,
+            "red": 85302.71400823299
+          },
+          "relativeBandEnergy": {
+            "blue": 8.97996122924998,
+            "green": 3.3214474813135824,
+            "yellow": 5.565064826399575,
+            "red": 7.8094141877837995
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1018121.8930779955,
+            "green": 125016.67561988597,
+            "yellow": 716784.1538373558,
+            "red": 65991.91601468483
+          },
+          "relativeBandEnergy": {
+            "blue": 16.286559557207223,
+            "green": 1.7901491899764856,
+            "yellow": 5.576884739181434,
+            "red": 6.04152178738858
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 482033.82404188433,
+            "green": 260729.73038624172,
+            "yellow": 769138.1865403615,
+            "red": 112282.4243693967
+          },
+          "relativeBandEnergy": {
+            "blue": 7.710935829218121,
+            "green": 3.7334628627692816,
+            "yellow": 5.984221319451663,
+            "red": 10.279391085077291
+          }
+        }
+      ]
+    },
+    {
+      "start": 60.4,
+      "end": 71.07,
+      "barStarts": [
+        60.4,
+        63.06,
+        65.74,
+        68.4
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "inst",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.13,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 847698.10354274,
+            "green": 30425.551273889665,
+            "yellow": 254974.5490780584,
+            "red": 45029.97097165765
+          },
+          "relativeBandEnergy": {
+            "blue": 13.560346500497857,
+            "green": 0.43567208692340126,
+            "yellow": 1.983810138687506,
+            "red": 4.12246782848686
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 202993.5373600424,
+            "green": 150528.3883044076,
+            "yellow": 338101.5262807547,
+            "red": 98971.98569022687
+          },
+          "relativeBandEnergy": {
+            "blue": 3.2472205522931734,
+            "green": 2.155458630262424,
+            "yellow": 2.6305732794379533,
+            "red": 9.06082811348529
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 755134.5534018606,
+            "green": 4055.1363578811943,
+            "yellow": 32814.92404508961,
+            "red": 24203.0726509867
+          },
+          "relativeBandEnergy": {
+            "blue": 12.07963796997176,
+            "green": 0.058066646151887474,
+            "yellow": 0.25531402744428344,
+            "red": 2.2157773189998986
+          }
+        },
+        {
+          "time": 1.99,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 200722.26308281795,
+            "green": 166509.55385463813,
+            "yellow": 364610.44405166514,
+            "red": 109569.82508514932
+          },
+          "relativeBandEnergy": {
+            "blue": 3.2108877280623376,
+            "green": 2.3842974665438343,
+            "yellow": 2.836823903391272,
+            "red": 10.031054187682338
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 840012.8824925866,
+            "green": 170094.57362620707,
+            "yellow": 130382.37351240842,
+            "red": 14783.363798060747
+          },
+          "relativeBandEnergy": {
+            "blue": 13.437408558396227,
+            "green": 2.435632380132778,
+            "yellow": 1.0144301673061196,
+            "red": 1.3534084153125818
+          }
+        },
+        {
+          "time": 3.33,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 239080.89530157912,
+            "green": 142578.11349205635,
+            "yellow": 308700.66479470563,
+            "red": 112482.58130922959
+          },
+          "relativeBandEnergy": {
+            "blue": 3.8244980947691882,
+            "green": 2.0416163932580256,
+            "yellow": 2.401822106769676,
+            "red": 10.297715337287643
+          }
+        },
+        {
+          "time": 4.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 592730.573421132,
+            "green": 4701.123242977199,
+            "yellow": 30214.897422616712,
+            "red": 27597.834699717714
+          },
+          "relativeBandEnergy": {
+            "blue": 9.481715157127384,
+            "green": 0.06731671533950631,
+            "yellow": 0.23508471752621746,
+            "red": 2.526565823395565
+          }
+        },
+        {
+          "time": 4.67,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 246720.75719590925,
+            "green": 286727.3707169267,
+            "yellow": 307384.754222522,
+            "red": 112451.2850789236
+          },
+          "relativeBandEnergy": {
+            "blue": 3.9467104414408394,
+            "green": 4.105730438662755,
+            "yellow": 2.3915837643776876,
+            "red": 10.29485018548307
+          }
+        },
+        {
+          "time": 5.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1303965.2525552106,
+            "green": 137658.35768247495,
+            "yellow": 394557.4181768689,
+            "red": 31231.730738330058
+          },
+          "relativeBandEnergy": {
+            "blue": 20.859101342045573,
+            "green": 1.9711690162682367,
+            "yellow": 3.0698240640245746,
+            "red": 2.859246906416342
+          }
+        },
+        {
+          "time": 6.0,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 247259.20054407924,
+            "green": 180404.91612507333,
+            "yellow": 739305.8015745864,
+            "red": 81935.3652578648
+          },
+          "relativeBandEnergy": {
+            "blue": 3.955323741790998,
+            "green": 2.5832690948446966,
+            "yellow": 5.75211271108144,
+            "red": 7.501135355016494
+          }
+        },
+        {
+          "time": 6.67,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1085513.0353286797,
+            "green": 94094.61047035563,
+            "yellow": 122374.14185892907,
+            "red": 16356.525836743873
+          },
+          "relativeBandEnergy": {
+            "blue": 17.364593395155456,
+            "green": 1.3473673802270454,
+            "yellow": 0.9521227283692753,
+            "red": 1.4974304911329264
+          }
+        },
+        {
+          "time": 7.33,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 90227.3519322184,
+            "green": 160404.34396534215,
+            "yellow": 563940.8493929823,
+            "red": 78608.69995983597
+          },
+          "relativeBandEnergy": {
+            "blue": 1.443337139613594,
+            "green": 2.29687523679914,
+            "yellow": 4.387699002473166,
+            "red": 7.196581068807886
+          }
+        },
+        {
+          "time": 8.0,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 975938.4678796043,
+            "green": 26524.99842854551,
+            "yellow": 189177.42504658684,
+            "red": 12416.699335709152
+          },
+          "relativeBandEnergy": {
+            "blue": 15.61176524083752,
+            "green": 0.3798189658743032,
+            "yellow": 1.4718806060259846,
+            "red": 1.136741651014456
+          }
+        },
+        {
+          "time": 8.66,
+          "color": "blue",
+          "duration": 0.2047,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 535639.7496717229,
+            "green": 168497.8766483776,
+            "yellow": 547915.5910412896,
+            "red": 83827.68879708851
+          },
+          "relativeBandEnergy": {
+            "blue": 8.568452111232405,
+            "green": 2.412768823832576,
+            "yellow": 4.26301569542105,
+            "red": 7.674376481830637
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1171719.376498121,
+            "green": 33360.19977355005,
+            "yellow": 391846.8434070704,
+            "red": 28128.363510972355
+          },
+          "relativeBandEnergy": {
+            "blue": 18.743607754055482,
+            "green": 0.47769415004805127,
+            "yellow": 3.048734642631577,
+            "red": 2.5751354295776165
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 722102.1884380556,
+            "green": 147307.3087789276,
+            "yellow": 361190.0126026671,
+            "red": 80195.40148218165
+          },
+          "relativeBandEnergy": {
+            "blue": 11.551230140854187,
+            "green": 2.1093350801456374,
+            "yellow": 2.8102114959500466,
+            "red": 7.341842676535731
+          }
+        }
+      ]
+    },
+    {
+      "start": 71.07,
+      "end": 81.74,
+      "barStarts": [
+        71.07,
+        73.73,
+        76.4,
+        79.06
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "inst",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 646216.714666279,
+            "green": 45538.49502923692,
+            "yellow": 205057.18690554588,
+            "red": 31650.623224523995
+          },
+          "relativeBandEnergy": {
+            "blue": 10.337315287914034,
+            "green": 0.6520786093944853,
+            "yellow": 1.5954318886526355,
+            "red": 2.8975962715317736
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 189493.52967858105,
+            "green": 86521.39787848514,
+            "yellow": 140849.18594772578,
+            "red": 55744.42614013972
+          },
+          "relativeBandEnergy": {
+            "blue": 3.0312653895354353,
+            "green": 1.2389244039630036,
+            "yellow": 1.095866407526967,
+            "red": 5.10337000938396
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 792106.6186972981,
+            "green": 45234.061106794645,
+            "yellow": 52359.32984103627,
+            "red": 34648.12093844452
+          },
+          "relativeBandEnergy": {
+            "blue": 12.671067883699159,
+            "green": 0.6477193338261729,
+            "yellow": 0.4073777942508755,
+            "red": 3.172015455576506
+          }
+        },
+        {
+          "time": 1.99,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 99231.76790345326,
+            "green": 96839.77843087054,
+            "yellow": 163155.6973275165,
+            "red": 62603.48892381925
+          },
+          "relativeBandEnergy": {
+            "blue": 1.5873778070331186,
+            "green": 1.386676217840093,
+            "yellow": 1.2694205273165062,
+            "red": 5.731313244725767
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 914301.4734144747,
+            "green": 21502.106064564417,
+            "yellow": 45006.25696687873,
+            "red": 12868.408947172597
+          },
+          "relativeBandEnergy": {
+            "blue": 14.625778603963695,
+            "green": 0.3078947473479745,
+            "yellow": 0.35016776850122283,
+            "red": 1.1780954049897452
+          }
+        },
+        {
+          "time": 3.33,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 164733.77572963655,
+            "green": 97271.89236812948,
+            "yellow": 135678.40394167945,
+            "red": 56795.39294013271
+          },
+          "relativeBandEnergy": {
+            "blue": 2.635191785723451,
+            "green": 1.3928637797067487,
+            "yellow": 1.0556355303448006,
+            "red": 5.1995854127762
+          }
+        },
+        {
+          "time": 4.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1030106.8254436146,
+            "green": 47153.29756225436,
+            "yellow": 269968.0438513286,
+            "red": 31742.817115329985
+          },
+          "relativeBandEnergy": {
+            "blue": 16.478278560686903,
+            "green": 0.6752014242679383,
+            "yellow": 2.100465887479381,
+            "red": 2.9060365689743355
+          }
+        },
+        {
+          "time": 4.67,
+          "color": "yellow",
+          "duration": 0.2677,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 26.759246755571063,
+            "green": 19221.416101204104,
+            "yellow": 496943.9480366943,
+            "red": 5159.9091433123185
+          },
+          "relativeBandEnergy": {
+            "blue": 0.00042805882964862794,
+            "green": 0.27523690174255566,
+            "yellow": 3.8664346933418194,
+            "red": 0.47238670117306486
+          }
+        },
+        {
+          "time": 5.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 952577.3575564795,
+            "green": 42598.58637476941,
+            "yellow": 311950.4194355722,
+            "red": 33059.8323517401
+          },
+          "relativeBandEnergy": {
+            "blue": 15.238065277024923,
+            "green": 0.6099812246231794,
+            "yellow": 2.427106576251468,
+            "red": 3.0266085530234705
+          }
+        },
+        {
+          "time": 6.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 213841.06315688265,
+            "green": 187540.2886030897,
+            "yellow": 708980.5838823352,
+            "red": 82354.29995770544
+          },
+          "relativeBandEnergy": {
+            "blue": 3.4207448386676407,
+            "green": 2.68544251449744,
+            "yellow": 5.516169655065381,
+            "red": 7.539488584766894
+          }
+        },
+        {
+          "time": 6.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 917605.5183342104,
+            "green": 65959.61993529828,
+            "yellow": 86166.03979923985,
+            "red": 22506.39807911859
+          },
+          "relativeBandEnergy": {
+            "blue": 14.678632318956778,
+            "green": 0.9444944813390069,
+            "yellow": 0.6704083367628672,
+            "red": 2.060447742120082
+          }
+        },
+        {
+          "time": 7.33,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 72233.89872535125,
+            "green": 193044.97090234782,
+            "yellow": 468611.94412625977,
+            "red": 73516.12604275023
+          },
+          "relativeBandEnergy": {
+            "blue": 1.1555018133271633,
+            "green": 2.7642656195770905,
+            "yellow": 3.64599968596527,
+            "red": 6.730358868696073
+          }
+        },
+        {
+          "time": 7.99,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 848189.1918063202,
+            "green": 46801.82323942273,
+            "yellow": 253388.70909939494,
+            "red": 24048.29779476827
+          },
+          "relativeBandEnergy": {
+            "blue": 13.568202277204971,
+            "green": 0.6701685638819556,
+            "yellow": 1.9714716310231768,
+            "red": 2.201607770327066
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 713587.7489923446,
+            "green": 207989.5234247765,
+            "yellow": 742839.9053258061,
+            "red": 79109.41785399531
+          },
+          "relativeBandEnergy": {
+            "blue": 11.415027466035385,
+            "green": 2.9782609002861165,
+            "yellow": 5.779609537247791,
+            "red": 7.242421502751732
+          }
+        },
+        {
+          "time": 9.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 971781.6764563571,
+            "green": 46648.24694446403,
+            "yellow": 397916.41328478686,
+            "red": 27305.943845444723
+          },
+          "relativeBandEnergy": {
+            "blue": 15.545270421757525,
+            "green": 0.6679694614129712,
+            "yellow": 3.095958470674116,
+            "red": 2.4998433843132184
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 731738.4373949493,
+            "green": 116094.26144394864,
+            "yellow": 760105.49753715,
+            "red": 71969.29660621901
+          },
+          "relativeBandEnergy": {
+            "blue": 11.705378031800779,
+            "green": 1.6623866140601873,
+            "yellow": 5.913943167812708,
+            "red": 6.588747527390302
+          }
+        }
+      ]
+    },
+    {
+      "start": 81.74,
+      "end": 92.39,
+      "barStarts": [
+        81.74,
+        84.4,
+        87.07,
+        89.74
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1063545.1417667947,
+            "green": 102188.58648035412,
+            "yellow": 81408.11471771606,
+            "red": 13745.954467907812
+          },
+          "relativeBandEnergy": {
+            "blue": 17.013180259582484,
+            "green": 1.4632673153848406,
+            "yellow": 0.6333896615657876,
+            "red": 1.2584341904520024
+          }
+        },
+        {
+          "time": 0.66,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 202041.07458597494,
+            "green": 119709.79984228296,
+            "yellow": 419142.35396329494,
+            "red": 75572.88064339795
+          },
+          "relativeBandEnergy": {
+            "blue": 3.231984319970367,
+            "green": 1.7141585325103812,
+            "yellow": 3.261105292086134,
+            "red": 6.918653564191198
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.13,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1102783.7068401305,
+            "green": 71450.54888253052,
+            "yellow": 82391.64839272962,
+            "red": 19581.856007948867
+          },
+          "relativeBandEnergy": {
+            "blue": 17.640866621452396,
+            "green": 1.0231206482752735,
+            "yellow": 0.6410419707209071,
+            "red": 1.7927076050224613
+          }
+        },
+        {
+          "time": 1.99,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 191531.51515090518,
+            "green": 186475.79939492352,
+            "yellow": 390758.4793342488,
+            "red": 73255.63419277572
+          },
+          "relativeBandEnergy": {
+            "blue": 3.0638663698280646,
+            "green": 2.670199792002312,
+            "yellow": 3.040266708517942,
+            "red": 6.70651099031794
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1247256.0042694195,
+            "green": 60743.48317760267,
+            "yellow": 121540.83474677394,
+            "red": 14433.662324257359
+          },
+          "relativeBandEnergy": {
+            "blue": 19.95194223277747,
+            "green": 0.869803141601366,
+            "yellow": 0.9456392455914405,
+            "red": 1.3213934474096203
+          }
+        },
+        {
+          "time": 3.32,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 205263.49364896183,
+            "green": 136152.80464360618,
+            "yellow": 551142.9452216827,
+            "red": 80074.30259298989
+          },
+          "relativeBandEnergy": {
+            "blue": 3.28353229310053,
+            "green": 1.9496105758471185,
+            "yellow": 4.288125879819255,
+            "red": 7.330756143189468
+          }
+        },
+        {
+          "time": 4.0,
+          "color": "blue",
+          "duration": 0.2925,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 723517.4479038346,
+            "green": 85003.04427233891,
+            "yellow": 119102.88182301266,
+            "red": 31983.441628675442
+          },
+          "relativeBandEnergy": {
+            "blue": 11.573869578955874,
+            "green": 1.2171826685931968,
+            "yellow": 0.9266709377925322,
+            "red": 2.928065604161507
+          }
+        },
+        {
+          "time": 4.65,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 359965.5462832571,
+            "green": 186494.00989166932,
+            "yellow": 429286.9037487309,
+            "red": 84465.28510830046
+          },
+          "relativeBandEnergy": {
+            "blue": 5.758249918741098,
+            "green": 2.670460553263455,
+            "yellow": 3.340034192203953,
+            "red": 7.732748055780519
+          }
+        },
+        {
+          "time": 5.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1278105.9819890102,
+            "green": 68573.27442301915,
+            "yellow": 119554.45244730773,
+            "red": 17206.70814720008
+          },
+          "relativeBandEnergy": {
+            "blue": 20.445439134164836,
+            "green": 0.981920140283082,
+            "yellow": 0.9301843487821747,
+            "red": 1.5752641905019604
+          }
+        },
+        {
+          "time": 5.99,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 254404.08023387208,
+            "green": 64868.53534835848,
+            "yellow": 397621.6964559284,
+            "red": 71546.65548424961
+          },
+          "relativeBandEnergy": {
+            "blue": 4.069618021668522,
+            "green": 0.9288709320819075,
+            "yellow": 3.0936654487421418,
+            "red": 6.550054976835226
+          }
+        },
+        {
+          "time": 6.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1011626.1763135231,
+            "green": 78384.1373932667,
+            "yellow": 513665.26991491544,
+            "red": 38917.24451315006
+          },
+          "relativeBandEnergy": {
+            "blue": 16.18264972217608,
+            "green": 1.1224046661439289,
+            "yellow": 3.9965336698640486,
+            "red": 3.5628512525534926
+          }
+        },
+        {
+          "time": 7.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 516771.29707120906,
+            "green": 553226.6586631103,
+            "yellow": 280096.3221929609,
+            "red": 83814.85606784125
+          },
+          "relativeBandEnergy": {
+            "blue": 8.266619708727463,
+            "green": 7.921809230397036,
+            "yellow": 2.1792681888629124,
+            "red": 7.673201652881561
+          }
+        },
+        {
+          "time": 8.0,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 815996.5696525761,
+            "green": 168498.75604869818,
+            "yellow": 428596.8503146102,
+            "red": 112578.72032689642
+          },
+          "relativeBandEnergy": {
+            "blue": 13.053227536386334,
+            "green": 2.4127814162148624,
+            "yellow": 3.3346652838019395,
+            "red": 10.306516808815202
+          }
+        },
+        {
+          "time": 8.66,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 207781.12181485997,
+            "green": 280801.43378498487,
+            "yellow": 589326.5023546838,
+            "red": 124881.71027957097
+          },
+          "relativeBandEnergy": {
+            "blue": 3.323805959098263,
+            "green": 4.02087526917463,
+            "yellow": 4.585210149780691,
+            "red": 11.432848431503139
+          }
+        },
+        {
+          "time": 9.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 582621.1183288845,
+            "green": 198453.43234389368,
+            "yellow": 988073.1929152664,
+            "red": 34689.57893485713
+          },
+          "relativeBandEnergy": {
+            "blue": 9.31999754397103,
+            "green": 2.8417109109399834,
+            "yellow": 7.687628529820667,
+            "red": 3.1758109111976536
+          }
+        },
+        {
+          "time": 9.99,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 196621.3383212247,
+            "green": 149185.3125306248,
+            "yellow": 476557.5023716391,
+            "red": 102266.03439608854
+          },
+          "relativeBandEnergy": {
+            "blue": 3.145286589511634,
+            "green": 2.1362267478227994,
+            "yellow": 3.7078194992043163,
+            "red": 9.36239636952371
+          }
+        }
+      ]
+    },
+    {
+      "start": 92.39,
+      "end": 103.06,
+      "barStarts": [
+        92.39,
+        95.06,
+        97.74,
+        100.4
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1112412.4080836363,
+            "green": 405634.8224682524,
+            "yellow": 360882.3742723414,
+            "red": 33354.055308549025
+          },
+          "relativeBandEnergy": {
+            "blue": 17.79489377412153,
+            "green": 5.808399921588476,
+            "yellow": 2.8078179392560325,
+            "red": 3.053544494745718
+          }
+        },
+        {
+          "time": 0.68,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 210252.65971837044,
+            "green": 560011.9763757233,
+            "yellow": 676907.4395366237,
+            "red": 77696.86070007255
+          },
+          "relativeBandEnergy": {
+            "blue": 3.363342334395847,
+            "green": 8.01897011670871,
+            "yellow": 5.266626988306388,
+            "red": 7.113102711349207
+          }
+        },
+        {
+          "time": 1.35,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 845918.1395801806,
+            "green": 207664.4353928262,
+            "yellow": 718005.2959277453,
+            "red": 50897.135882558
+          },
+          "relativeBandEnergy": {
+            "blue": 13.53187300505198,
+            "green": 2.9736058726733496,
+            "yellow": 5.586385742589234,
+            "red": 4.659603386598531
+          }
+        },
+        {
+          "time": 2.02,
+          "color": "red",
+          "duration": 0.2925,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 186560.9474811571,
+            "green": 187388.36064130775,
+            "yellow": 495892.438707917,
+            "red": 93367.25536756846
+          },
+          "relativeBandEnergy": {
+            "blue": 2.984353840987592,
+            "green": 2.6832670149781146,
+            "yellow": 3.8582535047687028,
+            "red": 8.547718290317809
+          }
+        },
+        {
+          "time": 2.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1228047.4912280303,
+            "green": 135883.24150731237,
+            "yellow": 108503.82975896639,
+            "red": 23791.610432231675
+          },
+          "relativeBandEnergy": {
+            "blue": 19.644669995748764,
+            "green": 1.9457506249430399,
+            "yellow": 0.8442058171710436,
+            "red": 2.1781081905760087
+          }
+        },
+        {
+          "time": 3.34,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 603428.7648219037,
+            "green": 217833.0471165643,
+            "yellow": 1052241.5470994827,
+            "red": 112288.00164220924
+          },
+          "relativeBandEnergy": {
+            "blue": 9.65285059050493,
+            "green": 3.119213104270057,
+            "yellow": 8.186885542231611,
+            "red": 10.27990168118127
+          }
+        },
+        {
+          "time": 4.02,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 975947.5124661721,
+            "green": 296072.0668548629,
+            "yellow": 428779.1570605434,
+            "red": 32752.966831375576
+          },
+          "relativeBandEnergy": {
+            "blue": 15.6119099241007,
+            "green": 4.23953978960699,
+            "yellow": 3.336083707610281,
+            "red": 2.99851519191136
+          }
+        },
+        {
+          "time": 4.69,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 515284.7485510743,
+            "green": 170352.64546566398,
+            "yellow": 898016.0643246629,
+            "red": 69742.48877633698
+          },
+          "relativeBandEnergy": {
+            "blue": 8.242839883175673,
+            "green": 2.4393277839024656,
+            "yellow": 6.986945871864757,
+            "red": 6.384884556999109
+          }
+        },
+        {
+          "time": 5.35,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 874134.8168034953,
+            "green": 192875.4036134299,
+            "yellow": 791510.7840319745,
+            "red": 84305.88859307746
+          },
+          "relativeBandEnergy": {
+            "blue": 13.983245868388297,
+            "green": 2.761837537536052,
+            "yellow": 6.15828961722145,
+            "red": 7.7181553968957655
+          }
+        },
+        {
+          "time": 6.02,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 639085.6983014446,
+            "green": 337903.92535196536,
+            "yellow": 755276.8123322173,
+            "red": 84024.21303333814
+          },
+          "relativeBandEnergy": {
+            "blue": 10.223242775065714,
+            "green": 4.838542020569267,
+            "yellow": 5.876373948842766,
+            "red": 7.692368162126566
+          }
+        },
+        {
+          "time": 6.68,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 793103.6220591938,
+            "green": 239381.89992047718,
+            "yellow": 692455.508999988,
+            "red": 44116.76258773199
+          },
+          "relativeBandEnergy": {
+            "blue": 12.687016617090167,
+            "green": 3.427777231420076,
+            "yellow": 5.3875975634087565,
+            "red": 4.038864128502075
+          }
+        },
+        {
+          "time": 7.35,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 420232.1715160954,
+            "green": 263928.1146002056,
+            "yellow": 968564.2845213779,
+            "red": 94996.40180629637
+          },
+          "relativeBandEnergy": {
+            "blue": 6.722315211747537,
+            "green": 3.7792614322918765,
+            "yellow": 7.535840947858228,
+            "red": 8.696865705619873
+          }
+        },
+        {
+          "time": 8.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1273036.848256904,
+            "green": 207962.31765370106,
+            "yellow": 138493.7559196503,
+            "red": 40102.5509874312
+          },
+          "relativeBandEnergy": {
+            "blue": 20.364349876589003,
+            "green": 2.9778713331438778,
+            "yellow": 1.077540162858388,
+            "red": 3.671365375518323
+          }
+        },
+        {
+          "time": 8.68,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 359158.3161204611,
+            "green": 359877.24648454564,
+            "yellow": 539576.8467968396,
+            "red": 99902.70817765348
+          },
+          "relativeBandEnergy": {
+            "blue": 5.7453369245189565,
+            "green": 5.153184229950852,
+            "yellow": 4.198136728340309,
+            "red": 9.146035219527628
+          }
+        },
+        {
+          "time": 9.35,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 476394.6212510138,
+            "green": 323677.5982339664,
+            "yellow": 1035722.9903649813,
+            "red": 70267.03149402383
+          },
+          "relativeBandEnergy": {
+            "blue": 7.620727365248232,
+            "green": 4.634831212868224,
+            "yellow": 8.058364164529886,
+            "red": 6.432906139773217
+          }
+        },
+        {
+          "time": 10.01,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 259634.7641199222,
+            "green": 205009.48633787764,
+            "yellow": 496198.19338903774,
+            "red": 103075.08080125178
+          },
+          "relativeBandEnergy": {
+            "blue": 4.153291543684174,
+            "green": 2.93558890512419,
+            "yellow": 3.860632405872957,
+            "red": 9.436464100527527
+          }
+        }
+      ]
+    },
+    {
+      "start": 103.06,
+      "end": 113.73,
+      "barStarts": [
+        103.06,
+        105.73,
+        108.4,
+        111.07
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 946666.6221757282,
+            "green": 202774.02393486127,
+            "yellow": 417206.3017594728,
+            "red": 64498.23599865931
+          },
+          "relativeBandEnergy": {
+            "blue": 15.143513195923447,
+            "green": 2.9035786857663326,
+            "yellow": 3.2460419847683717,
+            "red": 5.904776244825502
+          }
+        },
+        {
+          "time": 0.68,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 132968.70777863366,
+            "green": 451902.58867791924,
+            "yellow": 686402.2010118759,
+            "red": 100967.99544625198
+          },
+          "relativeBandEnergy": {
+            "blue": 2.1270564882310214,
+            "green": 6.470921171586277,
+            "yellow": 5.340500259764782,
+            "red": 9.243561653547719
+          }
+        },
+        {
+          "time": 1.34,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 338574.40339631564,
+            "green": 292088.47671187075,
+            "yellow": 927030.7539481054,
+            "red": 81952.86170250739
+          },
+          "relativeBandEnergy": {
+            "blue": 5.416062873168733,
+            "green": 4.182497633972024,
+            "yellow": 7.21269246364806,
+            "red": 7.502737144415766
+          }
+        },
+        {
+          "time": 2.01,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 213271.38077520495,
+            "green": 314506.35982301406,
+            "yellow": 621522.107938681,
+            "red": 102421.55639564065
+          },
+          "relativeBandEnergy": {
+            "blue": 3.4116318178191882,
+            "green": 4.503505652249684,
+            "yellow": 4.835705616915194,
+            "red": 9.376634318737114
+          }
+        },
+        {
+          "time": 2.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1095067.6894102998,
+            "green": 102402.60932474077,
+            "yellow": 156608.04743346694,
+            "red": 23540.43544958119
+          },
+          "relativeBandEnergy": {
+            "blue": 17.517436039839552,
+            "green": 1.4663319691169565,
+            "yellow": 1.2184770339703719,
+            "red": 2.155113266019004
+          }
+        },
+        {
+          "time": 3.34,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 127369.15577435108,
+            "green": 426036.30834379076,
+            "yellow": 921143.922178074,
+            "red": 112775.62612342394
+          },
+          "relativeBandEnergy": {
+            "blue": 2.0374823047943815,
+            "green": 6.100534576692057,
+            "yellow": 7.166890415591253,
+            "red": 10.324543420734143
+          }
+        },
+        {
+          "time": 4.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 434703.976984215,
+            "green": 153893.9230161416,
+            "yellow": 445810.234392849,
+            "red": 38770.96628845839
+          },
+          "relativeBandEnergy": {
+            "blue": 6.95381590263661,
+            "green": 2.20365067510904,
+            "yellow": 3.4685927129473404,
+            "red": 3.5494595655884016
+          }
+        },
+        {
+          "time": 4.68,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 143111.40084653127,
+            "green": 221865.99504294328,
+            "yellow": 1025520.8017026988,
+            "red": 68073.34007116802
+          },
+          "relativeBandEnergy": {
+            "blue": 2.2893057983027107,
+            "green": 3.1769620279862485,
+            "yellow": 7.978986809502804,
+            "red": 6.232074957313812
+          }
+        },
+        {
+          "time": 5.34,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 827328.6529743479,
+            "green": 192087.90690868523,
+            "yellow": 733417.7303968096,
+            "red": 64588.512336411346
+          },
+          "relativeBandEnergy": {
+            "blue": 13.234503129399373,
+            "green": 2.75056114915732,
+            "yellow": 5.7063010199066815,
+            "red": 5.9130409913937525
+          }
+        },
+        {
+          "time": 6.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 504000.9128140159,
+            "green": 226141.0274715245,
+            "yellow": 774129.5106182625,
+            "red": 87705.29382252038
+          },
+          "relativeBandEnergy": {
+            "blue": 8.062336090835293,
+            "green": 3.238177428261462,
+            "yellow": 6.023055937836197,
+            "red": 8.029368981803225
+          }
+        },
+        {
+          "time": 6.68,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 938229.6317990869,
+            "green": 170261.45214434556,
+            "yellow": 719656.6594038375,
+            "red": 44568.19998402214
+          },
+          "relativeBandEnergy": {
+            "blue": 15.008549448274985,
+            "green": 2.4380219609034137,
+            "yellow": 5.599234050855197,
+            "red": 4.080192961335509
+          }
+        },
+        {
+          "time": 7.35,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 500837.2454954434,
+            "green": 266192.4183543935,
+            "yellow": 816661.3272373296,
+            "red": 93834.02139786264
+          },
+          "relativeBandEnergy": {
+            "blue": 8.011727949950169,
+            "green": 3.8116846391266566,
+            "yellow": 6.353971510903344,
+            "red": 8.590450450738906
+          }
+        },
+        {
+          "time": 8.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1044684.5923836656,
+            "green": 300449.00635373325,
+            "yellow": 627893.564982059,
+            "red": 48889.007419536516
+          },
+          "relativeBandEnergy": {
+            "blue": 16.711474282234988,
+            "green": 4.302214426087506,
+            "yellow": 4.885278255151317,
+            "red": 4.475760385911602
+          }
+        },
+        {
+          "time": 8.68,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 182220.9849688018,
+            "green": 484106.2063667661,
+            "yellow": 809462.0973827168,
+            "red": 89466.46323334805
+          },
+          "relativeBandEnergy": {
+            "blue": 2.914928894511063,
+            "green": 6.932053895154169,
+            "yellow": 6.297958449097908,
+            "red": 8.190603023930901
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1037461.9590682093,
+            "green": 352893.5332297793,
+            "yellow": 478582.0578099156,
+            "red": 30195.59459034798
+          },
+          "relativeBandEnergy": {
+            "blue": 16.59593620329591,
+            "green": 5.053182461674273,
+            "yellow": 3.723571399224574,
+            "red": 2.764389240647983
+          }
+        },
+        {
+          "time": 10.01,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 86890.1528821773,
+            "green": 388884.8106427333,
+            "yellow": 642268.1149930481,
+            "red": 79917.55091469239
+          },
+          "relativeBandEnergy": {
+            "blue": 1.3899530689514514,
+            "green": 5.568551757710569,
+            "yellow": 4.997118351168669,
+            "red": 7.316405617597313
+          }
+        }
+      ]
+    },
+    {
+      "start": 113.73,
+      "end": 124.39,
+      "barStarts": [
+        113.73,
+        116.4,
+        119.07,
+        121.73
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1559761.6561745564,
+            "green": 116653.70093106772,
+            "yellow": 169876.7008724146,
+            "red": 17472.047317372446
+          },
+          "relativeBandEnergy": {
+            "blue": 24.950991900916744,
+            "green": 1.670397386541069,
+            "yellow": 1.321712785593789,
+            "red": 1.5995558382438937
+          }
+        },
+        {
+          "time": 0.68,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 167872.86328944494,
+            "green": 209600.7465996347,
+            "yellow": 676171.1879958507,
+            "red": 98591.4199416137
+          },
+          "relativeBandEnergy": {
+            "blue": 2.685406732328269,
+            "green": 3.001332461316211,
+            "yellow": 5.260898639039801,
+            "red": 9.02598753905389
+          }
+        },
+        {
+          "time": 1.35,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1029757.8645022822,
+            "green": 124674.83224254852,
+            "yellow": 267704.1138577683,
+            "red": 24791.069460093753
+          },
+          "relativeBandEnergy": {
+            "blue": 16.472696347797864,
+            "green": 1.7852542378270613,
+            "yellow": 2.082851551888856,
+            "red": 2.2696080871858797
+          }
+        },
+        {
+          "time": 2.01,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 177305.41173867896,
+            "green": 266534.48028706934,
+            "yellow": 1147187.1058702348,
+            "red": 91615.3835420874
+          },
+          "relativeBandEnergy": {
+            "blue": 2.8362960935522534,
+            "green": 3.8165827208318786,
+            "yellow": 8.925602260405336,
+            "red": 8.387335436757368
+          }
+        },
+        {
+          "time": 2.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1109170.2012883937,
+            "green": 175486.0684208123,
+            "yellow": 322611.37327883724,
+            "red": 38758.219726995565
+          },
+          "relativeBandEnergy": {
+            "blue": 17.743029263175927,
+            "green": 2.512834721272217,
+            "yellow": 2.510053318970774,
+            "red": 3.5482926252502125
+          }
+        },
+        {
+          "time": 3.34,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 468539.88218859944,
+            "green": 212281.11915501143,
+            "yellow": 896176.6290544621,
+            "red": 81043.82113826156
+          },
+          "relativeBandEnergy": {
+            "blue": 7.4950776995096975,
+            "green": 3.039713475169371,
+            "yellow": 6.9726342852704155,
+            "red": 7.419515005914906
+          }
+        },
+        {
+          "time": 4.01,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 923776.3651608602,
+            "green": 295002.4133322678,
+            "yellow": 832786.0112561606,
+            "red": 33380.462319884995
+          },
+          "relativeBandEnergy": {
+            "blue": 14.777345316922865,
+            "green": 4.2242231178307295,
+            "yellow": 6.4794283918169615,
+            "red": 3.0559620413781055
+          }
+        },
+        {
+          "time": 4.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 928787.1984528623,
+            "green": 243050.98938761122,
+            "yellow": 982826.7131632537,
+            "red": 72465.50971045955
+          },
+          "relativeBandEnergy": {
+            "blue": 14.857501961619608,
+            "green": 3.4803159627930964,
+            "yellow": 7.64680869206786,
+            "red": 6.634175550419514
+          }
+        },
+        {
+          "time": 5.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 792228.9447768832,
+            "green": 218656.04005309672,
+            "yellow": 1043090.8520197265,
+            "red": 57049.550687952535
+          },
+          "relativeBandEnergy": {
+            "blue": 12.673024693580283,
+            "green": 3.130997773246293,
+            "yellow": 8.115689253265137,
+            "red": 5.222853407761304
+          }
+        },
+        {
+          "time": 6.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 772102.2708005867,
+            "green": 259233.21238309512,
+            "yellow": 595029.5256131336,
+            "red": 96715.44710860454
+          },
+          "relativeBandEnergy": {
+            "blue": 12.351064939417197,
+            "green": 3.712033797583901,
+            "yellow": 4.629582089655441,
+            "red": 8.85424330994783
+          }
+        },
+        {
+          "time": 6.67,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 764091.1687147527,
+            "green": 283175.73122209666,
+            "yellow": 739452.5130976124,
+            "red": 146244.76124465017
+          },
+          "relativeBandEnergy": {
+            "blue": 12.22291398605212,
+            "green": 4.054873506711614,
+            "yellow": 5.753254188957932,
+            "red": 13.388623405848458
+          }
+        },
+        {
+          "time": 7.34,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 79337.01399085532,
+            "green": 206960.4849275949,
+            "yellow": 428292.3815748797,
+            "red": 93088.18624745922
+          },
+          "relativeBandEnergy": {
+            "blue": 1.26912800150744,
+            "green": 2.9635258065632173,
+            "yellow": 3.3322963878671303,
+            "red": 8.522169673590993
+          }
+        },
+        {
+          "time": 8.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 778523.1934609845,
+            "green": 371744.8323050601,
+            "yellow": 614068.1937905768,
+            "red": 72687.0906249012
+          },
+          "relativeBandEnergy": {
+            "blue": 12.45377831787588,
+            "green": 5.323119552884611,
+            "yellow": 4.777711003282645,
+            "red": 6.654461155128595
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 181588.9991818563,
+            "green": 662450.1086375006,
+            "yellow": 582071.7410271037,
+            "red": 119906.32374043064
+          },
+          "relativeBandEnergy": {
+            "blue": 2.904819226672296,
+            "green": 9.485810748823193,
+            "yellow": 4.528765029562024,
+            "red": 10.97735466814268
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 826213.2172268055,
+            "green": 202376.79370659363,
+            "yellow": 549691.1540135201,
+            "red": 55734.84885953828
+          },
+          "relativeBandEnergy": {
+            "blue": 13.216659872262777,
+            "green": 2.897890633609758,
+            "yellow": 4.276830328445896,
+            "red": 5.102493214877725
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 229689.88365086634,
+            "green": 230215.0877987202,
+            "yellow": 538568.4394491995,
+            "red": 101562.14356301253
+          },
+          "relativeBandEnergy": {
+            "blue": 3.674273183988251,
+            "green": 3.2965150520903,
+            "yellow": 4.190290891462045,
+            "red": 9.297955570395747
+          }
+        }
+      ]
+    },
+    {
+      "start": 124.39,
+      "end": 135.08,
+      "barStarts": [
+        124.39,
+        127.06,
+        129.74,
+        132.4
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1381934.430686869,
+            "green": 130775.55387618698,
+            "yellow": 72377.66612910332,
+            "red": 13289.738099471724
+          },
+          "relativeBandEnergy": {
+            "blue": 22.106348525218046,
+            "green": 1.8726121989676687,
+            "yellow": 0.563128941302677,
+            "red": 1.2166678454794366
+          }
+        },
+        {
+          "time": 0.68,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 120123.80429161583,
+            "green": 413977.0202017609,
+            "yellow": 1033077.6555431051,
+            "red": 122593.6993093427
+          },
+          "relativeBandEnergy": {
+            "blue": 1.9215808108389545,
+            "green": 5.927854213915607,
+            "yellow": 8.037782337603094,
+            "red": 11.223382348970514
+          }
+        },
+        {
+          "time": 1.35,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 963612.1770474836,
+            "green": 261576.98578587198,
+            "yellow": 391768.95470320864,
+            "red": 33944.09194599096
+          },
+          "relativeBandEnergy": {
+            "blue": 15.414585638746976,
+            "green": 3.745594952827114,
+            "yellow": 3.04812863547922,
+            "red": 3.1075620080373416
+          }
+        },
+        {
+          "time": 2.01,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 150282.51212495693,
+            "green": 345945.5974293536,
+            "yellow": 993277.1252352619,
+            "red": 83923.38165171775
+          },
+          "relativeBandEnergy": {
+            "blue": 2.4040196962372216,
+            "green": 4.953693000900592,
+            "yellow": 7.728117330505986,
+            "red": 7.683137107389854
+          }
+        },
+        {
+          "time": 2.67,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 871406.6759576562,
+            "green": 204885.71776268992,
+            "yellow": 773953.1548428463,
+            "red": 45775.48365714897
+          },
+          "relativeBandEnergy": {
+            "blue": 13.939604700598574,
+            "green": 2.9338166278378344,
+            "yellow": 6.021683815102569,
+            "red": 4.19071908415836
+          }
+        },
+        {
+          "time": 3.35,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 425496.82228984893,
+            "green": 302166.17402356927,
+            "yellow": 748020.2022328244,
+            "red": 83880.2950982152
+          },
+          "relativeBandEnergy": {
+            "blue": 6.806532090843826,
+            "green": 4.326803036350646,
+            "yellow": 5.819914444395242,
+            "red": 7.679192558307944
+          }
+        },
+        {
+          "time": 4.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 859837.4744802107,
+            "green": 311260.41072801047,
+            "yellow": 698979.101416271,
+            "red": 59193.08993817188
+          },
+          "relativeBandEnergy": {
+            "blue": 13.754536006788143,
+            "green": 4.4570259877224245,
+            "yellow": 5.438353879373944,
+            "red": 5.419093187788921
+          }
+        },
+        {
+          "time": 4.68,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 602296.2795323452,
+            "green": 257580.58544227644,
+            "yellow": 913385.8838878099,
+            "red": 101589.94804023656
+          },
+          "relativeBandEnergy": {
+            "blue": 9.63473459747752,
+            "green": 3.688369364301136,
+            "yellow": 7.106529587139155,
+            "red": 9.300501054222863
+          }
+        },
+        {
+          "time": 5.35,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 76580.83503432352,
+            "green": 193242.34437308408,
+            "yellow": 325568.5079120169,
+            "red": 15726.50862738795
+          },
+          "relativeBandEnergy": {
+            "blue": 1.2250383173241752,
+            "green": 2.7670918662118646,
+            "yellow": 2.5330610806786678,
+            "red": 1.4397527795794904
+          }
+        },
+        {
+          "time": 6.01,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 528.7356011518609,
+            "green": 149016.0187839548,
+            "yellow": 181037.16980253346,
+            "red": 10112.464121347763
+          },
+          "relativeBandEnergy": {
+            "blue": 0.008458008728347679,
+            "green": 2.133802582710692,
+            "yellow": 1.4085459675569763,
+            "red": 0.9257902483042431
+          }
+        },
+        {
+          "time": 6.68,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 775.5881684877271,
+            "green": 95155.99630308367,
+            "yellow": 552414.0428589911,
+            "red": 3040.6081395722913
+          },
+          "relativeBandEnergy": {
+            "blue": 0.012406827693050071,
+            "green": 1.3625656646102238,
+            "yellow": 4.2980155585706115,
+            "red": 0.278365918608111
+          }
+        },
+        {
+          "time": 7.34,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1523.6755751131932,
+            "green": 28786.193809354976,
+            "yellow": 29959.195195648186,
+            "red": 10503.248800082392
+          },
+          "relativeBandEnergy": {
+            "blue": 0.02437373478427101,
+            "green": 0.4121976630302109,
+            "yellow": 0.23309524574489923,
+            "red": 0.9615663598847516
+          }
+        },
+        {
+          "time": 8.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 865290.8203883396,
+            "green": 90164.6203446421,
+            "yellow": 138267.58380057992,
+            "red": 3705.416969223803
+          },
+          "relativeBandEnergy": {
+            "blue": 13.841771379608074,
+            "green": 1.2910927384220396,
+            "yellow": 1.0757804478416437,
+            "red": 0.3392287829003699
+          }
+        },
+        {
+          "time": 8.68,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 948.4149064389319,
+            "green": 37080.10887862359,
+            "yellow": 120008.3003303066,
+            "red": 9694.616610198365
+          },
+          "relativeBandEnergy": {
+            "blue": 0.01517147992168505,
+            "green": 0.5309605822117162,
+            "yellow": 0.9337154778104269,
+            "red": 0.8875365500504535
+          }
+        },
+        {
+          "time": 9.35,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 682885.8402406133,
+            "green": 138370.00125182862,
+            "yellow": 291224.34631069435,
+            "red": 2841.1858284412606
+          },
+          "relativeBandEnergy": {
+            "blue": 10.923899175007948,
+            "green": 1.981359242115418,
+            "yellow": 2.26584893642435,
+            "red": 0.26010892123101703
+          }
+        },
+        {
+          "time": 10.01,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 904.5577542693983,
+            "green": 38526.37612660092,
+            "yellow": 23001.08307691833,
+            "red": 10219.003438261767
+          },
+          "relativeBandEnergy": {
+            "blue": 0.014469911547922664,
+            "green": 0.5516700925999791,
+            "yellow": 0.17895818219415702,
+            "red": 0.935543861219592
+          }
+        }
+      ]
+    },
+    {
+      "start": 135.08,
+      "end": 145.73,
+      "barStarts": [
+        135.08,
+        137.75,
+        140.42,
+        143.07
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.1507,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 748148.1811253121,
+            "green": 77985.78737571891,
+            "yellow": 45049.39599072249,
+            "red": 3995.8077008856826
+          },
+          "relativeBandEnergy": {
+            "blue": 11.96787928081634,
+            "green": 1.116700579407464,
+            "yellow": 0.35050340840404365,
+            "red": 0.3658138866242951
+          }
+        },
+        {
+          "time": 0.65,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1086.498003957915,
+            "green": 51769.18326499391,
+            "yellow": 30462.409648529516,
+            "red": 10491.148562082233
+          },
+          "relativeBandEnergy": {
+            "blue": 0.017380349612904123,
+            "green": 0.7412975991247016,
+            "yellow": 0.23701046762555233,
+            "red": 0.960458590086186
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 698676.0928704878,
+            "green": 50247.11469531056,
+            "yellow": 697216.440185989,
+            "red": 2474.733052731124
+          },
+          "relativeBandEnergy": {
+            "blue": 11.176490629556012,
+            "green": 0.7195026681397195,
+            "yellow": 5.424639627373701,
+            "red": 0.2265603813157772
+          }
+        },
+        {
+          "time": 1.99,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1511.1505031292465,
+            "green": 27621.288479420702,
+            "yellow": 35442.49599946034,
+            "red": 8453.330596365338
+          },
+          "relativeBandEnergy": {
+            "blue": 0.024173375345767877,
+            "green": 0.39551705364397455,
+            "yellow": 0.27575765172780287,
+            "red": 0.7738975325792198
+          }
+        },
+        {
+          "time": 2.67,
+          "color": "blue",
+          "duration": 0.2925,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 767147.1044284896,
+            "green": 49868.58322671705,
+            "yellow": 143744.0498973218,
+            "red": 4372.328931947323
+          },
+          "relativeBandEnergy": {
+            "blue": 12.271798780046979,
+            "green": 0.7140823688194623,
+            "yellow": 1.1183896769046153,
+            "red": 0.40028418781038405
+          }
+        },
+        {
+          "time": 3.32,
+          "color": "red",
+          "duration": 0.3105,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1838.4584258021337,
+            "green": 11030.017937555696,
+            "yellow": 43180.512266609425,
+            "red": 12168.13766109782
+          },
+          "relativeBandEnergy": {
+            "blue": 0.029409212049015532,
+            "green": 0.15794195117119728,
+            "yellow": 0.3359627003477719,
+            "red": 1.113985973298719
+          }
+        },
+        {
+          "time": 4.01,
+          "color": "blue",
+          "duration": 0.2925,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 811009.3135597763,
+            "green": 56358.039907283164,
+            "yellow": 23084.0744616702,
+            "red": 1241.938921635695
+          },
+          "relativeBandEnergy": {
+            "blue": 12.973448048355811,
+            "green": 0.8070067372087224,
+            "yellow": 0.1796038903681288,
+            "red": 0.11369879080338086
+          }
+        },
+        {
+          "time": 4.66,
+          "color": "red",
+          "duration": 0.306,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1668.794363950701,
+            "green": 47810.549949369924,
+            "yellow": 35248.772502669395,
+            "red": 9848.41270277581
+          },
+          "relativeBandEnergy": {
+            "blue": 0.026695152105066004,
+            "green": 0.6846128073700009,
+            "yellow": 0.2742504007554,
+            "red": 0.9016164934773893
+          }
+        },
+        {
+          "time": 5.34,
+          "color": "blue",
+          "duration": 0.2925,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 667497.4046719933,
+            "green": 151562.11495844286,
+            "yellow": 106651.31318839555,
+            "red": 9636.538179069645
+          },
+          "relativeBandEnergy": {
+            "blue": 10.677735455236748,
+            "green": 2.1702608550312608,
+            "yellow": 0.8297924525114205,
+            "red": 0.8822195032327276
+          }
+        },
+        {
+          "time": 5.99,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 689094.5533588693,
+            "green": 139128.5319105549,
+            "yellow": 342446.8145927419,
+            "red": 16877.42837064386
+          },
+          "relativeBandEnergy": {
+            "blue": 11.02321790753062,
+            "green": 1.9922208574763949,
+            "yellow": 2.664381465549115,
+            "red": 1.5451188171842927
+          }
+        },
+        {
+          "time": 6.66,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 950770.943378404,
+            "green": 124773.01664651834,
+            "yellow": 483691.45375525055,
+            "red": 47779.12727205223
+          },
+          "relativeBandEnergy": {
+            "blue": 15.209168666220036,
+            "green": 1.7866601681188674,
+            "yellow": 3.7633246668176517,
+            "red": 4.374151499590977
+          }
+        },
+        {
+          "time": 7.32,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 307216.15574674803,
+            "green": 670714.9251879241,
+            "yellow": 383363.59249657975,
+            "red": 122888.88094422294
+          },
+          "relativeBandEnergy": {
+            "blue": 4.914435345633372,
+            "green": 9.604156998071012,
+            "yellow": 2.9827313523968746,
+            "red": 11.250406057116358
+          }
+        },
+        {
+          "time": 7.99,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 803134.5502343172,
+            "green": 237925.84154633892,
+            "yellow": 386391.23462453607,
+            "red": 134801.57312730988
+          },
+          "relativeBandEnergy": {
+            "blue": 12.847478061096952,
+            "green": 3.406927519122915,
+            "yellow": 3.006287692319721,
+            "red": 12.341006144474909
+          }
+        },
+        {
+          "time": 8.66,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 160530.8529645806,
+            "green": 362835.7339420067,
+            "yellow": 858291.1606835672,
+            "red": 143827.46709237876
+          },
+          "relativeBandEnergy": {
+            "blue": 2.56795901880938,
+            "green": 5.195547649864787,
+            "yellow": 6.677869272311819,
+            "red": 13.16732152268712
+          }
+        },
+        {
+          "time": 9.32,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 658371.5354336611,
+            "green": 291173.12856137124,
+            "yellow": 842879.7610814014,
+            "red": 39076.94260364839
+          },
+          "relativeBandEnergy": {
+            "blue": 10.531751940029107,
+            "green": 4.169390504526786,
+            "yellow": 6.557962046697778,
+            "red": 3.577471520480482
+          }
+        },
+        {
+          "time": 9.99,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 182608.93492700075,
+            "green": 232081.0010565368,
+            "yellow": 756850.4646021944,
+            "red": 109684.70717266743
+          },
+          "relativeBandEnergy": {
+            "blue": 2.9211348018217507,
+            "green": 3.3232335925608756,
+            "yellow": 5.888617630964126,
+            "red": 10.041571576426845
+          }
+        }
+      ]
+    },
+    {
+      "start": 145.73,
+      "end": 156.4,
+      "barStarts": [
+        145.73,
+        148.4,
+        151.08,
+        153.74
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 801771.949545292,
+            "green": 482959.66323683294,
+            "yellow": 365621.9699756875,
+            "red": 34150.77791192697
+          },
+          "relativeBandEnergy": {
+            "blue": 12.825680988049628,
+            "green": 6.91563621931096,
+            "yellow": 2.8446940041165267,
+            "red": 3.1264839888155933
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "green",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 160667.37490859182,
+            "green": 645895.78966428,
+            "yellow": 826883.1235494729,
+            "red": 100464.77139854047
+          },
+          "relativeBandEnergy": {
+            "blue": 2.570142915243708,
+            "green": 9.248764766328604,
+            "yellow": 6.43350142176288,
+            "red": 9.197491782693985
+          }
+        },
+        {
+          "time": 1.34,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 859880.8470312973,
+            "green": 169651.85500054198,
+            "yellow": 708686.3530112152,
+            "red": 58967.68724971076
+          },
+          "relativeBandEnergy": {
+            "blue": 13.755229823158484,
+            "green": 2.4292929667289886,
+            "yellow": 5.51388041409073,
+            "red": 5.39845770187621
+          }
+        },
+        {
+          "time": 2.01,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 127010.69614367846,
+            "green": 384085.7982694788,
+            "yellow": 690749.3494425579,
+            "red": 101407.68474908987
+          },
+          "relativeBandEnergy": {
+            "blue": 2.0317481445101406,
+            "green": 5.499833340186898,
+            "yellow": 5.374322918388354,
+            "red": 9.283814955212511
+          }
+        },
+        {
+          "time": 2.67,
+          "color": "blue",
+          "duration": 0.2385,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1171717.836484561,
+            "green": 154095.39105175337,
+            "yellow": 115490.60700182742,
+            "red": 22218.108562378853
+          },
+          "relativeBandEnergy": {
+            "blue": 18.74358311896735,
+            "green": 2.206535552978078,
+            "yellow": 0.8985659075457719,
+            "red": 2.0340550034084
+          }
+        },
+        {
+          "time": 3.34,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 140451.2328904195,
+            "green": 271912.6706625995,
+            "yellow": 1276381.8973100362,
+            "red": 144147.86244307458
+          },
+          "relativeBandEnergy": {
+            "blue": 2.2467519703731216,
+            "green": 3.8935945522260194,
+            "yellow": 9.930792535476407,
+            "red": 13.19665353194983
+          }
+        },
+        {
+          "time": 4.01,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 818837.1923976506,
+            "green": 299799.5916001993,
+            "yellow": 478784.5736950012,
+            "red": 31417.148805125773
+          },
+          "relativeBandEnergy": {
+            "blue": 13.098668039956438,
+            "green": 4.292915272280758,
+            "yellow": 3.72514705870718,
+            "red": 2.8762218233148378
+          }
+        },
+        {
+          "time": 4.68,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 163984.06949995906,
+            "green": 246434.09722552024,
+            "yellow": 1096561.4317053657,
+            "red": 82522.676538591
+          },
+          "relativeBandEnergy": {
+            "blue": 2.6231989828546927,
+            "green": 3.528759642211113,
+            "yellow": 8.531713042641051,
+            "red": 7.554903363475239
+          }
+        },
+        {
+          "time": 5.35,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 750653.0831918344,
+            "green": 211396.1979231789,
+            "yellow": 873294.3535688013,
+            "red": 91582.57895220653
+          },
+          "relativeBandEnergy": {
+            "blue": 12.007949371606797,
+            "green": 3.0270420373911455,
+            "yellow": 6.794600476528204,
+            "red": 8.384332195505099
+          }
+        },
+        {
+          "time": 6.01,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 599858.7056386301,
+            "green": 464241.94695361686,
+            "yellow": 848681.5801558081,
+            "red": 96044.22766498939
+          },
+          "relativeBandEnergy": {
+            "blue": 9.595741533223626,
+            "green": 6.647611937938379,
+            "yellow": 6.603102659924689,
+            "red": 8.792793557650633
+          }
+        },
+        {
+          "time": 6.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 906563.4951854073,
+            "green": 200355.59771060536,
+            "yellow": 595722.3642312936,
+            "red": 38765.033511656315
+          },
+          "relativeBandEnergy": {
+            "blue": 14.501996722700854,
+            "green": 2.86894855562647,
+            "yellow": 4.63497266797061,
+            "red": 3.5489164232995574
+          }
+        },
+        {
+          "time": 7.34,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 367013.0130303353,
+            "green": 344555.20731364505,
+            "yellow": 1065433.640042533,
+            "red": 81847.74174065833
+          },
+          "relativeBandEnergy": {
+            "blue": 5.870985915957232,
+            "green": 4.933783610996842,
+            "yellow": 8.28952562072399,
+            "red": 7.493113472636646
+          }
+        },
+        {
+          "time": 8.01,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1090555.5432414697,
+            "green": 224314.42653134977,
+            "yellow": 382821.9125475446,
+            "red": 67424.39806645313
+          },
+          "relativeBandEnergy": {
+            "blue": 17.445256728296307,
+            "green": 3.2120218120026665,
+            "yellow": 2.9785168526410946,
+            "red": 6.1726646916781815
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 321223.97391700454,
+            "green": 354799.9802795468,
+            "yellow": 951964.5520679215,
+            "red": 103706.84640854051
+          },
+          "relativeBandEnergy": {
+            "blue": 5.1385137850103115,
+            "green": 5.08048141699325,
+            "yellow": 7.406687988632539,
+            "red": 9.494301876901655
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 632481.374517725,
+            "green": 317897.1212505278,
+            "yellow": 1106444.313885058,
+            "red": 56553.796920553374
+          },
+          "relativeBandEnergy": {
+            "blue": 10.11759558942918,
+            "green": 4.552058925585179,
+            "yellow": 8.60860605780048,
+            "red": 5.177467436754559
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 212483.266538955,
+            "green": 523742.1515678606,
+            "yellow": 720743.3323122744,
+            "red": 103724.56962531332
+          },
+          "relativeBandEnergy": {
+            "blue": 3.399024614758499,
+            "green": 7.49961222162438,
+            "yellow": 5.607688826992615,
+            "red": 9.495924427158444
+          }
+        }
+      ]
+    },
+    {
+      "start": 156.4,
+      "end": 167.07,
+      "barStarts": [
+        156.4,
+        159.06,
+        161.73,
+        164.4
+      ],
+      "barCount": 4,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "downbeat",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 1113326.461160488,
+            "green": 233976.9849199524,
+            "yellow": 392239.90379789413,
+            "red": 65446.33355689777
+          },
+          "relativeBandEnergy": {
+            "blue": 17.809515579207744,
+            "green": 3.3503827225507155,
+            "yellow": 3.0517928191878334,
+            "red": 5.991574028563028
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 147536.33057187582,
+            "green": 606835.0236310919,
+            "yellow": 791464.4053650524,
+            "red": 112759.97319445753
+          },
+          "relativeBandEnergy": {
+            "blue": 2.3600899372140227,
+            "green": 8.689442593286833,
+            "yellow": 6.157928771521393,
+            "red": 10.32311040413002
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 946827.1164108218,
+            "green": 441539.55685211293,
+            "yellow": 762539.5945312819,
+            "red": 67613.77052338852
+          },
+          "relativeBandEnergy": {
+            "blue": 15.146080569178272,
+            "green": 6.322529983477315,
+            "yellow": 5.932881474843615,
+            "red": 6.1900016307095
+          }
+        },
+        {
+          "time": 2.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 222841.445552065,
+            "green": 468414.1472051856,
+            "yellow": 795980.4224929116,
+            "red": 100577.09152651812
+          },
+          "relativeBandEnergy": {
+            "blue": 3.564720982303663,
+            "green": 6.707354855143078,
+            "yellow": 6.1930653002342675,
+            "red": 9.207774625522617
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 1234008.6623285194,
+            "green": 122778.73328453326,
+            "yellow": 135135.33794271215,
+            "red": 25830.655863215667
+          },
+          "relativeBandEnergy": {
+            "blue": 19.74002888039597,
+            "green": 1.7581034597650476,
+            "yellow": 1.0514102465326585,
+            "red": 2.3647816218190663
+          }
+        },
+        {
+          "time": 3.34,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 99970.69446663407,
+            "green": 548347.0474025069,
+            "yellow": 1282204.6123882781,
+            "red": 112459.2397054357
+          },
+          "relativeBandEnergy": {
+            "blue": 1.599198171138308,
+            "green": 7.851936694575263,
+            "yellow": 9.976095728476146,
+            "red": 10.295578426944838
+          }
+        },
+        {
+          "time": 4.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 930470.5412824198,
+            "green": 115598.3101833003,
+            "yellow": 500434.2709054047,
+            "red": 33194.49687737125
+          },
+          "relativeBandEnergy": {
+            "blue": 14.884429840722474,
+            "green": 1.6552849474775877,
+            "yellow": 3.893590885672689,
+            "red": 3.0389370125488453
+          }
+        },
+        {
+          "time": 4.67,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 108146.21208453343,
+            "green": 311267.1910507317,
+            "yellow": 1179619.0491856982,
+            "red": 93344.60302907391
+          },
+          "relativeBandEnergy": {
+            "blue": 1.7299792254503525,
+            "green": 4.45712307708404,
+            "yellow": 9.177936535332744,
+            "red": 8.545644481814966
+          }
+        },
+        {
+          "time": 5.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 918251.6644263953,
+            "green": 213347.55528755582,
+            "yellow": 760579.208443804,
+            "red": 55944.36591963438
+          },
+          "relativeBandEnergy": {
+            "blue": 14.68896850452019,
+            "green": 3.0549840762261495,
+            "yellow": 5.9176288395898515,
+            "red": 5.1216743806908
+          }
+        },
+        {
+          "time": 6.0,
+          "color": "yellow",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 421699.3035539764,
+            "green": 313856.44905733166,
+            "yellow": 1195890.9904156816,
+            "red": 91921.98654400412
+          },
+          "relativeBandEnergy": {
+            "blue": 6.745784438247517,
+            "green": 4.494199395904484,
+            "yellow": 9.30453913980793,
+            "red": 8.41540476445724
+          }
+        },
+        {
+          "time": 6.67,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 1063257.1435284712,
+            "green": 138389.02091625493,
+            "yellow": 723397.7905010909,
+            "red": 48435.30774967726
+          },
+          "relativeBandEnergy": {
+            "blue": 17.00857324691267,
+            "green": 1.9816315900777803,
+            "yellow": 5.628341637583857,
+            "red": 4.43422444323984
+          }
+        },
+        {
+          "time": 7.34,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 451938.85004244774,
+            "green": 323539.0228507584,
+            "yellow": 1164361.4146152765,
+            "red": 110869.69070689568
+          },
+          "relativeBandEnergy": {
+            "blue": 7.229516472904487,
+            "green": 4.632846912703702,
+            "yellow": 9.059225666884752,
+            "red": 10.150056134416397
+          }
+        },
+        {
+          "time": 8.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 1225549.2940383865,
+            "green": 408336.38214037684,
+            "yellow": 333567.9080363512,
+            "red": 58369.234167307026
+          },
+          "relativeBandEnergy": {
+            "blue": 19.60470716065858,
+            "green": 5.847084319767734,
+            "yellow": 2.5952998065728914,
+            "red": 5.343669667910543
+          }
+        },
+        {
+          "time": 8.67,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 224231.39686619758,
+            "green": 341191.2143112393,
+            "yellow": 1352432.5656901766,
+            "red": 131450.98565681913
+          },
+          "relativeBandEnergy": {
+            "blue": 3.58695557426475,
+            "green": 4.885613642322796,
+            "yellow": 10.522498992187488,
+            "red": 12.034261797197333
+          }
+        },
+        {
+          "time": 9.34,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 622105.4290200322,
+            "green": 188142.57812000968,
+            "yellow": 819168.1957966264,
+            "red": 34296.49210869422
+          },
+          "relativeBandEnergy": {
+            "blue": 9.951615017299822,
+            "green": 2.6940668686925866,
+            "yellow": 6.373476011577125,
+            "red": 3.139824039350045
+          }
+        },
+        {
+          "time": 10.0,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 164724.20670491518,
+            "green": 319496.2513411838,
+            "yellow": 881555.6081766944,
+            "red": 115249.09922543202
+          },
+          "relativeBandEnergy": {
+            "blue": 2.6350387131963906,
+            "green": 4.574957322317139,
+            "yellow": 6.858876541369484,
+            "red": 10.550988454289104
+          }
+        }
+      ]
+    },
+    {
+      "start": 167.07,
+      "end": 183.4841,
+      "barStarts": [
+        167.07,
+        169.73,
+        172.4,
+        175.06,
+        177.73
+      ],
+      "barCount": 5,
+      "completeBars": 4,
+      "section": "solo",
+      "cuePattern": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "cutReason": "song-end",
+      "notes": [
+        {
+          "time": 0.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 940963.9123091114,
+            "green": 347563.53006318095,
+            "yellow": 271380.9816837118,
+            "red": 29092.7478863978
+          },
+          "relativeBandEnergy": {
+            "blue": 15.052288830244265,
+            "green": 4.9768606365741626,
+            "yellow": 2.111459143109608,
+            "red": 2.6634242620196606
+          }
+        },
+        {
+          "time": 0.67,
+          "color": "green",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 119307.91728199164,
+            "green": 572813.9252365406,
+            "yellow": 975232.2941150627,
+            "red": 85815.75370295375
+          },
+          "relativeBandEnergy": {
+            "blue": 1.9085293358981459,
+            "green": 8.202284848680891,
+            "yellow": 7.58772089071781,
+            "red": 7.856382675450697
+          }
+        },
+        {
+          "time": 1.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 580247.0514559471,
+            "green": 157648.73043181526,
+            "yellow": 830769.3260291163,
+            "red": 44245.49490659247
+          },
+          "relativeBandEnergy": {
+            "blue": 9.282020380547117,
+            "green": 2.257416826067358,
+            "yellow": 6.463737725378222,
+            "red": 4.050649497924651
+          }
+        },
+        {
+          "time": 2.0,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 1,
+          "bandEnergy": {
+            "blue": 95544.20677709715,
+            "green": 316621.8034561085,
+            "yellow": 714921.5574939273,
+            "red": 73756.78650558481
+          },
+          "relativeBandEnergy": {
+            "blue": 1.5283891099885298,
+            "green": 4.533797288844943,
+            "yellow": 5.562392949613667,
+            "red": 6.752391195038206
+          }
+        },
+        {
+          "time": 2.66,
+          "color": "blue",
+          "duration": 0.13,
+          "beatInBar": 1,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 657573.3164235256,
+            "green": 88628.4119722976,
+            "yellow": 55732.156919561,
+            "red": 11420.440146670682
+          },
+          "relativeBandEnergy": {
+            "blue": 10.51898309423898,
+            "green": 1.2690953355975627,
+            "yellow": 0.4336198194985355,
+            "red": 1.0455346978003284
+          }
+        },
+        {
+          "time": 3.33,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 69234.98756268245,
+            "green": 240897.22455189054,
+            "yellow": 1064807.9961936949,
+            "red": 97007.0633252853
+          },
+          "relativeBandEnergy": {
+            "blue": 1.1075292222360125,
+            "green": 3.449475594042706,
+            "yellow": 8.284657846214651,
+            "red": 8.880940606117266
+          }
+        },
+        {
+          "time": 3.99,
+          "color": "blue",
+          "duration": 0.306,
+          "beatInBar": 3,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 450548.77785224206,
+            "green": 162469.39233235357,
+            "yellow": 495640.19001576514,
+            "red": 19147.316845594494
+          },
+          "relativeBandEnergy": {
+            "blue": 7.207279947328794,
+            "green": 2.3264452493045735,
+            "yellow": 3.856290902953067,
+            "red": 1.7529257957436801
+          }
+        },
+        {
+          "time": 4.67,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 2,
+          "bandEnergy": {
+            "blue": 90880.55455814903,
+            "green": 208686.9284476995,
+            "yellow": 727486.1539690048,
+            "red": 63843.9285998954
+          },
+          "relativeBandEnergy": {
+            "blue": 1.4537862062160034,
+            "green": 2.988247240353797,
+            "yellow": 5.6601508394340545,
+            "red": 5.844874780464291
+          }
+        },
+        {
+          "time": 5.33,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 399255.3263080536,
+            "green": 143820.45139728516,
+            "yellow": 459776.2299597979,
+            "red": 39339.01298262877
+          },
+          "relativeBandEnergy": {
+            "blue": 6.386755549269169,
+            "green": 2.059405781623178,
+            "yellow": 3.577254082102644,
+            "red": 3.60146391227718
+          }
+        },
+        {
+          "time": 6.0,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 2,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 235981.6061250002,
+            "green": 206820.87698189463,
+            "yellow": 408793.8412650173,
+            "red": 35963.87096962619
+          },
+          "relativeBandEnergy": {
+            "blue": 3.7749197897523317,
+            "green": 2.961526720843889,
+            "yellow": 3.1805894739960126,
+            "red": 3.29247161081789
+          }
+        },
+        {
+          "time": 6.67,
+          "color": "blue",
+          "duration": 0.297,
+          "beatInBar": 3,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 383628.25503527344,
+            "green": 165604.261841839,
+            "yellow": 240597.4904127419,
+            "red": 11466.907832813045
+          },
+          "relativeBandEnergy": {
+            "blue": 6.136774452978806,
+            "green": 2.371334333782794,
+            "yellow": 1.8719505242754482,
+            "red": 1.0497887876221204
+          }
+        },
+        {
+          "time": 7.33,
+          "color": "yellow",
+          "duration": 0.297,
+          "beatInBar": 4,
+          "barInRound": 3,
+          "bandEnergy": {
+            "blue": 127915.60588539792,
+            "green": 203248.9669215727,
+            "yellow": 580202.739163745,
+            "red": 43837.90582502581
+          },
+          "relativeBandEnergy": {
+            "blue": 2.0462236866850123,
+            "green": 2.910379528923701,
+            "yellow": 4.514223402332312,
+            "red": 4.013334952972831
+          }
+        },
+        {
+          "time": 7.99,
+          "color": "blue",
+          "duration": 0.13,
+          "beatInBar": 1,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 199139.93552436645,
+            "green": 33697.32319929354,
+            "yellow": 42576.77976311359,
+            "red": 6035.943906521475
+          },
+          "relativeBandEnergy": {
+            "blue": 3.185575756878003,
+            "green": 0.4825215158736453,
+            "yellow": 0.3312654053988413,
+            "red": 0.5525871776565812
+          }
+        },
+        {
+          "time": 8.66,
+          "color": "red",
+          "duration": 0.297,
+          "beatInBar": 2,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 36416.14182130997,
+            "green": 72147.03200814042,
+            "yellow": 149957.35765808905,
+            "red": 15785.5694218876
+          },
+          "relativeBandEnergy": {
+            "blue": 0.582536989577371,
+            "green": 1.0330937874341948,
+            "yellow": 1.1667318466433776,
+            "red": 1.44515976119631
+          }
+        },
+        {
+          "time": 9.32,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 3,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 44559.51053204357,
+            "green": 20138.17604871645,
+            "yellow": 61704.046802827856,
+            "red": 3230.7645306172312
+          },
+          "relativeBandEnergy": {
+            "blue": 0.7128037684428171,
+            "green": 0.288364247109121,
+            "yellow": 0.48008365575351497,
+            "red": 0.2957746263542771
+          }
+        },
+        {
+          "time": 9.99,
+          "color": "red",
+          "duration": 0.3015,
+          "beatInBar": 4,
+          "barInRound": 4,
+          "bandEnergy": {
+            "blue": 8606.850749926856,
+            "green": 25163.618710667353,
+            "yellow": 55865.69140020282,
+            "red": 4758.9009697362735
+          },
+          "relativeBandEnergy": {
+            "blue": 0.1376809479215657,
+            "green": 0.36032498407446767,
+            "yellow": 0.4346587743962673,
+            "red": 0.4356746345459727
+          }
+        },
+        {
+          "time": 10.66,
+          "color": "blue",
+          "duration": 0.3015,
+          "beatInBar": 1,
+          "barInRound": 5,
+          "bandEnergy": {
+            "blue": 21973.709996667574,
+            "green": 3629.1670203211343,
+            "yellow": 7682.160684890649,
+            "red": 919.9998331721789
+          },
+          "relativeBandEnergy": {
+            "blue": 0.35150617915856003,
+            "green": 0.051967070548817565,
+            "yellow": 0.05977046849898355,
+            "red": 0.08422545323985958
+          }
+        },
+        {
+          "time": 11.33,
+          "color": "red",
+          "duration": 0.6,
+          "beatInBar": 2,
+          "barInRound": 5,
+          "bandEnergy": {
+            "blue": 1915.3347952691026,
+            "green": 7026.764350994389,
+            "yellow": 14294.06513513264,
+            "red": 1574.944238766781
+          },
+          "relativeBandEnergy": {
+            "blue": 0.030638977933020287,
+            "green": 0.10061822911796706,
+            "yellow": 0.1112138895457152,
+            "red": 0.14418523520841997
+          }
+        }
+      ]
+    }
+  ]
+}

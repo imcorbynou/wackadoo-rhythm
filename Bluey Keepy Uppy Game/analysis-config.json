@@ -1,0 +1,18 @@
+{
+  "introSeconds": 8,
+  "barsPerRound": 4,
+  "meterCandidates": [
+    3,
+    4
+  ],
+  "minBpm": 55,
+  "maxBpm": 215,
+  "framesPerSecond": 100,
+  "structureEngine": "all-in-one",
+  "structureModel": "harmonix-all",
+  "phrases": {
+    "targetSeconds": 6,
+    "minSeconds": 3,
+    "maxSeconds": 10
+  }
+}

@@ -1,0 +1,1702 @@
+[
+  {
+    "path": "bluey homepage/README.md",
+    "bytes": 1281,
+    "sha256": "9bfbafcc0108dd2435a15e6ca08f02db777294d9fbed5cfa0357258f7a5637b5"
+  },
+  {
+    "path": "bluey homepage/app.js",
+    "bytes": 3482,
+    "sha256": "56f30a5f17f16e4f88e136de0016e5d701ba3fa917c7e298072295c79c46f663"
+  },
+  {
+    "path": "bluey homepage/assets/BlueCustard.otf",
+    "bytes": 26604,
+    "sha256": "f7349f54c11129339b09d424990b17bc272915601fc4778fc65bb2a62ac3f61f"
+  },
+  {
+    "path": "bluey homepage/assets/background.png",
+    "bytes": 3202708,
+    "sha256": "e4c67e6ff911d3e59210b3de563aab62dc70a7db981c8edd9d06996831a06eee"
+  },
+  {
+    "path": "bluey homepage/assets/button to game.png",
+    "bytes": 146690,
+    "sha256": "d88326f9430fca90b1e17300bdbe8333d1fb0cb93949271f259f5e4538b9e515"
+  },
+  {
+    "path": "bluey homepage/assets/garden.webp",
+    "bytes": 115050,
+    "sha256": "8c6131d952532f0f249e72b11337138034087d7636de6780f78ae0d6c84f3be8"
+  },
+  {
+    "path": "bluey homepage/assets/keepy uppy.mp4",
+    "bytes": 4154790,
+    "sha256": "568c97e0e1c7949255914e0640d587acc0b14261c167613cb5be859111b86db7"
+  },
+  {
+    "path": "bluey homepage/assets/keepy-uppy.jpg",
+    "bytes": 59025,
+    "sha256": "2ac4c744d254c977b70e27ab6d47bce453d67842646f4c7e375bd732f9de88e9"
+  },
+  {
+    "path": "bluey homepage/assets/keepy-uppy.mp4",
+    "bytes": 1106523,
+    "sha256": "f07e9e359e9f2b008aa8994ed8953fae18ce736749680c09baff15e0c2a62c7e"
+  },
+  {
+    "path": "bluey homepage/assets/spinny roundy.mov",
+    "bytes": 39672481,
+    "sha256": "27e5526cb31a9058e9c3408e720e8cf875d0bd26a7ad534cc72e971d1c3e2723"
+  },
+  {
+    "path": "bluey homepage/assets/spinny-roundy.jpg",
+    "bytes": 40141,
+    "sha256": "b24c4f7d223d85dadbd191e47d656f6efba31a37ff08b520dcc2ab5115bcde11"
+  },
+  {
+    "path": "bluey homepage/assets/spinny-roundy.mp4",
+    "bytes": 2599610,
+    "sha256": "d6e4d6d698595195b4f6fe3c7da7cbde0041eeef99751103141b1e61d4e80c31"
+  },
+  {
+    "path": "bluey homepage/index.html",
+    "bytes": 1943,
+    "sha256": "b5c992e73f29657cf614435edf2dfecd99dcf35ca8a99ded2abd38fa7ef75b41"
+  },
+  {
+    "path": "bluey homepage/photo-service.mjs",
+    "bytes": 4062,
+    "sha256": "6aaad9634c7861c40be62332afaff7d779c4dde84015b98dfbd3cbb2314cead0"
+  },
+  {
+    "path": "bluey homepage/photo-service.test.mjs",
+    "bytes": 3736,
+    "sha256": "60a697b9de5777b4a7f35e339a5212aab8776f9aeecf07462b582da38a0c5c18"
+  },
+  {
+    "path": "bluey homepage/server.mjs",
+    "bytes": 5541,
+    "sha256": "37759b01f0d6b2c26d5ecc81060f6ccb9b0dd5ba678335d55b1f6580fbc88bf7"
+  },
+  {
+    "path": "bluey homepage/styles.css",
+    "bytes": 2739,
+    "sha256": "893bf92f2e3b7703e93941113d2b338617242c06d966cd7cba85eebb5b9f7a4d"
+  },
+  {
+    "path": "bluey homepage/打开主页.command",
+    "bytes": 276,
+    "sha256": "6be41abc94fdcdef3307e7a7087714b33abb63862626530c8ce075335a3d5c4e"
+  },
+  {
+    "path": "bluey select song/README.md",
+    "bytes": 1303,
+    "sha256": "3c93990d41376143e844d331beff4ac092f1b9eea8b555ca5e8f2cf5e7178f2f"
+  },
+  {
+    "path": "bluey select song/app.js",
+    "bytes": 4300,
+    "sha256": "fa9901e97b15799de1fc99ab912aa1b94244b648a2232da124898f750df05e78"
+  },
+  {
+    "path": "bluey select song/assets/Blue_Custard_v1.01.otf",
+    "bytes": 26604,
+    "sha256": "f7349f54c11129339b09d424990b17bc272915601fc4778fc65bb2a62ac3f61f"
+  },
+  {
+    "path": "bluey select song/assets/Burger Dog .mp3",
+    "bytes": 6755265,
+    "sha256": "ee51343a83f3b74dee03e1bd456d5518f2936a97b1df953127c22dfbca3cf3e5"
+  },
+  {
+    "path": "bluey select song/assets/Dance Mode.mp3",
+    "bytes": 4759510,
+    "sha256": "27caef5c4adfbfb69418f1d4e33af2ddcd8775f3adeb6214f3baac9604a8a667"
+  },
+  {
+    "path": "bluey select song/assets/Let's Play Verandah Santa.mp3",
+    "bytes": 6661224,
+    "sha256": "3b143527f96b0b3f47a97bd62237e4ef9969aa28a0a59aba9960a5eea511543f"
+  },
+  {
+    "path": "bluey select song/assets/Let's play verandah santa.png",
+    "bytes": 3980547,
+    "sha256": "6ba8c3e8febe11b0b2e843392a6c43b33dcc3846f8f6a8a129690e5bafdb6f07"
+  },
+  {
+    "path": "bluey select song/assets/Sleepytime.mp3",
+    "bytes": 12076930,
+    "sha256": "28c402a3fe08847559744ead5b3f76b044f17d28aa0f556f1060ca3e344dd979"
+  },
+  {
+    "path": "bluey select song/assets/bluey theme tune.png",
+    "bytes": 1406312,
+    "sha256": "c138a46cabb0fd536991d61c19aa7510be359ab73fbf58c19ed22d5138c497b9"
+  },
+  {
+    "path": "bluey select song/assets/bluey.mp4",
+    "bytes": 13078545,
+    "sha256": "af10a4ff7012866b5a5b416e7af57445f9470a026620c530fd0d2e86a4894819"
+  },
+  {
+    "path": "bluey select song/assets/burger dog.png",
+    "bytes": 2279046,
+    "sha256": "cf3f4ffaa3f78a3487ce56261e62ca950f05ccf84c2addc6bcd77ae764f966b6"
+  },
+  {
+    "path": "bluey select song/assets/dance mode.png",
+    "bytes": 4600346,
+    "sha256": "c81efac563567e0e764e8b2c0fea1df6e63377829d5ddbb497057f42270c0e86"
+  },
+  {
+    "path": "bluey select song/assets/player.png",
+    "bytes": 2159633,
+    "sha256": "4c5d1c3b739b63477adb34d58eb4da9916128b78522f78795c23fd24a0199861"
+  },
+  {
+    "path": "bluey select song/assets/sleepytime.png",
+    "bytes": 2565404,
+    "sha256": "72e6efb17aa0716b338ad2ea4ae8ff121e1d0dadcc1dc06656e2ff246c8157ae"
+  },
+  {
+    "path": "bluey select song/assets/songs.png",
+    "bytes": 180666,
+    "sha256": "967ee053fdd861e963b37957e53f2645e0b8f95170a1d4b2d57943dcc05708ab"
+  },
+  {
+    "path": "bluey select song/index.html",
+    "bytes": 1958,
+    "sha256": "9333d0a109dcb0c892558fe5c2a02d7234dbabb5cdad61e54d5252c5f7f0dd2c"
+  },
+  {
+    "path": "bluey select song/music-circle/README.txt",
+    "bytes": 1641,
+    "sha256": "131da3c742e9e8d0a55383a62705ab771799cc6478910ef97dcc41a9258a2454"
+  },
+  {
+    "path": "bluey select song/music-circle/YTDown.com_YouTube_Media_A7oSRaD2SfI_Bluey-Dancing-Green-Screen-2_001_1080p.mp4",
+    "bytes": 1971000,
+    "sha256": "204e38633f494f7f5362cb8dd124b97f1bc88b6bbdd801eebee3edc69004b229"
+  },
+  {
+    "path": "bluey select song/music-circle/app.js",
+    "bytes": 17800,
+    "sha256": "012b495c8c0154e27ec9caf8e62d155a7d0f2c99cc8e740f73af3533ee7097cf"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/BlueCustard.otf",
+    "bytes": 26604,
+    "sha256": "f7349f54c11129339b09d424990b17bc272915601fc4778fc65bb2a62ac3f61f"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/Desktop - 2.png",
+    "bytes": 178095,
+    "sha256": "1aeba9f70137277849888b297583f3db26a4837e4bf1ebae8508445e5f7273a7"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/Frame 101.png",
+    "bytes": 156187,
+    "sha256": "88e2ee47ddfac40982c7b60da63f51b1174964bb435a5044d0ca020cf6a2c072"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/background.png",
+    "bytes": 184725,
+    "sha256": "ec1726f29ddad3d492512690bd605a9ff65d416207f07949fd8a101f96b1899e"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/bingo setting.png",
+    "bytes": 48605,
+    "sha256": "fdcca824861e4f59222e8c0c8da1f004c7763e186c51e0f052b89b19bed03500"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/bingo ui.png",
+    "bytes": 46132,
+    "sha256": "fefdb51cbbd2664fa2ff28a263c173ab1b3c65859b23c6fe4f4a01379779821b"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/bingo.png",
+    "bytes": 58362,
+    "sha256": "5dadad07811d14cef157edac682d0d3b2b6665409b4d223d1cb9695a2926c1ca"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/bluey logo.png",
+    "bytes": 133000,
+    "sha256": "9124e0d18be5072e4a7f5fb251fb87ba81d80714e55f3ff22e2dc73b7f05fdc1"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/bluey-cutout.png",
+    "bytes": 355066,
+    "sha256": "25e27e13857d0e17b3d7c168452bcd534cd9d33cdd88d27be5aeb1a23f9f780c"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/bluey.png",
+    "bytes": 297139,
+    "sha256": "3104e7bc69f056b7d1dcee724369d5f0d97a8763b27d5e8b0dd5cb3c84ac239d"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/dougie.png",
+    "bytes": 717888,
+    "sha256": "3e4333f181974902bf762a8cf34f2e216630e44fe2ab55bf6c25b52a288d3d8a"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/game 1 full screen.png",
+    "bytes": 46668,
+    "sha256": "0ef30504c3168136e7588ab306e61ef09399cfb6b6a9847d814b7dd4e9438cde"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/game 1 pause.png",
+    "bytes": 44357,
+    "sha256": "38dbc2c49df58c0c86d333a7c0065ce5b40af10b74ec5cfb34bd1c8033e005b3"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/game 1 setting.png",
+    "bytes": 49446,
+    "sha256": "eddc77af9b0c9898ab63ff8a470669bcb2f61c71dc63a6622e9f9d3a65aea8cd"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/gifcraft-YTDown-com_YouTube_Media_A7oSRaD2SfI_Blu.gif",
+    "bytes": 355130,
+    "sha256": "75b7245fd172edc921c70e6eb1094d75861320faa56d6af4582c52cc0a8327c6"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/home expanding icon.png",
+    "bytes": 18329,
+    "sha256": "cb92bed1f3d454c943cf24e2c3b3b73e20818a9c1452d7f10efbdbfc667e780b"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/home icon.png",
+    "bytes": 23086,
+    "sha256": "2b8f4082b919c59385d1774a862103b1bf111bfc5b753c074df6d836ac464ae9"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/logo.png",
+    "bytes": 131160,
+    "sha256": "aa4d2e70a2e6abf54eb626e8c98eaf4b51fe894e0afc1f05c22076c9ac70b207"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/muffin.png",
+    "bytes": 1058329,
+    "sha256": "428427413b96c5c6b8965512d6cfd8b94aac770d207f88aefc4cdee84132b4cf"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/return.png",
+    "bytes": 47299,
+    "sha256": "c8aebb73eb47feec4628d77a85bb67e3cb82f0c6ce83edd9f1bc75a9db61b0ce"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/theme-label.png",
+    "bytes": 94728,
+    "sha256": "a0165af5ed5dd99c30099869b9864f0b2a90036a8b84929caeda309bb531c713"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/theme-play.png",
+    "bytes": 33434,
+    "sha256": "270c55c900f08ea78b64cedf366fbefa951b3d17210c0ea57ca853b237a44066"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/theme.mp3",
+    "bytes": 1561214,
+    "sha256": "b383ab5594b8a3c4ea6b75d4c15b06c10830da8d4022394920931dfa5700780f"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/bingo/label.png",
+    "bytes": 94089,
+    "sha256": "e0444ac0ca976b6ff3ea885d0725ed4ad9658b66b1b658fc0a50abb7685d0507"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/bingo/pause.png",
+    "bytes": 33867,
+    "sha256": "283078e01b3bc9664a0b53272fabad7adb542ea0a966254e5f72449391e5281f"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/bingo/play.png",
+    "bytes": 33346,
+    "sha256": "1f4e20500fa8d14b6ce0d623f1fc59ac2d99f3245abf3bfd262430c172c0a601"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/bingo/return.png",
+    "bytes": 33636,
+    "sha256": "eebd5d66a6bcaa3829e88e0a4a8f9d1f8570b90720455acd740bef150568f3ab"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/background.png",
+    "bytes": 92666,
+    "sha256": "33f18ef8c498248da6bece07a9a8ee0903f947ee9cedf1f422872dce9967a438"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/fullscreen.png",
+    "bytes": 34415,
+    "sha256": "82128066ff19d82707bc5d7d5a3d41c3309185dad463808fd4c033d98907850d"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/label.png",
+    "bytes": 94567,
+    "sha256": "aeb8a6a4a28bb6b16fdd67e6a35bec1896127b9000a16c2406c1872da95b7b0c"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/pause.png",
+    "bytes": 33968,
+    "sha256": "3312453709a84c08905b91ec0ee216adb1a0f52b0c3c6f1ea879629a7d2aabdf"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/play.png",
+    "bytes": 33432,
+    "sha256": "b597110ac390fd63310dcaa6ede4716429ef8381fb585cddfb95fd9ea47eee90"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/return.png",
+    "bytes": 33723,
+    "sha256": "a6287e5908fd48b7d240edb36bb229fb163dba54314a65d57d1b84abf91ec114"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/dougie/settings.png",
+    "bytes": 35420,
+    "sha256": "f62f6d58407298cc754a747f47c6a4a97cf1c305cfd24481b46c6d7f8c424272"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/background.png",
+    "bytes": 92339,
+    "sha256": "f828fa85840916ddc174d9abe7471003dbc8183b9d0c89d6051f734c530db4ab"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/fullscreen.png",
+    "bytes": 34351,
+    "sha256": "389c4a12875c5e89f2cb144a82d0b73ac0dd40c543317423b38526b51002e545"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/label.png",
+    "bytes": 94302,
+    "sha256": "464e2eaaf8f39c67eb3023b1da20b5a0e76d8abc6d5a3d8cc58c1d8516595dc6"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/pause.png",
+    "bytes": 33918,
+    "sha256": "8bece2bdcbe36a2a684aba88f0ff242c8691164d5a58de2f617ebf277822c4e9"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/play.png",
+    "bytes": 33380,
+    "sha256": "ff8a25892beb74f00030300df6589f4e041e20fa69dc2f77f9ced3ae9d924f48"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/return.png",
+    "bytes": 33677,
+    "sha256": "59313bf25cb271e296945b615178c40ba9a9c10e21066009fa13b42374b50414"
+  },
+  {
+    "path": "bluey select song/music-circle/assets/themes/muffin/settings.png",
+    "bytes": 35372,
+    "sha256": "5d84b96200f1f4385a87835d93342e7236933d1cfeba143ed9b25d0e13f34643"
+  },
+  {
+    "path": "bluey select song/music-circle/index.html",
+    "bytes": 3165,
+    "sha256": "86286186c0ef705eba666c4bc9d0dc811d9b2e42fde325dfd6b8c68aa6eef509"
+  },
+  {
+    "path": "bluey select song/music-circle/style.css",
+    "bytes": 8017,
+    "sha256": "08bff2bb76fb03ad6765f2ae4fd5f64103e4edc3192d311ce734a8432ce9dbb9"
+  },
+  {
+    "path": "bluey select song/music.js",
+    "bytes": 4210,
+    "sha256": "885ec4113d5c56dcf7fa25ca1a3f4181b836e41f10bf58a65a842d4920d99f29"
+  },
+  {
+    "path": "bluey select song/server.mjs",
+    "bytes": 2083,
+    "sha256": "cfa39ccd6314abf49770ec829b97808817cd0d8ea600eaec72c2dd01f3bacf56"
+  },
+  {
+    "path": "bluey select song/style.css",
+    "bytes": 3229,
+    "sha256": "5fa610df74594b5c977b559bbd7132fa8cd2f69c55f4901cf2702f4920937310"
+  },
+  {
+    "path": "bluey select song/启动网页.command",
+    "bytes": 82,
+    "sha256": "936d76a52b1400a956fe1a77a5656ddad8c203ed00fcaab0e5526eeec768e5fc"
+  },
+  {
+    "path": "Bluey Vest Connect/README.md",
+    "bytes": 1233,
+    "sha256": "c90499ce082f28938fc09bd09880c82df0c7567286345e3342959ffe1820feda"
+  },
+  {
+    "path": "Bluey Vest Connect/app.js",
+    "bytes": 2139,
+    "sha256": "11d390f53604c1cce5794bf9d5ddfbd169d7f9b6ceb6f46120bcc183f5581d3b"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/BlueCustard.otf",
+    "bytes": 26604,
+    "sha256": "f7349f54c11129339b09d424990b17bc272915601fc4778fc65bb2a62ac3f61f"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/bluetooth.svg",
+    "bytes": 272,
+    "sha256": "d28ef2ce89be59c1a0fc3329d2122121d5d7826c97fc206b99f00a9657dec35f"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/button while hovering.png",
+    "bytes": 33851,
+    "sha256": "56bde38022bbf5e433a462e1fb5e7714733ac43ecc56c8a6883cc52cef2e300b"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/button.png",
+    "bytes": 31816,
+    "sha256": "31d36a36641ff06599d26cb158f2b6abb9441c34304e62bc594188d5c0a5bae5"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/loop background.mp4",
+    "bytes": 1136482,
+    "sha256": "ae428296ea56455adba6c16cc2f43415c941e0938225f8073bf8fce964b60d16"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/successful.png",
+    "bytes": 40724,
+    "sha256": "18ac9a2f8b5735172075452ec1200bff3efbdf5a8d80c5035dd459c0be1b5334"
+  },
+  {
+    "path": "Bluey Vest Connect/assets/vest.png",
+    "bytes": 4762756,
+    "sha256": "e21b19eb1cba66d7d74062f70899506949af6bd8ae988e065884f580ed88089c"
+  },
+  {
+    "path": "Bluey Vest Connect/index.html",
+    "bytes": 1960,
+    "sha256": "e8b4457e100b165147e5dc09b1649593df7c2394cc317b80e4eae997839af3ac"
+  },
+  {
+    "path": "Bluey Vest Connect/server.mjs",
+    "bytes": 178,
+    "sha256": "a82c92e0f9175c8588dcfad9039814a3a3a33ed43fdf3d641ce037252b045c09"
+  },
+  {
+    "path": "Bluey Vest Connect/styles.css",
+    "bytes": 4000,
+    "sha256": "2dd75332495278215b048cb20f9e2bd9fe42d8e182aafdedd10a3d877cfc340e"
+  },
+  {
+    "path": "Bluey Vest Connect/打开连接页.command",
+    "bytes": 279,
+    "sha256": "164246c40f7005b7e948323c57531b0b3674148f16c873cc47f4f12de0f1847e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/.gitignore",
+    "bytes": 54,
+    "sha256": "5c8f331c925ab5f176e9fb898dc2268d5e24fe3a852a72e7ba00e119bffba72e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/README.md",
+    "bytes": 6866,
+    "sha256": "e7139b84c1db41b79365a1d231db529fb343178836e5a35cbf4805284f591e4e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/Reanalyze Music.command",
+    "bytes": 304,
+    "sha256": "c0d4ebbdf4cd5567f14a1d10bc43de49722cd54e24b9f774955c754c49d50875"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/Setup Music Analysis.command",
+    "bytes": 98,
+    "sha256": "50a88258efaa7e31c3865de0392cf993161fdadc38965a8ca98a8b7c61e07aee"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/Start Game.command",
+    "bytes": 91,
+    "sha256": "cf0528b02ac982aa25e4d182b6a48573990957d8ce3fd6a105f157a2fcc92f3c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/THIRD_PARTY_GESTURES.txt",
+    "bytes": 1062,
+    "sha256": "6e92fb6ae06b0faaa72953ac2bfdfcdfa611df3d14d7e71eef1249c49ac844be"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/analysis-config.json",
+    "bytes": 302,
+    "sha256": "c2a70f26deed511bea2c01965a583f62fdb2c659c5056cc5bd020f9651347b6d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/Blue_Custard_v1.01.otf",
+    "bytes": 26604,
+    "sha256": "f7349f54c11129339b09d424990b17bc272915601fc4778fc65bb2a62ac3f61f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/Keepy Uppy.analysis 2.wav",
+    "bytes": 32366636,
+    "sha256": "ef2fcfd4c575462ac0b6fad771f93510aded5b7f1225caec1972449ed237da7b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/Keepy Uppy.analysis.wav",
+    "bytes": 32366636,
+    "sha256": "ef2fcfd4c575462ac0b6fad771f93510aded5b7f1225caec1972449ed237da7b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/Keepy Uppy.mp3",
+    "bytes": 4405008,
+    "sha256": "48fe52cd85d54b191d0a8f76e8ff3d8cd290e9f9c59cb2618adc46db7fcf2247"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/backyard.png",
+    "bytes": 553662,
+    "sha256": "779b73d20534a41f17ad6309c3c573388cb2f2a61bfcf3602482f25dbe2fb3f8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/beforegame/intro blackboard.png",
+    "bytes": 17186552,
+    "sha256": "f6de6a2666986195f0a85841f976cc6ab18da1a9d74554d7f922b2296e7e8fde"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/blue.png",
+    "bytes": 927834,
+    "sha256": "382d0409a7c392e81e514945f401680e6c8b3be3b4c124195772c8691c19c9e1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/bluey background.mp4",
+    "bytes": 1861951,
+    "sha256": "f0d07573419136cb1537ee02b13687d78345954c9206a5c22f27ca194a207a66"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/bluey.gif",
+    "bytes": 471864,
+    "sha256": "ca6a47231b2c68448b9b28fd291ed329f3d7329a7c062465ad720b1604f6be56"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/camera frame.png",
+    "bytes": 153429,
+    "sha256": "b59800cc48331b3d5dbcc520aff052386dec2b9715cc5b457abc0684403089dc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/celebrate.gif",
+    "bytes": 89204,
+    "sha256": "b3f5a9a1e7f4cc0f734cd03c705a34672d4047634c9fe6ae789e3e60ca180aae"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/feel-the-rhythm.png",
+    "bytes": 274490,
+    "sha256": "b934aa0b427b6d4fc47c3d8e816856d9f4bd968aa1cceca2e293ed283e250e54"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/2 button.png",
+    "bytes": 30425,
+    "sha256": "a663e4690e95d4eb1598802554ec70ee4f1d2c970e151cebf6fb5d5fe2a6d12e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/Rectangle 161124777.png",
+    "bytes": 76774,
+    "sha256": "cf231618f4751c899df7c5b4894bacf12a154dbbb343fdfc9a77f61ed4295968"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/Rectangle 161124778.png",
+    "bytes": 378852,
+    "sha256": "ea2412ae8ab162d80fc34e35fc1f86bc67229e7e56c3ebc7bed2b671e54c62f0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/background.png",
+    "bytes": 347490,
+    "sha256": "6c9dddbafe43edc6f4893823504abc94556a25ad5c33186530dc3dbab9f0e311"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/bingo.png",
+    "bytes": 128449,
+    "sha256": "e8e1b1c36e6d5631a7d16996b32641294aa2077fa3154596f782abdddf8304ce"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/bluey.png",
+    "bytes": 147908,
+    "sha256": "1a1730897d6b57b1fd30ed1e48fdac9a0cc27502f2a945ba437a3c9168e9312f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/loop pattern background.mp4",
+    "bytes": 1136482,
+    "sha256": "ae428296ea56455adba6c16cc2f43415c941e0938225f8073bf8fce964b60d16"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/final page assets/qr code frame.png",
+    "bytes": 53066,
+    "sha256": "141a8d4513a49745752b50fcb362f89d7e34a9805df2c9cf33d832ef25e12cfe"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/green.png",
+    "bytes": 793221,
+    "sha256": "f5e52c638c8947d728202a5365ecb2bee00dc85f0324c683a208723a57a6f009"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/hold the balloon.png",
+    "bytes": 238084,
+    "sha256": "1acaa8117ae2a9986ae4a8734312f8590bc27745d90fbf301d56b16f0598b8e5"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/keepy-uppy.png",
+    "bytes": 266672,
+    "sha256": "47caee8f9a5387bf4312650eb6baf5b48f713545585c410ad40475255cd20e39"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/models/README.md",
+    "bytes": 2341,
+    "sha256": "38833aa1e99a024f6ee9579187c3bf4527efdfe23dae6a65b85908349c0f2407"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/models/gesture_recognizer.task",
+    "bytes": 8373440,
+    "sha256": "97952348cf6a6a4915c2ea1496b4b37ebabc50cbbf80571435643c455f2b0482"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/models/source.json",
+    "bytes": 318,
+    "sha256": "9193bf87de48f8487790dd5e3c4339e9c85286d62b1a566c858d050cdebf0114"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/music-bar.png",
+    "bytes": 114273,
+    "sha256": "abcce08951d8214930fcddca0cf99215b94368e2f4925f088bb40d6fe3f02297"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/pause.png",
+    "bytes": 55467,
+    "sha256": "829fa0afe7bbb7885b7985a533f00dac3fc6eabdd921986e88210567df6ac90b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/play.png",
+    "bytes": 56470,
+    "sha256": "355d2379ea4fc07c1c478cb254e5f3571ce9629cf3506aa35be68cf438a290ab"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/push the ballon.gif",
+    "bytes": 290668,
+    "sha256": "6b8d7ffd6b3b3e6130a1357eee24375e36d78aa669142d888fd2084d6b22aa31"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/red.png",
+    "bytes": 15392,
+    "sha256": "d3975f6ac9215946fc96256bc97c42c9aad2d349d5fe32d7af0ebd66e3f24a1b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/take a breather.png",
+    "bytes": 1030461,
+    "sha256": "f5bfa7a5b316c16a7b5d7db2cd0bcb18ba84668e409decc055da2dc8cb510076"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/assets/yellow.png",
+    "bytes": 782562,
+    "sha256": "29521b415d17b895a612d16abf5a66fbe7b2de48fcd539fdcb2f7feb80a27ad8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/background.mjs",
+    "bytes": 2608,
+    "sha256": "fe23e9eab763102e26bafc5072592fb1755fb96f01d85c56e18ef85536a80158"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/camera.mjs",
+    "bytes": 3244,
+    "sha256": "263561cc15bb6db4bea3e74aee8616f952d64fc244e5de1e117bc791924cddae"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/core.mjs",
+    "bytes": 4544,
+    "sha256": "3a48f36e86293c2dc5fa4d7f97aea3ee3facc7e6131d8fc51118f97c70cda7fe"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/cue-stream.mjs",
+    "bytes": 941,
+    "sha256": "13410312c53fe7b724a19fbde45a3fc50070ca026aef98eb53ae772c7389e288"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/final-background.mjs",
+    "bytes": 2908,
+    "sha256": "f6a022ef28cde3b246b5902897260dbc7fd82accd713b9c1b194f383b271dc16"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/final-page.mjs",
+    "bytes": 4846,
+    "sha256": "d7bd7efe9aca571e6613b9455ef9f5b449d410d7b0fa0af253773d32cce7dc09"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/game.mjs",
+    "bytes": 28460,
+    "sha256": "04ab44adea5e057f163b27239cc128ef0f51e721cfc9ac235ff08d816f45e19d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/gesture-core.mjs",
+    "bytes": 3219,
+    "sha256": "8da0048bd121c91dd9f9c187a522d930777a25238b9643d7d023985cacbf7db8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/gesture-input.mjs",
+    "bytes": 7042,
+    "sha256": "0037994d91a431b0a6c91be6e084c5d6fe4dd1cd3b8ce967ba1072c0d2f4d43e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/gesture-model.mjs",
+    "bytes": 943,
+    "sha256": "4d7d724dfcd67d7164923f417e8d85805ba5c39abfdc33384a1de1a9f10e0b4f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/index.html",
+    "bytes": 6816,
+    "sha256": "4fe23aaa01d094012dd24d4167729f9c9e888d9c4a0e1dcb602eb322cf9dd0d4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/music-analysis 2.json",
+    "bytes": 43049,
+    "sha256": "97e6453ec8acfa5988418cb1dc22e61aa78137630925dd2eab93a0565a81cf4b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/music-analysis.json",
+    "bytes": 43049,
+    "sha256": "97e6453ec8acfa5988418cb1dc22e61aa78137630925dd2eab93a0565a81cf4b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/photo-share.mjs",
+    "bytes": 4317,
+    "sha256": "e8483c85b4e20c96241e9e879adec0ce2782bce0c1dd8ea3fd7bef232bfb396d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/play-area.mjs",
+    "bytes": 2637,
+    "sha256": "5b51330f0a9accd38369f1a5517066d627065a1e508c3cd13634a7b0263f58e6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/practice.mjs",
+    "bytes": 1417,
+    "sha256": "d4593adbcb32615c9187170acd644497ad77876e9e7ce3d062314eee6c4cb80c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/score.json",
+    "bytes": 151866,
+    "sha256": "321a35c0f6047545fee399d57f1815e22d89a4fc48878a90f7d54958924f7453"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/styles.css",
+    "bytes": 16937,
+    "sha256": "2f8c5b2dcb0a11894397a341b9e0a2bdfadd3da36f96d371eb94276ae5684dc8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/vendor/mediapipe/vision_bundle.mjs",
+    "bytes": 155990,
+    "sha256": "fb0c02c296f44ce0cc324ba16bd646d8773eb4a7847db4019cc4d0430db7a9b5"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/vendor/mediapipe/wasm/vision_wasm_internal.js",
+    "bytes": 336624,
+    "sha256": "2aa5fd3fdd3d8208cd7587df0bb19fb6925c4ea16a76dd025aedc1f64d6a6309"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/vendor/mediapipe/wasm/vision_wasm_internal.wasm",
+    "bytes": 14665716,
+    "sha256": "225bc06c0f51a9cf31fea0e9e0b0243e9e01fb5ef332cc1a7fa6656dbdfdaabf"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/vendor/mediapipe/wasm/vision_wasm_module_internal.js",
+    "bytes": 336662,
+    "sha256": "d29996249490361715c769c6a49b43ad47e6ac9a28a8e8bce8d02b238e897851"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/dist/vendor/mediapipe/wasm/vision_wasm_module_internal.wasm",
+    "bytes": 14665738,
+    "sha256": "a269e84b12aefc93c9d6a4d62b01f41e5434a9fa941533bb8e75b1e3d1669e46"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/package.json",
+    "bytes": 196,
+    "sha256": "89c5a742cdaf5eeea4facebee1047b0a25858ef714c61465520735c786be6132"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/requirements-allin1.txt",
+    "bytes": 271,
+    "sha256": "c77e259ee5915ee974d67325ee3c21d81c13265b330c52da12affe681dc84a46"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/requirements-analysis.txt",
+    "bytes": 282,
+    "sha256": "421a3eff98942f2428057194598bdb5b686fbc0abfab426ac297c5c83d3f23ed"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/analyze_allin1.py",
+    "bytes": 8729,
+    "sha256": "d14412472839bfe419517c20058b5e0aaf8c6088eaa6978eca1908387f7a6ee4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/analyze_music.py",
+    "bytes": 9577,
+    "sha256": "dbd09859d9adf5745741db469c32d047c2269ae88795e53ebe8d587e94b94d8b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/music_structure.py",
+    "bytes": 5651,
+    "sha256": "1f83b9b62f8b0b3e99337e08d0482d17c75a9c631c8d2d00a793ded9bb8f86b7"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/phrase_candidates.py",
+    "bytes": 2421,
+    "sha256": "661f658e40d0249613791dbb9109424d653e12869e68043bcd3c60828624d9f2"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/phrase_structure.py",
+    "bytes": 4211,
+    "sha256": "59a68b1dce482b374c273b945121a62d0c139808049be4556e5ec17762190429"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/prepare-score.py",
+    "bytes": 165,
+    "sha256": "144f4e79f280fbe81ec73d81d536a811be15725ac25f3228e4bcf406186e650c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/setup_allin1.py",
+    "bytes": 2951,
+    "sha256": "f5612e6015438ca0e38cb1d0fdc54b677ce9467e37c864a42db9a11b762f592d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/scripts/setup_analysis.py",
+    "bytes": 1945,
+    "sha256": "2ca11298cb8cc8a89cef204c8219ce6536329ca26ea297ea7aa2e915489084b2"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/server.py",
+    "bytes": 4353,
+    "sha256": "80a341471877a36cece70218f480a76634d0cdcac8b0eab65a9b4a34045b0dce"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/core.test.mjs",
+    "bytes": 6943,
+    "sha256": "06f89ef00f6af052d9bff3144b4292732263ba9fe19d8c836439f3acbd5c06e8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/final-grade.test.mjs",
+    "bytes": 1597,
+    "sha256": "001a168936e21f48e789d978fb7c45b207cef2f5b405004505aa26de497a1b13"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/fist-click.test.mjs",
+    "bytes": 1960,
+    "sha256": "f007710d68fab175dc821fb2e2e9ac285d5783f30e3b0c7a63933aea550c1ff0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/gesture.test.mjs",
+    "bytes": 1776,
+    "sha256": "b988228d6c3266f3b849a0f619b9b8ccf9a1348347c52647117918f2cdfbfac4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/photo-share.test.mjs",
+    "bytes": 2346,
+    "sha256": "fb92808da4016b76eea386d3f87838f7fc38fdcc69d79ae6822f81e3a675060b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/practice.test.mjs",
+    "bytes": 3405,
+    "sha256": "2c6947f38d3dfc5f0556ca5b03d981bcfd6570a7ed5b2ee890626dbde2e358ed"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/test_allin1_cache.py",
+    "bytes": 1623,
+    "sha256": "c7595a67544ebdc235d43c780cce0590cea4285e8ba97a58b5321bb6068bd5fc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/test_analysis_cache.py",
+    "bytes": 2455,
+    "sha256": "ece2dc9b25f8e82f29ecd1a34e6061e0d2a1d605683d4097509b257cccaabf5f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/test_frequency_bands.py",
+    "bytes": 1185,
+    "sha256": "b6a3dac98c645e17629d031754459c01cfc6de47af08f4df321866f57bcc3474"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/test_music_structure.py",
+    "bytes": 2788,
+    "sha256": "17c4abc131b9552ca522fb71a07fd61b1a892fa4a8cff1b3583e13e369cab85a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/tests/test_phrase_structure.py",
+    "bytes": 2126,
+    "sha256": "3e56faeec4e335b9c2bc8e45c071d19c3a694481c045659fd18fa4d27829a453"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/NATTEN-BUILD-NOTES.md",
+    "bytes": 556,
+    "sha256": "ae5d34dd50772fc5537a44329f27a6ee12b0a2df77d9a84b0766dfdd59c7feac"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/.gitignore",
+    "bytes": 4386,
+    "sha256": "2b6f0b156062846ee8d134f22d8d56ce21d1c9a0feb2551b20c76be148f8562f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/CHANGELOG.md",
+    "bytes": 498,
+    "sha256": "44ad10c8ba8a88dadfa1af859e571e5f51be52f3229dead740658cda7a621e05"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/LICENSE",
+    "bytes": 1066,
+    "sha256": "f75e7cd094466fd9a06b31eff35068d07f120fcd0c04e2893df75384ae1c4abf"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/MANIFEST.in",
+    "bytes": 64,
+    "sha256": "2d45f1e1a18f2556a0da2151609b71c1ceefbf2bd21b25f7e323fc9e4b2b2115"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/README.md",
+    "bytes": 14983,
+    "sha256": "d7a0e2926f26d33ee5f9e4a7fadd7bcfe69ee1b6f4ee191d6ed8d107c66cbdb5"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/TRAINING.md",
+    "bytes": 2392,
+    "sha256": "cf26581d190ae55594759ef6cd0337ac3cb93f3b9a8e6bb0b8e147d0b3515f47"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/UPSTREAM.json",
+    "bytes": 387,
+    "sha256": "3b9f9e238b656e7c6c83115dbd6c7996d42ae9eeac32d0efac89410b5ef66787"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/assets/viz.png",
+    "bytes": 160040,
+    "sha256": "1dd3978fb1c6759054b404a5a0036516a56b1dbde1d1db5e2bd0fe8bf3b3b093"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/pyproject.toml",
+    "bytes": 1609,
+    "sha256": "c3b916f5d79a3f1db26115870cef3c025fe5d9f47df38ecbd404f8e8e03c56d3"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/__about__.py",
+    "bytes": 22,
+    "sha256": "2c6550c83b1689f7400a8eeacedc1bf115961ddb3513bb90f99a83f12023cb0e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/__init__.py",
+    "bytes": 289,
+    "sha256": "9cdaeb72869da5d7daa7e1aeda8f16547c95728e3bf712831f4589c49de8323e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/analyze.py",
+    "bytes": 6543,
+    "sha256": "8c7ef480dc67f9bc29badf544b6ebf94d86cee7c3172c8b4d4aba0ec7db7404f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/cli.py",
+    "bytes": 3304,
+    "sha256": "41deec305339feb5a7157a59ad9f2a31ebe5963d26e18552253c589eaff989f8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/config.py",
+    "bytes": 4168,
+    "sha256": "caebb47c20cda6ca43df22f4a74481982620e3aeeb869f682cae51e7addb37e2"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/demix.py",
+    "bytes": 1040,
+    "sha256": "876507e3a17f22ac008203b5c0691bd9b55a2a5e1ca7ba7eacca326dc8d66ccc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/helpers.py",
+    "bytes": 3321,
+    "sha256": "b0b763caf5a8eb39ee3a479a59301b2c3fb2a0120c2cc7c344e638ce15a3ab4e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/models/__init__.py",
+    "bytes": 74,
+    "sha256": "3ecf59a2e0c4c46d72d8bd61d15824ba9fa90eaeec32e650f0bb717d18b0e3bb"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/models/allinone.py",
+    "bytes": 8082,
+    "sha256": "d5515fc909b5e0ebb6715879741403d92a8000695ef2ccdaa03a45cda08166bb"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/models/dinat.py",
+    "bytes": 13952,
+    "sha256": "ef1e02d308b4dbc170ca21875e510ffacdfe5ba7840b41909ef5e69596175eba"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/models/ensemble.py",
+    "bytes": 1137,
+    "sha256": "15fb99ef5226f3ad0ea711d16c606c127f88928bb7c3be3387812532cd2cb87a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/models/loaders.py",
+    "bytes": 2104,
+    "sha256": "18970bf281bfbcf1580ee58780f5958f91b14092993e770a8e8943c0742332ba"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/models/utils.py",
+    "bytes": 520,
+    "sha256": "aa7686bad7acb0794889e2a563f4e9f6526ff8502867142e2c982a679ec5e19b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/postprocessing/__init__.py",
+    "bytes": 155,
+    "sha256": "fbe8019a0d1aaa7ecb217e51a611acc39b4a9cb10625917968985c25442be118"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/postprocessing/functional.py",
+    "bytes": 1720,
+    "sha256": "6920ae6d2ed2cedec58602d4252f74858945041ab3034b65cd29d51b4c8040e6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/postprocessing/helpers.py",
+    "bytes": 7014,
+    "sha256": "b42d9a22f11f3addcabba8e8b19f2bfbf8c8965618be0b9f7ea3e1ce2e859eb1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/postprocessing/metrical.py",
+    "bytes": 1690,
+    "sha256": "e3b656753763d3979b6dd7e668833c357898688a23785c245e78677c98a61d29"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/postprocessing/tempo.py",
+    "bytes": 683,
+    "sha256": "37a8c4166d59e130b2859e97a4d90e295733d3aebb5d64ad7c38a496ad1b75a1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/py.typed",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/sonify.py",
+    "bytes": 4341,
+    "sha256": "1fb675cadd9127e5ee1e1019db9aef6b9b58b8c8a3819514e1e5493b5dacb512"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/spectrogram.py",
+    "bytes": 2392,
+    "sha256": "14fb203a73e44e2b0a585e5b829b4e2964e5839ea8dd4bd9e4a5fea2c5a23cf9"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/__init__.py",
+    "bytes": 55,
+    "sha256": "e98badd20a16a2a81f6c24c27af5fe69222b92184829a29c09c6704fc999d46d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/datasets/__init__.py",
+    "bytes": 24,
+    "sha256": "923f672a24811bc1dae12eddf8ce4d679315230d9aed07a2356bce414b0d9f09"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/datasets/collate.py",
+    "bytes": 1309,
+    "sha256": "1d86754b6d73aa9949c4943c3a870b80f4aa0b2067768b75a62b590ff27aba50"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/datasets/datasetbase.py",
+    "bytes": 3811,
+    "sha256": "e3a6a06628b6d5d80b65efbaac36bbafa0d14251d35eec544ea9417b73ea5bd8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/datasets/harmonix/__init__.py",
+    "bytes": 80,
+    "sha256": "1b9c07d89c96ccbb3b74d5610ce776d29192823a10ee54e05da3a87a45095807"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/datasets/harmonix/datamodule.py",
+    "bytes": 1903,
+    "sha256": "a2e937f9bf99d3893097345958d427e01f23f929651eb03e754b7a8e205dba46"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/datasets/harmonix/dataset.py",
+    "bytes": 2549,
+    "sha256": "9f2a292f58e68e12a2a34193974a790d2529afcdf16f5c6e299701f989f7814b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/eventconverters/__init__.py",
+    "bytes": 163,
+    "sha256": "c9fed171415a6bd221d067fc54a69cca3529666e2c06c54c8a04678742bffdf3"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/eventconverters/datasetconverters.py",
+    "bytes": 2352,
+    "sha256": "af43755594c345dd95043c460add0fc7695483a48736b83e4cd7c02204c3365c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/eventconverters/eventconverters.py",
+    "bytes": 4637,
+    "sha256": "5b3b837d73ade0c24ba4d7d68199fbe6823a63a8f3e194ed575b2102aa687bf4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/data/utils.py",
+    "bytes": 434,
+    "sha256": "47d74cee67f1eab5b504cbf4f25d881dfd4c0b43abbfae863751d16f4873a466"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/evaluate.py",
+    "bytes": 6500,
+    "sha256": "99c97d89816fc4a9ba8b3ff10c6035bc1088571c830bb68d0d20e9e2e2446135"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/helpers.py",
+    "bytes": 4466,
+    "sha256": "15e3d8f2b1e0a57233ab5d3495830932ba672378af1e52384e31ba1ce2286abc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/preprocess.py",
+    "bytes": 793,
+    "sha256": "f56331d65f1f26f6fabc3a20b9865d8cd8558a34c57d1aa61bac38d4994e5d59"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/train.py",
+    "bytes": 3026,
+    "sha256": "eea7f933f5b6a05891790d2d5110358d6648cc6406cc67aaaa0728cf9fbad980"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/training/trainer.py",
+    "bytes": 11193,
+    "sha256": "bddd088150e2ac292bd248028598bfb7173dd8d3cd60de0eabae31f78005b7b9"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/typings.py",
+    "bytes": 2302,
+    "sha256": "3cdf3c761bc2c49ef4f780976753e29abb472ff6590f3340c82a51bfcc50ab2a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/utils.py",
+    "bytes": 726,
+    "sha256": "7e2d3aa0f43639efd3f98f14876b20a5f516786e35d9fa44205a2f9b7bff221c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/src/allin1/visualize.py",
+    "bytes": 3537,
+    "sha256": "ec07f52352d511e2c4f37308937e9a38980c52da47ebd29037f1fc06f6f259ea"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/tests/test_analyze.py",
+    "bytes": 136,
+    "sha256": "7ff8736e45efe4c5bccf4ec07bec176b87594ac3f2c46d8fe89696a944f61be1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/tests/test_sonify.py",
+    "bytes": 329,
+    "sha256": "f06a6db97d42101900e9d99eee523f30d6024c081c4b26b6d06e11555e1264bc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/all-in-one/tests/test_visualize.py",
+    "bytes": 479,
+    "sha256": "8e8a45a205afcf6e111cd0f6c9d42537817ca45bcac88e2780e5009b51d2eae0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/CHANGES.rst",
+    "bytes": 7895,
+    "sha256": "51783c2120aa92b581f418ee64d9498fbf98ee72f69acf7fd0d2275d0ae810a9"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/LICENSE",
+    "bytes": 3103,
+    "sha256": "dbcc5a4d6c0dbc5ecb3d41ef98a5432b356073ee11d97c9c4eef507238ffb56a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/MANIFEST.in",
+    "bytes": 105,
+    "sha256": "e066a2c8c16643a95fff1861f71713cd1975b91feac575d4993a030d4d7b0bfe"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/README.rst",
+    "bytes": 13720,
+    "sha256": "41a9e3985968659fc22bf483eb09ac7b9d00bf45c9e19b264ee0026d46660cc0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/UPSTREAM.json",
+    "bytes": 2528,
+    "sha256": "fa40af152bbd17387dac1c98cf1fb5608644b447234298f8a30ed0c259026955"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/BarTracker",
+    "bytes": 4416,
+    "sha256": "23b432bd889cabbfb14e36e4dfe4fdfd281e9f9ba56d1bb9fd81d9e1a43ace7c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/BeatDetector",
+    "bytes": 3672,
+    "sha256": "d5a6c40f9f524e28e165bde3c34163635c25cebaa158c20d3efdeb0288d8132d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/BeatTracker",
+    "bytes": 3632,
+    "sha256": "3da4dc8ad4e420e26d36c7553f40475c0d6e6ceb8b4b2ffe9f961d57158388d5"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/CNNChordRecognition",
+    "bytes": 2959,
+    "sha256": "a0165562c1ad9898ded0edbf55413c4edd059a13b95593c5bb3c8099538c259d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/CNNOnsetDetector",
+    "bytes": 3259,
+    "sha256": "aa1dcfaca286c1c27dfcf80e4eecbc4b95e9c73328fb315163b393b5ae1478df"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/CRFBeatDetector",
+    "bytes": 3712,
+    "sha256": "38f8d1fddf31418e873809d03f39fdb66bdc68ed3b1696130ce604b96d89eee1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/ComplexFlux",
+    "bytes": 3792,
+    "sha256": "269fdcad0fde1678fe9e8f73b4e7b92f68bcc80a2b3ccf34a076e967fa9496a1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/DBNBeatTracker",
+    "bytes": 3691,
+    "sha256": "009a4271391fd14769b8ffc067badeda7f135fcec8765ff6473637f13c50d2e4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/DBNDownBeatTracker",
+    "bytes": 3217,
+    "sha256": "ea8b679417c92d66725efbf470c33f7cb62ec51ee3b597ce67c4658cd14e779e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/DCChordRecognition",
+    "bytes": 2824,
+    "sha256": "45456b0a750bb6193f904123949382df71c5df562ee5d587838fe249b3cbc572"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/GMMPatternTracker",
+    "bytes": 4615,
+    "sha256": "e19e2f4dba5b3c927caf941723c911cf355021a3af1efc5555e96f0a6d90d560"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/KeyRecognition",
+    "bytes": 2453,
+    "sha256": "eaf034ee10b7fc75c272ab2ba02b2904072f974f91c7354c0eb0a6fe9e64fae6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/LogFiltSpecFlux",
+    "bytes": 3861,
+    "sha256": "8073530fdb114d87fd5e0f58d4fb94e3672bc83dc521a35df91b6e2170a0d320"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/MMBeatTracker",
+    "bytes": 3503,
+    "sha256": "f993ca81229febc97bb37883e017d53538ee97c7fc4bf133513529ec6d0af776"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/OnsetDetector",
+    "bytes": 3235,
+    "sha256": "337bfcd8d0ce94ff2416ffd740379ed47656d3a656dcf9e285ea52bf361ceeed"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/OnsetDetectorLL",
+    "bytes": 4102,
+    "sha256": "96443371052d7f4e4c93851fc72b78ce205afe4aee0cd13bb6147305a560e608"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/PianoTranscriptor",
+    "bytes": 4499,
+    "sha256": "b2a4591a9103d16bef29858d039f6b7d65988631b3e7dac005f96ee0923fa2c8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/PickleProcessor",
+    "bytes": 1318,
+    "sha256": "9908b8a2e46cf4ea5b5f847e929e9153a57e92123240db96481e1981e0e9e1a4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/SpectralOnsetDetection",
+    "bytes": 4617,
+    "sha256": "9f96d880ec988b8fdda0a04207d7d525616fa2ad2232fa15560f1ccb0a45036f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/SuperFlux",
+    "bytes": 3807,
+    "sha256": "2cae7ce8dd8925e94a4bbb57158684708c405b12a6a1c472194a026df790ea38"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/SuperFluxNN",
+    "bytes": 4454,
+    "sha256": "567b6ddeca67150d29e512b926cd02e9520dea769c5769eb52febbbe1a3fcb0b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/TCNBeatTracker",
+    "bytes": 3233,
+    "sha256": "6c93cdf0eec3cfcd9a10625e65aec7b0354857dd7df9b2e021de25d33317df26"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/TCNTempoDetector",
+    "bytes": 3360,
+    "sha256": "99a430c280d6b3698c21ae840b0f907773bf79e401e7b5db9311cb98f96259c0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/TempoDetector",
+    "bytes": 5478,
+    "sha256": "7765a7f7458ef40d0574ee4a7c92e6710d7594cf768cd92fa585cfef19029d99"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/bin/evaluate",
+    "bytes": 4087,
+    "sha256": "7e66dcef7dbc17016cb783e1393f720a7574a373384a0e9b75bb14c3797c0db2"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/__init__.py",
+    "bytes": 3272,
+    "sha256": "a51fc7f970e30fcb5123b3d493388b5851b0b550e5b26a2510a4779445ed0453"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/__init__.py",
+    "bytes": 1827,
+    "sha256": "4c97201eda671fc2f54c9825390b9e53956ae915e5dcd7e1fdafa01026f37136"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/cepstrogram.py",
+    "bytes": 10082,
+    "sha256": "318670c843d64be86fb31c58dcf8660e11a59e706849be7e8da4eb3f26d1273d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/chroma.py",
+    "bytes": 15999,
+    "sha256": "8d0d343807e9e439c7d82d957f030c8ca50dc2623b3969c88a7d814fd574f0d3"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/comb_filters.pyx",
+    "bytes": 8848,
+    "sha256": "3d4c7102835b582f262e1c9197c23d4199500758736d8e90abf571c29d4cfcbc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/filters.py",
+    "bytes": 54070,
+    "sha256": "a42dfe221ca66f4a206052f41cb6c3e6b52060fea0d0e2b9f36d9b7f3b6181dc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/hpss.py",
+    "bytes": 6748,
+    "sha256": "ec6371f13a1d824a23c8d8f4481e85b00f832c2ef0733c09924209426eaa2f17"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/signal.py",
+    "bytes": 52387,
+    "sha256": "32b8ea1a203dfa2452a71ad4434be877b09e3972cff4afcdd1646d12080da5ec"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/spectrogram.py",
+    "bytes": 55306,
+    "sha256": "fadff3cdc5859a2896fc9e205a7e416658f8c944b90bce2aa943bda65f10d74d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/audio/stft.py",
+    "bytes": 25360,
+    "sha256": "e50b8673422a1df6ba5f21a076079858ba4062b2b52eb4bea0ade8097b93ccd9"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/conftest.py",
+    "bytes": 646,
+    "sha256": "e4f0587b26463c55cbadf3e1ca67a6238dea54388fe93e51b020c63e8942edd6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/__init__.py",
+    "bytes": 28132,
+    "sha256": "96d8e7858b45e588d14698bf840f69b4bf5a689b03bba40874ce3e336e0d0231"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/beats.py",
+    "bytes": 46129,
+    "sha256": "3555e92cd73c984cb707052b815223ad2beb70ca582d9a43e328ac80e5a1bab8"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/chords.py",
+    "bytes": 32029,
+    "sha256": "f47e7213a7b3fe1c70c0f2b882d95139ee0a599fb8c6dd8447c56d96d7b283b6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/key.py",
+    "bytes": 7501,
+    "sha256": "e5c41da4ab494129c6365605fd0f36c6db98d416a5d1ad25bfe00fbc58ac71b9"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/notes.py",
+    "bytes": 12735,
+    "sha256": "7a9dfd65e2546683695c99344f7dc3ca37565135a135cecb35098615abf78dff"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/onsets.py",
+    "bytes": 11012,
+    "sha256": "c48987d7054efbaf45b81835deda5c59b58ab137684959657c0af10d00cf5481"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/evaluation/tempo.py",
+    "bytes": 12874,
+    "sha256": "b15fb01f534ef8398d7c1c96ac110231775f167cbd22ad36306774b8598f061d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/__init__.py",
+    "bytes": 10774,
+    "sha256": "e0026593177cf9ae7a66aa8c0901bb4eebe84408071bb69492ffdca2a2db3f97"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/beats.py",
+    "bytes": 49605,
+    "sha256": "24b75994ca19a046a47561850b5770d4e838edea02d9c5e473aa2e920559f6fc"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/beats_crf.pyx",
+    "bytes": 7368,
+    "sha256": "52181fb6ff7cf347ee52c7465a0d46828918fab8c4abd594169447e44ce6a6ca"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/beats_hmm.py",
+    "bytes": 30735,
+    "sha256": "7155723f2a1965301deee39d77900f9c69db175ad1abdce9df6d53f3d191c4b5"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/chords.py",
+    "bytes": 9963,
+    "sha256": "dca8b11f186703a4ddac0116243cbc2f4dea63be21f2f493e473c1d4fbc7f8df"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/downbeats.py",
+    "bytes": 52950,
+    "sha256": "8ad99f4fe7bda6088ddd45d720a0f27deed9860dc791536ff3e25140f41f4f5f"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/key.py",
+    "bytes": 3414,
+    "sha256": "1c9f2225e7242f3b601726dd96fb2417986a60bdfbb576d486b0ad61946de6ca"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/notes.py",
+    "bytes": 18018,
+    "sha256": "7f000df04d7151f785101bba5956da4a8fbbaa16d59d4a1ebef1f1a6fb55c9c7"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/notes_hmm.py",
+    "bytes": 6213,
+    "sha256": "0028b4382f8f4298ed920d22df36aca8247d0c9fcb7010c9758291c69ce96737"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/onsets.py",
+    "bytes": 46339,
+    "sha256": "76131497690b3f364aa020d92dea31b458327dd923ce42d033755ee62cd1a509"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/features/tempo.py",
+    "bytes": 34046,
+    "sha256": "c239abbc3d8d333c140c2b026553bb55a4235312b17f1131bc811911eb69cff0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/io/__init__.py",
+    "bytes": 15949,
+    "sha256": "b39aa35d1b9b50d67aef38a95d9df3645e4f77e2b3296d435cf52e638dd74910"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/io/audio.py",
+    "bytes": 30839,
+    "sha256": "3e3c7a808f9f329be1da59c014b5f5443e2ab083ba15821f938775187bb29cf1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/io/midi.py",
+    "bytes": 21330,
+    "sha256": "5c2e6b19cdf5376734c929f837de2bede151b8b076a135ba35d023ba0793f570"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/__init__.py",
+    "bytes": 144,
+    "sha256": "f6d3c22b8eb8039ed968451f7ca8d8a36413143cc6b40d3a291d3eeedde6d92d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/crf.py",
+    "bytes": 4022,
+    "sha256": "58be0b20eb8dd90ee4f1d3af16f01bb2c935645a87e095165c297355f2f24f2a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/gmm.py",
+    "bytes": 13944,
+    "sha256": "461452ad3718111204f7c7a250c9e1ee14f0282b506eec9677afaab3ca70d22a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/hmm.pyx",
+    "bytes": 27545,
+    "sha256": "0c1ff63bd9c23e66169246546ac7ba9ad8acc3fdf9b9bab57b42c00e6326500a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/nn/__init__.py",
+    "bytes": 7058,
+    "sha256": "8d27ef07a85694771ef6ddfce6c0cd195b693e9d012c4e84addd848ac9b08237"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/nn/activations.py",
+    "bytes": 4756,
+    "sha256": "96c33eb1742017829d05a1c6af3c05eee910f43c44d8df40b1e0e276db6078c0"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/nn/layers.pxd",
+    "bytes": 354,
+    "sha256": "81f2a6eb6a44a2d15793bc7e0d0d4001f6def7885f29893db93b1adf293c51cf"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/ml/nn/layers.py",
+    "bytes": 44788,
+    "sha256": "8ecba00adb7131f50599a72769baf56c7ccf9090634dc510cbc19a873cb74f4b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/LICENSE",
+    "bytes": 1039,
+    "sha256": "4ab453b7c3b87cfb097e6a1535b0660f2b5adf775be15651b70e3aa1cf7b1757"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/README.rst",
+    "bytes": 1716,
+    "sha256": "a031ee7cc7579ffd6c94475cd74b17c83e1e9a2349c05503ccdbd0b9c91e9538"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/__init__.py",
+    "bytes": 1862,
+    "sha256": "89b71c041c78770a217abe0d9eaf83f428f44c95bb70e41a1907eff29785a7cb"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_1.pkl",
+    "bytes": 409619,
+    "sha256": "b02c4b8aa963069449422fd5cc55bd4077105fe268b0d83036b7d68b5520f38d"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_2.pkl",
+    "bytes": 409619,
+    "sha256": "6fa9d138ed84bed14ab5ef6f81f3a7e1a125ff8c571a255f6ce91ccf93390eee"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_3.pkl",
+    "bytes": 409619,
+    "sha256": "adf6a3e3bf345a9172e8252a511dae28622afe26ee653354c0d4c9e37de8f89a"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_4.pkl",
+    "bytes": 409619,
+    "sha256": "a4f9a09b1588ca74b0157251364650d3fe81e383019b5986941415e08b37fcde"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_5.pkl",
+    "bytes": 409619,
+    "sha256": "e40aea9b8221babaf14a9211a48dccc3ebcecdf8bcd6d62d60f0949445de9bb6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_6.pkl",
+    "bytes": 409619,
+    "sha256": "89b6854c5d6b2381687731aedc9bce6c84894021d1c2eeb60d161cefe997d68c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_7.pkl",
+    "bytes": 409619,
+    "sha256": "371a319a66d32bee6ab8d4a15f6ae9e4ee22ff97b4276736bab93d9a994c06c1"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/models/downbeats/2016/downbeats_blstm_8.pkl",
+    "bytes": 409619,
+    "sha256": "a0d20e1922872a3e5b74df451d8b5701de6ca88d9f5739f313fb2991d7a84c77"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/processors.py",
+    "bytes": 34517,
+    "sha256": "bf3799cd51bf25b88d3192d222445766f6af2dbff7bc505937419278587e2f47"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/utils/__init__.py",
+    "bytes": 21120,
+    "sha256": "0072161fb5bf781b167864069c55069e8558aed1082b0584a0299abbf76572a4"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/utils/midi.py",
+    "bytes": 56853,
+    "sha256": "229835629a3e2e711eb134feeee787ea3dc6f5fc5a6132e586408a8d192feeac"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/madmom/utils/stats.py",
+    "bytes": 2289,
+    "sha256": "c2570dde2870a3a4fbabdaf35a174cf81ae4edc620d8daaf7448ce5d95569b8e"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/pyproject.toml",
+    "bytes": 136,
+    "sha256": "f92340b655597b2cecb3f7409fbbbf8edc9645a37f34f2deb409534793fc780b"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/requirements.txt",
+    "bytes": 51,
+    "sha256": "af296725f232dbf2d07e793df21f13b22dfd3a8b8dc415fac931269b518649cd"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/madmom/setup.py",
+    "bytes": 3076,
+    "sha256": "a9597329233e486ff5fa19d188feace89e43523bf35ed848c2a55b6d939e90a6"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/vendor/natten-0.17.1.tar.gz",
+    "bytes": 10848470,
+    "sha256": "a2142722faa41fa3ae6d22e91ed527b2a6da5c4fe09a006f36d68edccaf9c643"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/打开游戏.command",
+    "bytes": 584,
+    "sha256": "d5a55a8bd85ae6780f05202a2bf32582d76cc2a9068dabe78dccc350d4760b4c"
+  },
+  {
+    "path": "Bluey Keepy Uppy Game/打开游戏（含手机照片）.command",
+    "bytes": 188,
+    "sha256": "766ea8ef79c068a0a6cfdbd26032e4b3a87054c2308533b573d23977aed7722d"
+  },
+  {
+    "path": "bluey phone/README.txt",
+    "bytes": 3250,
+    "sha256": "5aa5b6f0afaf077dc2479aeae962d24e8eb6c453ee9250a12368cb070d1adcff"
+  },
+  {
+    "path": "bluey phone/app.mjs",
+    "bytes": 2654,
+    "sha256": "49859ffe92d78586f245e1f1ddf8192c920931b9d55af7bfce1544cccba15177"
+  },
+  {
+    "path": "bluey phone/assets/Go ahead and download your photo with Bluey and Bingo!.png",
+    "bytes": 34980,
+    "sha256": "f6be06a57a7976bae7e7488db89ee395512fd58dba1e36453abc9b7c5bb3011b"
+  },
+  {
+    "path": "bluey phone/assets/Great job playing Keepy Uppy!.png",
+    "bytes": 42334,
+    "sha256": "3349badb500d32fd8c950379783ed30d28506acacf06b558a4f88f8e5596f914"
+  },
+  {
+    "path": "bluey phone/assets/button.png",
+    "bytes": 14250,
+    "sha256": "a57379e1cf57b0077eca4207239129cff07f162685a2144977994a648fffbfc4"
+  },
+  {
+    "path": "bluey phone/assets/iPhone background.png",
+    "bytes": 162909,
+    "sha256": "7e10375e12e40da024d9e3ab0f81ec10856fbecdf95a111a3b9524e9ef2b19de"
+  },
+  {
+    "path": "bluey phone/assets/logo name.png",
+    "bytes": 157059,
+    "sha256": "208c06c93b2b07767fe484efb1e1d1ebad8aef3da2a5f46901461e03502cb853"
+  },
+  {
+    "path": "bluey phone/assets/polaroid.png",
+    "bytes": 275112,
+    "sha256": "19fd55f40e9bbaa8a9f681c83a3bdd28d380f0e20d722535e6e67f305cdf01ac"
+  },
+  {
+    "path": "bluey phone/index.html",
+    "bytes": 1486,
+    "sha256": "beac13e4373e26f20dd61c55323555e097f825cbf20dc6b379b68eb85b3dc7a4"
+  },
+  {
+    "path": "bluey phone/server.mjs",
+    "bytes": 88,
+    "sha256": "799da256bdba300bdfa43aaa72d0f6b7919ea2ba717d37a371363ac0fb20a8f2"
+  },
+  {
+    "path": "bluey phone/styles.css",
+    "bytes": 1567,
+    "sha256": "5bd531e5d70126165dbb99266b782904c9a087e197fb2d35960b53f13e09fb92"
+  },
+  {
+    "path": "bluey phone/打开手机页面.command",
+    "bytes": 129,
+    "sha256": "31e1b6f0bd2d25c3e5054d6b9ffb34d1fd05177e19058576b1d53c08e683d059"
+  }
+]

@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+
+test('a real camera capture exports frame and characters, uploads and resets; an absent camera does not upload',async()=>{
+ const calls=[], drawn=[], events={};
+ const rect={left:10,top:10,width:500,height:518};
+ const child={left:95,top:114,width:308,height:292};
+ const classes={remove(){},add(){}};
+ const button={disabled:true,setAttribute(){},addEventListener(name,fn){events[name]=fn;}};
+ const status={textContent:''};
+ const frame={name:'frame',hidden:false,decode:async()=>{},getBoundingClientRect:()=>rect};
+ const bluey={name:'bluey',hidden:false,decode:async()=>{},getBoundingClientRect:()=>({left:95,top:240,width:120,height:166})};
+ const bingo={...bluey,name:'bingo'};
+ const photo={name:'photo',dataset:{captured:'camera'}};
+ const panel={getBoundingClientRect:()=>rect,querySelector:s=>s==='.camera-frame'?frame:{getBoundingClientRect:()=>child},querySelectorAll:s=>s==='img'?[frame,bluey,bingo]:[bluey,bingo]};
+ const nodes={'camera-panel':panel,'final-save':button,'photo-qr-card':{classList:classes},'photo-share-status':status,'final-photo':photo};
+ const ctx={scale(){},drawImage(img){drawn.push(img.name);},save(){},beginPath(){},roundRect(){},clip(){},restore(){}};
+ globalThis.document={getElementById:id=>nodes[id],addEventListener(){},createElement:()=>({getContext:()=>ctx,toBlob:fn=>fn(new Blob(['png'],{type:'image/png'}))})};
+ globalThis.location={protocol:'http:'};
+ globalThis.window={addEventListener(){}};
+ globalThis.fetch=async(url,opts)=>{calls.push([url,opts]);return {ok:true,json:async()=>({session:'writer'})};};
+ const share=await import('../dist/photo-share.mjs');
+ await share.publishPhoto();
+ assert.deepEqual(drawn,['frame','photo','bluey','bingo']);
+ assert.equal(button.disabled,false);
+ const upload=calls.find(([url,opts])=>url==='/api/photo' && opts.method==='PUT');
+ assert.ok(upload);assert.equal(upload[1].headers['X-Photo-Session'],'writer');
+ assert.equal(upload[1].body.type,'image/png');
+ share.resetPhotoSharing();assert.equal(button.disabled,true);
+ photo.dataset.captured='placeholder';
+ const before=calls.filter(([url])=>url==='/api/photo').length;
+ await share.publishPhoto();
+ assert.equal(calls.filter(([url])=>url==='/api/photo').length,before);
+ assert.match(status.textContent,/Turn on the camera/);
+});

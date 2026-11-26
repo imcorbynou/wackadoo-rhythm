@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/mir-aidj/all-in-one",
+  "commit": "18e78903c0365147a2c5d4e5e57ebf88cb7d800e",
+  "model": "harmonix-all",
+  "modelsRepository": "https://huggingface.co/taejunkim/allinone",
+  "localCompatibilityChanges": [
+    "Delay plotting imports until visualization is requested",
+    "Delay two unused SciPy helper imports until those helpers are called"
+  ]
+}
