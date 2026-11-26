@@ -4,7 +4,7 @@ const root=process.cwd(), out=path.join(root,'_site');
 const raw=process.env.PAGES_BASE_PATH || '';
 if(raw && (!raw.startsWith('/') || raw.includes('..') || !/^\/[a-zA-Z0-9_./-]*$/.test(raw))) throw new Error('Invalid PAGES_BASE_PATH');
 const base=raw.replace(/\/$/,'');
-const mounts={'bluey homepage':'','bluey select song':'spinny-roundy','Bluey Vest Connect':'vest-connect','Bluey Keepy Uppy Game/dist':'keepy-uppy','bluey phone':'phone','shared':'shared'};
+const mounts={'bluey homepage':'home','bluey select song':'spinny-roundy','Bluey Vest Connect':'vest-connect','Bluey Keepy Uppy Game/dist':'keepy-uppy','bluey phone':'phone','shared':'shared'};
 await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});
 for(const [source,dest] of Object.entries(mounts)) await cp(path.join(root,source),path.join(out,dest),{recursive:true,filter:p=>!/(?:^|\/)(?:\.DS_Store|server\.mjs|photo-service.*|.*\.test\.mjs|README.*)$/.test(p)});
 async function walk(dir){for(const entry of await readdir(dir,{withFileTypes:true})){
@@ -26,7 +26,11 @@ async function walk(dir){for(const entry of await readdir(dir,{withFileTypes:tru
  }
  if(file.endsWith('/keepy-uppy/index.html'))text=text.replace('id="photo-qr-card" class="photo-qr-card"','id="photo-qr-card" class="photo-qr-card" hidden');
  if(file.endsWith('/phone/app.mjs'))text="document.getElementById('photo-status')?.replaceChildren(document.createTextNode('Download your photo on the device where you played.'));\n";
+ if(file.endsWith('.html') && !file.startsWith(path.join(out,'phone')+path.sep)) {
+   text=text.replace('<head>',`<head><script src="${base}/shared/site-entry.js"></script>`);
+ }
  await writeFile(file,text);
 }}
 await walk(out);await writeFile(path.join(out,'.nojekyll'),'');
+await cp(path.join(root,'scripts/site-shell.html'),path.join(out,'index.html'));
 console.log(`Built GitHub Pages site in _site with base ${base || '/'}`);

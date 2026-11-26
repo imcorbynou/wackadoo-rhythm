@@ -1,3 +1,5 @@
+import { toggleFullscreen, observeFullscreen } from '/shared/fullscreen.mjs';
+
 const introduction = document.querySelector('#introduction');
 const homepage = document.querySelector('#homepage');
 const closeIntroduction = document.querySelector('#closeIntroduction');
@@ -31,15 +33,13 @@ if(!introduction.hidden)closeIntroduction.focus({ preventScroll: true });
 fullscreen.addEventListener('click', async () => {
   try {
     fullscreenStatus.hidden = true;
-    if (document.fullscreenElement) await document.exitFullscreen();
-    else await document.documentElement.requestFullscreen();
+    await toggleFullscreen();
   } catch {
     fullscreenStatus.textContent = 'Use your mouse to click the fullscreen button.';
     fullscreenStatus.hidden = false;
   }
 });
-document.addEventListener('fullscreenchange', () => {
-  const active = Boolean(document.fullscreenElement);
+observeFullscreen(active => {
   fullscreen.setAttribute('aria-label', active ? 'Exit fullscreen' : 'Enter fullscreen');
   fullscreen.setAttribute('aria-pressed', String(active));
 });
